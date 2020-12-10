@@ -1,0 +1,182 @@
+/* Add to docs */
+#scroll{/*frame*/
+    position:fixed;
+    top:58%;
+
+    /*background:#FF8383;/*FF473D*/
+    height:0px;
+    width:100%;
+
+    overflow: hidden;
+}
+
+ ul  {
+    /*Add if you want to disable the option of selecting the text while sliding*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    /*top:10%;*/
+    margin-top:4vh;
+    height:250px;
+   
+    list-style-type: none;
+
+    -webkit-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+#scrollApartment
+    {
+        /* Carousel Frame */
+       position:fixed;
+    top:58%;
+
+    background:#ccc;/*FF473D*/
+    height:0px;
+    width:350px;
+    border:1px solid #ccc;
+    overflow: hidden;
+        
+    }
+    #scrollNewHome
+    {
+        /* Carousel Frame */
+       position:fixed;
+    top:58%;
+
+    background:#ccc;/*FF473D*/
+    height:0px;
+    width:350px;
+    border:1px solid #ccc;
+    overflow: hidden;
+        
+    }
+    #scrollTownHouse
+    {
+        /* Carousel Frame */
+       position:fixed;
+    top:58%;
+
+    background:#ccc;/*FF473D*/
+    height:0px;
+    width:350px;
+    border:1px solid #ccc;
+    overflow: hidden;
+        
+    }
+    ul#slideNewHome  {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    }
+    ul#slideApartment  {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+   }
+   ul#slideTownHouse  {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+   }
+   ul#scrollNewHome  {
+    /*Add if you want to disable the option of selecting the text while sliding*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:50%;
+    margin-top:4vh;
+    height:190px;
+  
+    list-style-type: none;
+
+    -webkit-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+ul#scrollTownHouse{
+    /*Add if you want to disable the option of selecting the text while sliding*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:50%;
+    margin-top:4vh;
+    height:190px;
+  
+    list-style-type: none;
+
+    -webkit-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+li.scrollHome {
+
+    font-size:8vmin;/*cool*/
+    float: left;
+    width:25vm;
+    min-width: 150px;
+    height: 250px !important;
+    color: #000;
+    font-weight: 300;  
+    text-align: center;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+    -moz-border-radius: 0px;
+    background: #ccc;
+    -webkit-transform:  scale(0.95);
+    -ms-transform:  scale(0.95);
+    -moz-transform:  scale(0.95);
+    transform: scale(0.95);
+}
+li.liNewHome {
+    
+    float: left;
+    width:200px !important;
+    height: 170px !important;
+    color: #000;
+    text-align: center;
+    background:#403E3E;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-transform:  scale(0.95);
+    -ms-transform:  scale(0.95);
+    -moz-transform:  scale(0.95);
+    transform: scale(0.95);
+}
+.itemslide-active
+{/*applied to current active item*/
+    -webkit-transform:  scale(1);
+    -ms-transform:  scale(1);
+    -moz-transform:  scale(1);
+    transform: scale(1);
+}

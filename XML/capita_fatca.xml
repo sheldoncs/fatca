@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ftc:FATCA_OECD version="2.0" xmlns:ftc="urn:oecd:ties:fatca:v2" xmlns:sfa="urn:oecd:ties:stffatcatypes:v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oecd:ties:fatca:v2 FatcaXML_v2.0.xsd">
+  <ftc:MessageSpec>
+    <sfa:SendingCompanyIN>LFDG90.00001.ME.052</sfa:SendingCompanyIN>
+    <sfa:TransmittingCountry>BB</sfa:TransmittingCountry>
+    <sfa:ReceivingCountry>US</sfa:ReceivingCountry>
+    <sfa:MessageType>FATCA</sfa:MessageType>
+    <sfa:Warning />
+    <sfa:MessageRefId>LFDG90.00001.ME.052_0227_BPW</sfa:MessageRefId>
+    <sfa:ReportingPeriod>2019-12-31</sfa:ReportingPeriod>
+    <sfa:Timestamp>2019-12-31T15:36:00</sfa:Timestamp>
+  </ftc:MessageSpec>
+  <ftc:FATCA>
+    <ftc:ReportingFI>
+      <sfa:ResCountryCode>BB</sfa:ResCountryCode>
+      <sfa:TIN issuedBy="US">LFDG90.00001.ME.052</sfa:TIN>
+      <sfa:Name>CAPITA</sfa:Name>
+      <sfa:Address>
+        <sfa:CountryCode>BB</sfa:CountryCode>
+        <sfa:AddressFix>
+          <sfa:Street>Keith Bourne Complex Belmont Road</sfa:Street>
+          <sfa:BuildingIdentifier />
+          <sfa:SuiteIdentifier />
+          <sfa:FloorIdentifier />
+          <sfa:DistrictName />
+          <sfa:POB />
+          <sfa:PostCode />
+          <sfa:City>Bridgetown</sfa:City>
+          <sfa:CountrySubentity />
+        </sfa:AddressFix>
+      </sfa:Address>
+      <ftc:FilerCategory>FATCA603</ftc:FilerCategory>
+      <ftc:DocSpec>
+        <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+        <ftc:DocRefId>LFDG90.00001.ME.052-5e3f1e04-5fac-43f6-a295-4106ad4eb873-cap-2020</ftc:DocRefId>
+        <ftc:CorrMessageRefId />
+        <ftc:CorrDocRefId />
+      </ftc:DocSpec>
+    </ftc:ReportingFI>
+    <ftc:ReportingGroup>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00001.ME.052.201900010000000002</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0004061073</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">549-97-8085</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>WENT</sfa:FirstName>
+              <sfa:LastName>BARRY</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>935 Nautilus Isle, Dania Beach</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>33004</sfa:PostCode>
+                <sfa:City>Florida</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1958-11-20</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">276816.03</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">6776.41</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+    </ftc:ReportingGroup>
+  </ftc:FATCA>
+</ftc:FATCA_OECD>

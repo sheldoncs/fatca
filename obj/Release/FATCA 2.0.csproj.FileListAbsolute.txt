@@ -1,0 +1,7 @@
+C:\applications\FATCA 2.0\FATCA 2.0\bin\FATCA 2.0.dll.config
+C:\applications\FATCA 2.0\FATCA 2.0\bin\FATCA 2.0.dll
+C:\applications\FATCA 2.0\FATCA 2.0\bin\FATCA 2.0.pdb
+C:\applications\FATCA 2.0\FATCA 2.0\bin\MySql.Data.DLL
+C:\applications\FATCA 2.0\FATCA 2.0\obj\Release\FATCA 2.0.csprojResolveAssemblyReference.cache
+C:\applications\FATCA 2.0\FATCA 2.0\obj\Release\FATCA 2.0.dll
+C:\applications\FATCA 2.0\FATCA 2.0\obj\Release\FATCA 2.0.pdb

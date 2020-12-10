@@ -1,0 +1,672 @@
+﻿* {
+  box-sizing: border-box;
+}
+@media screen and (max-width: 480px) 
+{
+    .landingMobilePage{
+       height:300px;
+       width:100%;
+    }
+    .desktop{
+        display:none;
+    }
+    .landingPage{
+       display:none;
+    }
+     .topHeader{
+      position:relative;
+      float:left;
+      clear:both;
+      width:100%;
+      background:#192032;
+      height:154px;
+      transform:scale(1);
+      box-shadow: 0px 0px 8px 2px #000000;
+  }
+  .logo{
+     position:relative;
+     margin:auto;
+     width:250px;
+      top:15px;
+      left:-50px;
+      clear:both;
+  }
+  .logoSize{
+      width:250px;
+      height:67px;
+  }
+    .items {
+      position:relative;
+      float:left;
+      margin:10px;
+      font-size:25px;
+      font-weight:normal;
+      color:#fff;
+      cursor:pointer;
+      top:40px;
+    }
+    .menu{
+      position:relative;
+      float:left;
+      margin:10px;
+      color:#fff;
+      z-index:20;
+      top:-15px;
+      
+  }
+  .textMobileFont {
+        font-weight: normal;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+        text-rendering: optimizeLegibility !important;
+        -webkit-font-smoothing: antialiased !important;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:12px;
+        color:#fff;
+ }
+   
+  .completed {
+        position:relative;
+        margin:auto;
+        width:350px;
+        top:50px;
+        clear:both;
+  }
+  .bottom{
+        display:none;
+  }
+  .footerHeaderMobile{
+      position:relative;
+      /*bottom:0px !important;*/
+      clear:both;
+      /*background:#AB1D24;*/
+      width:370px!important;
+      height:110px;
+      margin:auto;
+      top:50px;
+  }
+  .bottomMobile{
+       position:relative;
+       width:100%;
+       bottom:0px !important;
+       height:150px!important;
+       margin:auto;
+       background:#000;
+  }
+    
+  .btnFooter{
+     position:relative;
+     float:left;
+     height:33px;
+     width:110px;
+     margin:15px;
+     cursor:pointer;
+     background:#B03030;
+     border-radius:7px;
+     padding-top:9px;
+ }
+}
+@media screen and (min-width: 481px) and (max-width: 599px) 
+{
+    
+}
+@media screen and (min-width: 600px) and (max-width: 767px) 
+{
+  
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) 
+{
+   
+}
+@media screen and (min-width: 1024px) 
+{
+    
+    .footerHeaderMobile{
+      display:none;
+  }
+  .landingMobilePage{
+       display:none;
+    }
+   .bottomMobile{
+       display:none;
+    }
+    .btnFooter{
+     display:none;
+   }
+   .landingPage{
+       height:1200px;
+       width:100%;
+  }
+  .pizzaSize{
+      width:200px;
+  }
+  .tabCircleOrder{
+       position:relative;
+       margin:auto;
+       top:140px;
+       clear:both;
+       width:70%;
+   }
+   .circleSelect{
+       position:relative;
+       float:left;
+       margin:12%!important;
+       width:80px;
+       height:80px;
+       border-radius:50%;
+       background:#192032;
+   }
+   .circleUnSelect{
+       position:relative;
+       float:left;
+       margin:12%!important;
+       width:80px;
+       height:80px;
+       border-radius:50%;
+       background:#707370;
+   }
+   /*
+   .tabOrder{
+       position:relative;
+       margin:auto;
+       top:120px;
+       height:80px;
+       clear:both;
+       width:75%!important;
+   }*/
+   .tabOrder{
+       position:relative;
+       margin:auto;
+       top:50px;
+       clear:both;
+       left:12.5%;
+       width:90%!important;
+       height:80px;
+   }
+   .tabSelect{
+       position:relative;
+       float:left;
+       margin:1px;
+       width:24%!important;
+       height:80px;
+       background:#192032;
+       cursor:pointer;
+   }
+   .tabUnSelect{
+       position:relative;
+       float:left;
+       margin:1px;
+       width:24%!important;
+       height:80px;
+       background:#707370;
+       cursor:pointer;
+   }
+   .stepContainer{
+       position:relative;
+       margin:auto;
+       top:65px;
+       clear:both;
+       width:65%!important;
+       background:#fff;
+       border-radius:15px;
+       height:480px;
+   }
+   .step{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:100px;
+       height:60px;
+       height:300px;
+       width:40%!important;
+   }
+   .step2{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:40px;
+       height:300px;
+       width:100%!important;
+   }
+   .step3{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:30px;
+       height:300px;
+       width:100%!important;
+   }
+   .basicTop1{
+       position:relative;
+       margin:10px;
+       float:left;
+       left:20px;
+       width:200px!important;
+   }
+   .basicTop2{
+       position:relative;
+       margin:10px;
+       float:right;
+       right:-2px;
+       width:200px!important;
+   }
+   .extraTop{
+       position:relative;
+       margin:10px;
+       float:right;
+       right:35px;
+       width:200px!important;
+   }
+   .basicContainer{
+       position:relative;
+       margin:2px;
+       float:left;
+       left:20px;
+       top:-30px;
+       width:440px!important;
+   }
+   .extrasContainer{
+       position:relative;
+       margin:2px;
+       float:right;
+       right:0px;
+       top:-30px;
+       width:270px!important;
+   }
+   .ui-btn.ui-corner-none {
+    border-radius: 0;
+   }
+   .title {
+      background:#707370;
+      width:65%!important;
+      height:55px;
+      margin:auto;
+      border-radius:10px;
+      clear:both;
+      top:145px;
+      position:relative;
+  }
+  .fields{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:10px;
+      width:400px;
+      height:35px;
+  }
+  .headerSize {
+      width:383px;
+      height:121px;
+  }
+  .topHeader{
+      position:relative;
+      float:left;
+      clear:both;
+      width:100%;
+      background:#192032;
+      height:154px;
+      transform:scale(1);
+      box-shadow: 0px 0px 8px 2px #000000;
+  }
+  .logo{
+      position:relative;
+      float:left;
+      margin:10px;
+      top:-33px;
+  }
+  .logoSize{
+      width:400px;
+      height:107px;
+  }
+  .menu{
+      position:relative;
+      float:left;
+      margin:10px;
+      color:#fff;
+      z-index:20;
+     
+  }
+  .fieldproperty{
+      font-size:14px;
+  }
+  .textFont
+{
+    font-weight:normal;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-rendering: optimizeLegibility !important;
+     -webkit-font-smoothing: antialiased !important;
+     font-family:   'Agency FB';
+  }
+  
+.items {
+      position:relative;
+      float:left;
+      margin:10px;
+      font-size:25px;
+      font-weight:normal;
+      color:#fff;
+      cursor:pointer;
+      top:60px;
+  }
+  
+  .order{
+      position:relative;
+      margin:auto;
+      width:300px;
+      clear:both;
+      z-index:20;
+      height:55px;
+      background-size:cover; 
+  }
+  .catClass{
+
+      position:relative;
+      top:60px;
+      
+  }
+ 
+  .orderHere {
+      position:relative;
+      margin:auto;
+      width:195px;
+      font-size:30px;
+      color:#fff;
+      top:-20px;
+      background:#192032;
+      border-radius:5px;
+    }
+  .labelBasic {
+      position:relative;
+      margin:auto;
+      width:214px;
+      color:#477847;
+     
+    }
+      .condition {
+      position:relative;
+      float:left;
+      margin:10px;
+      width:77px;
+      font-size:30px;
+      color:#477847;
+      left:10px;
+      top:50px;
+    }
+
+    .delivery{
+        position:relative;
+        float:left;
+        width:90px;
+        height:90px;
+        background:#192032;
+        color:#fff;
+        top:35px;
+        padding-top:33px;
+        font-size:20px;
+        border-radius:50%;
+       
+    }
+    .deliveryClick{
+        position:relative;
+        float:left;
+        width:90px;
+        height:90px;
+        background:#192032;
+        color:#fff;
+        top:35px;
+        padding-top:27px;
+        font-size:20px;
+        border-radius:50%;
+        border:5px solid #428A42;
+        
+    }
+    .carryOut{
+         position:relative;
+        float:left;
+        width:89px;
+        height:90px;
+        background:#192032;
+        color:#fff;
+        top:35px;
+        padding-top:33px;
+        font-size:20px;
+        border-radius:50%;
+       
+    }
+    .carryOutClick{
+         position:relative;
+        float:left;
+        width:90px;
+        height:90px;
+        background:#192032;
+        color:#fff;
+        top:35px;
+        padding-top:27px;
+        font-size:20px;
+        border-radius:50%;
+        border:5px solid #428A42;
+       
+    }
+    
+    
+     .signinText{
+        position:relative;
+        float:left;
+        margin:10px;
+        top:20px;
+    }
+    .signtext {
+      position:relative;
+      float:left;
+      margin:10px;
+      font-size:20px;
+      font-weight:bold;
+      color:#fff;
+      cursor:pointer;
+      top:30px;
+  }
+    .signin{
+        position:relative;
+        float:right;
+        right:150px;
+        margin:10px;
+        top:-44px;
+        background:#556285;
+        width:200px;
+        height:154px;
+       
+    }
+    .signinLogo{
+        position:relative;
+        float:left;
+        margin:10px;
+        top:30px;
+    }
+ .lunch {
+     position:relative;
+     float:left;
+     top:250px;
+     margin:0px;
+     width:33.33%!important;
+     margin:0px;
+ }
+ .outerWidth{
+     width:1100px!important;
+ }
+ .pizza {
+     position:relative;
+     float:right;
+     top:250px;
+     width:33.33%!important;
+     margin:0px;
+
+ }
+ .drinks {
+     position:relative;
+     float:left;
+     top:250px;
+     margin:0px;
+     width:33.33%!important;
+     margin:0px;
+
+ }
+ .foodType{
+     width:350px;
+     height:142px;
+ }
+ .downloadTop{
+     position:absolute;
+     float:right;
+     margin:10px;
+     right:40px;
+     top:0px;
+ }
+
+ 
+.pizzaCnt {
+    position:relative;
+    clear:both;
+    margin:auto;
+    width:80px;
+    height:40px;
+ }
+ .newPizza {
+    position:relative;
+    float:left;
+    clear:both;
+    margin:10px;
+    width:200px;
+    height:40px;
+    
+ }
+ .toCart{
+    position:relative;
+    float:left;
+    clear:both;
+    margin:10px;
+    width:230px;
+    height:40px;
+    left:-10px;
+    
+ }
+ .addtocart{
+    position:absolute;
+    float:right;
+    clear:both;
+    margin:10px;
+    right:0px;
+    width:230px;
+    height:200px;
+    top:160px;
+    border:2px solid #428A42;  
+    border-radius:10px;
+    background:#707370;
+ }
+ .opPizza{
+     position:relative;
+     border-radius:50%;
+     height:40px;
+     width:40px;
+     float:left;
+     margin:7px;
+     top:10px;
+     background:#F0051C;
+     cursor:pointer;
+ }
+ .btn{
+     position:relative;
+     float:left;
+     margin:15px;
+     height:40px;
+     width:180px;
+     left:340px;
+     top:209px;
+     cursor:pointer;
+     background:#F0051C;
+     border-radius:7px;
+     padding-top:5px;
+     clear:both;
+ }
+ .btn1{
+     
+     height:40px;
+     width:180px;
+     cursor:pointer;
+     background:#F0051C;
+     border-radius:7px;
+     padding-top:3px;
+     top:80px;
+     clear:both;
+ }
+ .cover{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color:#000;
+        background: rgba(0,0,0,0.6);
+        z-index: 5;
+        width: 100% !important;
+        height: 100% !important;
+        display:none;
+ }
+ .popup {
+         display:none;
+         position:absolute;
+         left: 0;
+         right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:10;
+         top:150px;
+         width:40%!important;
+         height:550px;
+         background: #fff;
+         border-radius:5px;
+         z-index:20;
+  }
+  .close{
+        position:relative;
+        float:right;
+        width:8px;
+        top:-30px;
+        color:#000;
+        font-weight:bold;
+        font-size:20px;
+        right:18px;
+    }
+    .centreButtonObject{
+         position:relative;
+         margin:auto;
+         width:220px;
+         top:-50px;
+    }
+    .shoppingList{
+        position:relative;
+        margin:auto;
+        clear:both;
+        width:75%;
+        top:160px;
+        height:600px;
+    }
+    .divlist{
+        position:relative;
+        float:left;
+        margin:10px;
+        font-size:15px;
+        width:30%;
+    }
+    .gtotal{
+        position:relative;
+        float:left;
+        margin:10px;
+        clear:both;
+        top:150px;
+        left:12%;
+    }
+    .completed{
+        position:relative;
+        margin:auto;
+        width:350px;
+        top:150px;
+    }
+
+}

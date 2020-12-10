@@ -1,0 +1,6055 @@
+﻿* {
+  box-sizing: border-box;
+}
+html, body 
+{
+    height:100%;
+    width:100%;
+}
+.ui-datepicker{ z-index: 9999 !important;}
+.ui-timepicker-container{ 
+     z-index:1151 !important; 
+}
+@media screen and (max-width: 480px)
+{
+    .contactHeader{
+      display:none;
+  }
+      .bookingPage 
+  {
+            height:1700px!important;
+  }
+  .logo 
+  {
+      position:relative;
+      margin:auto;
+      width:350px;
+      height:123px;
+  }
+
+  .desktopMenuContainer
+  {
+      display :none;
+  }
+  .bottom 
+  {
+      display:none;
+  }
+  .pushRight
+  {
+      position:relative;
+      float:left;
+      clear:both;
+      left:45px;
+  }
+  .dateWidth
+  {
+     width: 90px;
+  }
+  .timeWidth
+  {
+      width: 120px;
+  }
+  .buttonBg 
+  {
+      background: url(../images/color.png) repeat;
+      position: relative;
+      top:-60px;
+      height:100px;
+      width:100%;
+  }
+  .dropDown {
+      position: relative;
+      height:100px;
+      top:45px;
+      width:100%;
+  }
+  
+  
+  .menu_desktop_device a {
+      color: #fff;
+      padding: 12px 16px;
+      background: url(../images/color.png) repeat;
+      text-decoration: none;
+      width:100%;
+      display: block;
+  }
+  .menu_desktop_device a:hover 
+  {
+      color:#fff;
+      background: #386592;
+     
+  }
+  .menu_desktop_device 
+  {
+      display:none;
+      overflow: hidden;
+      position:absolute;
+      top:34px;
+      left:0px;
+      color:#fff;
+      width:35%;
+      z-index: 20;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .dropDown:hover .menu_desktop_device 
+  {
+      display: block;
+      z-index:10;
+      
+  }
+  
+  .mnu_button {
+      overflow: hidden;
+      color:#fff;
+      height:60px;
+      width:100%;
+      position:relative;
+      top:20px;
+      background-repeat:no-repeat;
+      width:60px;
+      height:60px;
+      float:left;
+      left:10px;
+      display:block;
+      cursor:pointer;
+      background-image: url(../images/small/menu_icon.png);
+ }
+ .leftSide 
+    {
+        position:relative;
+        float:left;
+        margin:1px;
+        clear:both;
+    }
+    .rightSide 
+    {
+        position:relative;
+        float:left;
+        margin:1px;
+        clear:both;
+        
+        
+    }
+    
+    .additions
+    {
+        left:14px;
+        position:relative;
+        float:left;
+        font-size:20px;
+        clear:both
+    }
+    .babySeat {
+        position:relative;
+        float:left;
+        left:8px;
+        border-radius:5px;
+        background:#FE5722;
+        width:142px;
+    }
+    .garmin {
+        position:relative;
+        float:left;
+        border-radius:5px;
+        background:#FE5722;
+        width:142px;
+    }
+    .timeWidth 
+    {
+         width:132px !important;
+    }
+    .ui-btn.ui-corner-none {
+        border-radius: 0;
+    }
+    .widthClass
+    {
+        width:300px;
+        left:10px;
+    }
+    .dateTimeMargin 
+    {
+        position:relative;
+        margin:4px;
+        width:142px;
+    } 
+    
+    .bookingInfo 
+    {
+        position:relative;
+        width:320px;
+        height:780px;
+        margin:auto;
+        top:50px;
+        border:2px solid #E3DEDE;
+        border-radius:10px;
+         box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    }
+    .namesBooking 
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        left:4px;
+        
+    }
+    .clsfirstname
+    {
+        position:relative;
+        float:left;
+        margin:5px;
+        width:145px;
+    }
+    .clslastname
+    {
+        position:relative;
+        float:left;
+        margin:5px; 
+        height:45px;
+        width:145px;
+    }
+    .clsPayment 
+    {
+        position:relative;
+        margin:auto;
+        width:290px;
+        clear:both;
+        
+        
+    }
+    .clscontact {
+     position :relative;
+     float:left;
+     margin:5px;
+     clear:both;
+     left:0px;
+    }
+    .clsPrice{
+     position :relative;
+     float:left;
+     margin:5px;
+     clear:both;
+     left:0px;
+
+    }
+    .clsphone
+    {
+        position:relative;
+        float:left;
+        margin:5px;
+        width:145px;
+    }
+    .clsemail
+    {
+        position:relative;
+        float:left;
+        margin:5px; 
+        width:145px;
+    }
+    
+    
+    .searchResultHeaderBooking 
+    {
+        position:relative;
+        width:100%;
+        height:150px;
+        background:#EBE8E8;
+        top:0px;
+    }
+    .bookingHeaderLabel 
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:138px;
+        font-size:30px;
+        top:20px;
+    }
+    .selectIcon {
+        position:absolute;
+        top:17px;
+        left:270px;
+        z-index:10;
+    }
+    .bookingHeaderSubLabel
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:145px;
+        font-size:15px;
+        top:35px;
+        left:10px;
+    }
+    .srh a 
+    {
+        text-decoration:none;
+        color:#000;
+       
+    }
+    /* unvisited link */
+    .srh a:link {
+     color: #000;
+     font-weight:normal;
+   }
+    .srh a:hover 
+    {
+        color:#F60100;
+    }
+    /* visited link */
+    .srh a:visited {
+     color: #F60100;
+    }
+    .confirmBooking
+    {
+        position:relative;
+         margin:auto;
+         width:240px;
+         height:50px;
+         clear:both;
+         top:40px;
+         cursor:pointer;
+         border-radius:10px;
+         background:#D42F2F;
+    }
+    .processBooking {
+         position:relative;
+         margin:auto;
+         width:240px;
+         height:50px;
+         clear:both;
+         top:40px;
+         cursor:pointer;
+         border-radius:10px;
+         background:#D42F2F;
+    }
+    .viewPayment {
+         position:relative;
+         margin:auto;
+         width:240px;
+         height:50px;
+         clear:both;
+         top:40px;
+         cursor:pointer;
+         border-radius:10px;
+         background:#D42F2F;
+    }
+    .viewPayment {
+         position:relative;
+         margin:auto;
+         width:240px;
+         height:50px;
+         clear:both;
+         top:40px;
+         cursor:pointer;
+         border-radius:10px;
+         background:#D42F2F;
+    }
+    .processBookingLabel
+    {
+        position:relative;
+        width:60px;
+        margin:auto;
+        top:14px;
+        left:40px;
+        color:#fff;
+    }
+    .mobileBottom
+     {
+        width:100%;
+        height:350px;
+        text-align:center;
+        left:0px;
+        bottom:0px;
+        color:#fff;
+        padding-top:15px;
+        padding-bottom:5px;
+        background:#fff;
+        position:absolute;
+    
+     }
+    
+    .selected
+    {
+                background: #D42828;
+                color: #fff;
+                font-size: 20px;
+    }
+    .unselected
+    {
+                background: #ABA9A9;
+                color: #fff;
+                font-size: 20px;
+    }
+
+     .booking_step_menu
+     {
+            
+                    height: 75px;
+                    width:100% !important;
+                    font-weight: normal;
+                    position:relative;
+                    float:left;
+                    clear:both;
+                
+     }
+     
+     .textAboutUs 
+     {
+         font-size:13px;
+         width:300px;
+     }
+     .booking_step_container 
+    {
+        height:250px;
+        width:99.4% !important;
+        font-weight: normal;
+        position:relative;
+        margin:auto;
+        clear:both;
+        top:3px;
+        left:2px;
+        background:#ABA9A9;   
+    }
+    .cardinfo 
+    {
+         position:relative;
+         float:left;
+         clear:both;
+         width:100%;
+    }
+    .clsCreditCardDetails
+    {
+        position:relative;
+        float:left;
+        top:20px;
+        left:5px;
+        clear:both;
+        width:275px;
+        top:5px;
+    }
+    .clscreditcard
+    {
+        position:relative;
+        float:left;
+        left:5px;
+        margin:3px;
+        width:270px;
+        clear:both;
+    }
+    .clssecuritycode
+    {
+        position:relative;
+        float:left;
+        left:5px;
+        margin:3px;
+        width:270px;
+        clear:both;
+    }
+    #securitycode 
+    {
+        width:100px;
+    }
+    .clscardexpiration{
+        position:relative;
+        float:left;
+        clear:both;
+        width:270px;
+        left:7px;
+    }
+    .clsaddress
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        width:270px;
+        left:7px;
+    }
+    .clscountry {
+         position:relative;
+        float:left;
+        clear:both;
+        width:270px;
+        left:7px;
+    }
+    .clsName {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 500px;
+        left: 0px;
+    }
+    
+    .clscity
+    {
+        position:relative;
+        float:left;
+        clear:both;
+         width:270px;
+        left:10px;
+    }
+    .clsstate{
+        position: relative;
+        float: left;
+        clear: both;
+        width: 270px;
+        left: 7px;
+    }
+    .paywith 
+    {
+        background:#006FFD;
+        width:300px;
+        position:relative;
+        height:40px;
+        float:left;
+        clear:both;
+        color:#fff;
+        left:10px;
+        border-radius:5px;
+        
+        
+    }
+    
+    .clszip
+    {
+      position:relative;
+      float:left;
+      clear:both;
+      width:300px;
+      left:-2px;   
+    }
+    .cardtype
+    {
+        position:relative;
+        float:left;
+        margin:10px;
+        clear:both;
+        left:-10px;
+    }
+    .poszipcode
+    {
+        position:relative;float:left;margin:10px;clear:both;left:0px;width:268px;
+    }
+  .popup
+  {
+     display:none;
+     position:absolute;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+     z-index:10;
+     top:370px;
+     width:300px;
+     height:920px;
+     background: #1E1E1E;
+     border-radius:5px;
+  }
+  .close 
+        {
+            position:relative;
+            width:30px;
+            border-radius:50%;
+            height:30px;
+            top:-9px;
+            left:95%;
+            background-color:#000;
+            color:#ffffff;
+            cursor: pointer;
+            font-family:Verdana;
+            font-size:8pt;
+         }
+         .booktop
+         {
+             top:70px;
+         }
+         .cardTop
+         {
+             top:20px;
+         }
+   .cover
+   {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color:#000;
+            background: rgba(0,0,0,0.6);
+            z-index: 5;
+            width: 100% !important;
+            height: 100% !important;
+            display: none;
+   }
+   .confirmpopup 
+   {
+     display:none;
+     position:absolute;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+     width:300px; 
+     z-index:10;
+     top:250px;
+     height:600px;
+     background:#fff;
+     border-radius:5px;
+   }
+   .confirmBooking
+    {
+        position:relative;
+         margin:auto;
+         width:240px;
+         height:50px;
+         clear:both;
+         top:40px;
+         cursor:pointer;
+         border-radius:10px;
+         background:#D42F2F;
+    }
+    
+    .confirmName
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        left:5px;
+        width:250px;
+        margin:10px;
+    }
+    
+    .confirmAddress 
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        width:450px;
+        margin:10px;
+        left:5px;
+    }
+    .confirmCity {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 450px;
+        margin: 10px;
+    }
+    .confirmState{
+        position: relative;
+        float: left;
+        clear: both;
+        width: 450px;
+        margin: 10px;
+    }
+    .confirmBookingCode
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        width:450px;
+        margin:10px;
+    }
+    .clsName
+    {
+        width:350px;
+        font-size:16px;
+    }
+    
+   
+    
+    clsCreditCard
+    {
+        width:450px;
+        font-size:16px;
+    }
+    .clsBookingCode 
+    {
+        width:450px;
+        font-size:16px;
+    }
+    .confirmLabel {
+        position: relative;
+        margin: auto;
+        width: 70px;
+        top: 13px;
+    }
+    .confirmPrice {
+        position:relative;
+        margin:auto;
+        background:#ccc;
+        border-radius:5px;
+        height:50px;
+        width:280px;
+        top:25px;
+        padding-left:10px;
+        clear:both;
+    }
+    .confirmField
+    {
+        position:relative;
+        margin:auto;
+        background:#ccc;
+        border-radius:5px;
+        height:300px;
+        width:280px;
+        top:18px;
+        clear:both;
+    }
+    .confirmCreditCard{
+        position:relative;
+        margin:auto;
+        background:#ccc;
+        border-radius:5px;
+        height:45px;
+        width:280px;
+        top:10px;
+        padding-left:10px;
+        clear:both;
+    }
+    .closePreview {
+        position: relative;
+        width: 30px;
+        border-radius: 50%;
+        height: 30px;
+        top: -12px;
+        left: 95%;
+        background-color: #000;
+        color: #ffffff;
+        cursor: pointer;
+        font-family: Verdana;
+        font-size: 8pt;
+    }
+    .preview {
+        position:absolute;
+        width:300px;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        background: #1E1E1E;
+        height:700px;
+        border-radius:10px;
+        display: none;
+        top:150px;
+        z-index:10;
+        border:2px solid #fff;
+    }
+    .previewVehicleAndPrice
+    {
+        position: relative;
+        margin: auto;
+        width: 290px;
+        height:70px;
+        top: 13px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewVehicle {
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold; 
+        
+    }
+    .previewPrice{
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold;
+        left:100px;
+
+    }
+    .lblPreviewVehicle{
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    
+    .clientPreviewVehicle{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        color:#fff;
+        font-size:12px;
+    }
+    .lblPreviewPrice {
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewPrice{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        color:#fff;
+        font-size:12px;
+    }
+    .previewPickupLocation {
+        position: relative;
+        margin: auto;
+        width: 290px;
+        height:70px;
+        top: 17px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .lblPreviewPickup{
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewPickup{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        font-size:12px;
+        color:#fff;
+    }
+    .previewDropOffLocation{
+        position: relative;
+        margin: auto;
+        width: 290px;
+        height:70px;
+        top: 21px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .lblPreviewDropOffLocation{
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewDropOffLocation{
+        position: relative;
+        float:left;
+        color:#fff;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        font-size:12px;
+    }
+    .previewDropOffDateTime {
+        position: relative;
+        margin: auto;
+        width: 290px;
+        height:70px;
+        top: 31px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewDropOffDate {
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold;   
+    }
+    .lblPreviewDropoffDate{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewDropoffDate{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        color:#fff;
+        font-size:12px;
+    }
+    .previewDropOffTime {
+        position: relative;
+        margin: 2px;
+        float:left;
+        left:25px;
+        border-radius:10px;
+        font-weight:bold;
+       
+    }
+    .lblPreviewDropoffTime{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+        
+    }
+    .clientPreviewDropoffTime{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        font-size:12px;
+        color:#fff;
+    }
+    .previewPickUpDateTime{
+        
+        position: relative;
+        margin: auto;
+        width: 290px;
+        height:70px;
+        top: 26px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    
+    .previewPickUpDate{
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold; 
+    }
+    .lblPreviewPickupDate{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        color:#fff;
+        font-weight:bold;
+    }
+    .clientPreviewPickupDate{
+        position: relative;
+        float:left;
+        clear:both;
+        color:#fff;
+        font-size:12px;
+        font-weight:normal;
+        margin:2px;
+    }
+    .previewPickupTime{
+        position: relative;
+        margin: 2px;
+        float:left;
+        left:47px;
+        border-radius:10px;
+        font-weight:bold;
+    }
+    .lblPreviewPickupTime {
+        position: relative;
+        float:left;
+        color:#fff;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+    }
+    .clientPreviewPickupTime{
+        position: relative;
+        float:left;
+        color:#fff;
+        clear:both;
+        font-size:12px;
+        font-weight:normal;
+        margin:2px;
+    }
+    .previewAddons{
+        position: relative;
+        margin: auto;
+        width: 290px;
+        height:70px;
+        top: 35px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewGarmin{
+        position: relative;
+        margin: 0px;
+        float:left;
+        font-weight:bold; 
+    }
+    .lblPreviewGarmin{
+        position: relative;
+        float:left;
+        font-weight:bold; 
+        margin:2px;
+        color:#fff;
+    }
+    .clientPreviewGarmin{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal; 
+        font-size:12px;
+        color:#fff;
+    }
+    .previewBabySeat{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold;
+        left:83px;
+    }
+    .lblPreviewBabySeat{
+        position: relative;
+        float:left;
+        font-weight:bold; 
+        margin:2px;
+        color:#fff;
+    }
+    .clientBabySeat{
+         position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal; 
+        color:#fff;
+        font-size:12px;
+    }
+    .previewName{
+        position: relative;
+        margin: auto;
+        width: 290px;
+        height:70px;
+        top: 40px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewFirstname{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold; 
+    }
+    .lblPreviewFirstname{
+        position: relative;
+        margin: 2px;
+        float:left;
+        clear:both;
+        font-weight:bold; 
+        color:#fff;
+    }
+    .clientFirstname{
+        position: relative;
+        float:left;
+        margin:2px;
+        font-weight:normal;
+        clear:both;
+        color:#fff;
+        font-size:12px;
+        
+    }
+    .previewLastname{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold; 
+        left:55px;
+    }
+    .clientLastname {
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal;
+        color:#fff;
+        font-size:12px;
+    }
+    .lblPreviewLastname{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .previewContact{
+        position: relative;
+        margin: auto;
+        width: 290px;
+        height:70px;
+        top: 45px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewPhone{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold;
+    }
+    .lblPhone{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPhone{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal;
+        color:#fff;
+        font-size:12px;
+    }
+    .previewEmail{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold; 
+        left:7px;
+    }
+    .lblPreviewEmail{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+        left:25px;
+    }
+    .clientEmail{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:normal;
+        clear:both;
+        color:#fff;
+        left:25px;
+        font-size:12px;
+    }
+    .previewSubmit {
+        position:relative;
+        width:200px;
+        height:45px;
+        margin:auto;
+        background:#BD4E4E;
+        color:#fff;
+        top:60px;
+        cursor:pointer;
+        font-weight:normal;
+        padding-left:70px;
+        padding-top:9px;
+        border-radius:8px;
+    }
+    .previewInfo{
+        position:absolute;
+        width:180px;
+        height:45px;
+        left: 0; 
+        right: 0; 
+        padding-left:40px;
+        padding-top:10px;
+        margin-left: auto; 
+        margin-right: auto; 
+        background:#4D85BD;
+        border-radius:8px;
+        color:#fff;
+        border:2px solid #fff; 
+        font-weight:normal;
+        font-size:14px;
+        top:-25px;
+    }
+    .currencyStatement
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:145px;
+        font-size:15px;
+        top:50px;
+        left:10px;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 599px)
+{
+    .bookingPage 
+  {
+            height:1700px!important;
+  }
+    .closePreview {
+        position: relative;
+        width: 30px;
+        border-radius: 50%;
+        height: 30px;
+        top: -12px;
+        left: 95%;
+        background-color: #000;
+        color: #ffffff;
+        cursor: pointer;
+        font-family: Verdana;
+        font-size: 8pt;
+    }
+  .contactHeader{
+      display:none;
+  }
+  .logo 
+  {
+      position:relative;
+      margin:auto;
+      width:350px;
+      height:123px;
+  }
+  .desktopMenuContainer
+  {
+      display :none;
+  }
+  .bottom 
+  {
+      display:none;
+  }
+  .pushRight
+  {
+      position:relative;
+      float:left;
+      clear:both;
+      left:45px;
+  }
+  .dateWidth
+  {
+     width: 140px;
+  }
+  .timeWidth
+  {
+      width: 140px;
+  }
+  .buttonBg 
+  {
+      background: url(../images/color.png) repeat;
+      position: relative;
+      top:-60px;
+      height:100px;
+      width:100%;
+  }
+  .dropDown {
+      position: relative;
+      height:100px;
+      top:45px;
+      width:100%;
+  }
+  
+  
+  .menu_desktop_device a {
+      color: #fff;
+      padding: 12px 16px;
+      background: url(../images/color.png) repeat;
+      text-decoration: none;
+      width:100%;
+      display: block;
+  }
+  .menu_desktop_device a:hover 
+  {
+      color:#fff;
+      background: #386592;
+     
+  }
+  .menu_desktop_device 
+  {
+      display:none;
+      overflow: hidden;
+      position:absolute;
+      top:34px;
+      left:0px;
+      color:#fff;
+      width:35%;
+      z-index: 20;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .dropDown:hover .menu_desktop_device 
+  {
+      display: block;
+      z-index:10;
+      
+  }
+  
+  .mnu_button {
+      overflow: hidden;
+      color:#fff;
+      height:60px;
+      width:100%;
+      position:relative;
+      top:20px;
+      background-repeat:no-repeat;
+      width:60px;
+      height:60px;
+      float:left;
+      left:10px;
+      display:block;
+      cursor:pointer;
+      background-image: url(../images/small/menu_icon.png);
+ }
+ .leftSide 
+    {
+        position:relative;
+        float:left;
+        margin:1px;
+        clear:both;
+    }
+    .rightSide 
+    {
+        position:relative;
+        margin:5px;
+        left:0px;
+        clear:both;
+        
+        
+    }
+    
+    .additions
+    {
+        left:15px;
+        position:relative;
+        float:left;
+        font-size:15px;
+        clear:both
+    }
+    .babySeat {
+        position:relative;
+        float:left;
+        left:8px;
+        border-radius:5px;
+        background:#FE5722;
+        width:165px;
+    }
+    .garmin {
+        position:relative;
+        float:left;
+        border-radius:5px;
+        background:#FE5722;
+        width:165px;
+    }
+    .ui-btn.ui-corner-none {
+        border-radius: 0;
+    }
+    .widthClass
+    {
+        width:350px;
+        left:10px;
+    }
+    .dateTimeMargin 
+    {
+        position:relative;
+        margin:4px;
+        width:166px;
+    } 
+    
+    .bookingInfo 
+    {
+        position:relative;
+        width:373px;
+        height:780px;
+        margin:auto;
+        top:50px;
+        border:2px solid #E3DEDE;
+        border-radius:10px;
+         box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    }
+    .namesBooking 
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        left:8px;
+        
+    }
+    .clsfirstname
+    {
+        position:relative;
+        float:left;
+        margin:5px;
+        width:163px;
+    }
+    .clslastname
+    {
+        position:relative;
+        float:left;
+        margin:5px; 
+        height:45px;
+        width:163px;
+    }
+    .clsPayment 
+    {
+        position:relative;
+        float:left;
+        top:15px;
+        left:15px;
+        clear:both;
+        
+        
+    }
+    
+    .clsphone
+    {
+        position:relative;
+        float:left;
+        margin:5px;
+        width:163px;
+    }
+    .clsemail
+    {
+        position:relative;
+        float:left;
+        margin:5px; 
+        width:163px;
+    }
+    .clscontact {
+     position :relative;
+     float:left;
+     margin:5px;
+     clear:both;
+     left:3px;
+    }
+    .clsprice{
+     position :relative;
+     float:left;
+     margin:5px;
+     clear:both;
+     left:10px;
+     width:100px;
+    }
+    .searchResultHeaderBooking 
+    {
+        position:relative;
+        width:100%;
+        height:150px;
+        background:#EBE8E8;
+        top:0px;
+    }
+    .bookingHeaderLabel 
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:138px;
+        font-size:30px;
+        top:20px;
+    }
+    .selectIcon {
+        position:absolute;
+        top:17px;
+        left:270px;
+        z-index:10;
+    }
+    .bookingHeaderSubLabel {
+        position: relative;
+        clear: both;
+        margin: auto;
+        color: #000;
+        width: 141px;
+        font-size: 15px;
+        left:11px;
+        top: 35px;
+    }
+    .srh a 
+    {
+        text-decoration:none;
+        color:#000;
+       
+    }
+    /* unvisited link */
+    .srh a:link {
+     color: #000;
+     font-weight:normal;
+   }
+    .srh a:hover 
+    {
+        color:#F60100;
+    }
+    /* visited link */
+    .srh a:visited {
+     color: #F60100;
+    }
+    .processBooking {
+         position:relative;
+         margin:auto;
+         width:240px;
+         height:50px;
+         clear:both;
+         top:40px;
+         cursor:pointer;
+         border-radius:10px;
+         background:#D42F2F;
+    }
+    .viewPayment {
+         position:relative;
+         margin:auto;
+         width:240px;
+         height:50px;
+         clear:both;
+         top:40px;
+         cursor:pointer;
+         border-radius:10px;
+         background:#D42F2F;
+    }
+    .processBookingLabel
+    {
+        position:relative;
+        width:60px;
+        margin:auto;
+        top:14px;
+        left:37px;
+        color:#fff;
+    }
+    .mobileBottom
+     {
+        width:100%;
+        height:350px;
+        text-align:center;
+        left:0px;
+        bottom:0px;
+        color:#fff;
+        padding-top:15px;
+        padding-bottom:5px;
+        background:#fff;
+        position:absolute;
+    
+     }
+    
+    .selected
+    {
+                background: #D42828;
+                color: #fff;
+                font-size: 20px;
+    }
+    .unselected
+    {
+                background: #ABA9A9;
+                color: #fff;
+                font-size: 20px;
+    }
+
+     .booking_step_menu
+     {
+            
+                    height: 75px;
+                    width:100% !important;
+                    font-weight: normal;
+                    position:relative;
+                    float:left;
+                    clear:both;
+                
+     }
+     
+     .textAboutUs 
+     {
+         font-size:13px;
+         width:300px;
+     }
+     .booking_step_container 
+    {
+        height:250px;
+        width:99.4% !important;
+        font-weight: normal;
+        position:relative;
+        margin:auto;
+        clear:both;
+        top:3px;
+        left:2px;
+        background:#ABA9A9;   
+    }
+    .cardinfo 
+    {
+         position:relative;
+         float:left;
+         clear:both;
+         width:100%;
+    }
+    .clsCreditCardDetails
+    {
+        position:relative;
+        float:left;
+        top:20px;
+        left:5px;
+        width:400px;
+    }
+    .clscreditcard
+    {
+        position:relative;
+        float:left;
+        top:0px;
+        left:0px;
+        width:285px;
+        margin:1px;
+        
+    }
+     .clssecuritycode
+    {
+        position:relative;
+        float:left;
+        top:0px;
+        left:5px;
+        margin:1px;
+        width:108px;
+    }
+    
+    
+    
+    #securitycode 
+    {
+        width:100px;
+    }
+    
+    .clscity {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 400px;
+        left: 0px;
+    }
+    .clsstate{
+        position: relative;
+        float: left;
+        clear: both;
+        width: 400px;
+        left: 0px;
+    }
+    .paywith 
+    {
+        background:#006FFD;
+        width:315px;
+        position:relative;
+        height:40px;
+        float:left;
+        clear:both;
+        color:#fff;
+        left:23px;
+        border-radius:5px;
+        
+        
+    }
+   
+    .clszip
+    {
+      position:relative;
+      float:left;
+      clear:both;
+      width:480px;
+      left:0px;   
+    }
+    .cardtype
+    {
+        position:relative;
+        float:left;
+        margin:3px;
+        left:-10px;
+        top:34px;
+    }
+    .poszipcode
+    {
+        position:relative;float:left;margin:10px;clear:both;left:0px;
+    }
+  .popup
+  {
+     display:none;
+     position:absolute;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+     width:390px; 
+     z-index:10;
+     top:450px;
+     width:420px;
+     height:800px;
+     background: #1E1E1E;
+     border-radius:5px;
+  }
+  .close 
+        {
+            position:relative;
+            width:30px;
+            border-radius:50%;
+            height:30px;
+            top:-7px;
+            left:97%;
+            background-color:#000;
+            color:#ffffff;
+            cursor: pointer;
+            font-family:Verdana;
+            font-size:8pt;
+         }
+         .booktop
+         {
+             top:70px;
+         }
+         .cardTop
+         {
+             top:20px;
+         }
+       .cover
+       {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color:#000;
+            background: rgba(0,0,0,0.6);
+            z-index: 5;
+            width: 100% !important;
+            height: 100% !important;
+            display: none;
+   }
+   .confirmpopup 
+   {
+     display:none;
+     position:absolute;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+     width:400px; 
+     z-index:10;
+     top:250px;
+     height:600px;
+     background:#fff;
+     border-radius:5px;
+   }
+   .confirmBooking
+    {
+        position:relative;
+         margin:auto;
+         width:240px;
+         height:50px;
+         clear:both;
+         top:40px;
+         cursor:pointer;
+         border-radius:10px;
+         background:#D42F2F;
+    }
+    
+    .confirmName
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        left:0px;
+        width:250px;
+        margin:10px;
+    }
+    
+    .confirmAddress 
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        width:450px;
+        margin:10px;
+    }
+    .confirmCity {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 450px;
+        margin: 10px;
+    }
+    .confirmState{
+        position: relative;
+        float: left;
+        clear: both;
+        width: 450px;
+        margin: 10px;
+    }
+    .confirmBookingCode
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        width:450px;
+        margin:10px;
+    }
+    
+    
+    
+    .clsCity{
+        width: 450px;
+        font-size: 16px;
+    }
+    clsCreditCard
+    {
+        width:450px;
+        font-size:16px;
+    }
+    .clsBookingCode 
+    {
+        width:450px;
+        font-size:16px;
+    }
+    .confirmLabel {
+        position: relative;
+        margin: auto;
+        width: 70px;
+        top: 13px;
+    }
+        .confirmPrice {
+        position:relative;
+        margin:auto;
+        background:#ccc;
+        border-radius:5px;
+        height:45px;
+        width:280px;
+        top:25px;
+        padding-left:10px;
+        clear:both;
+    }
+    .confirmField
+    {
+        position:relative;
+        margin:auto;
+        background:#ccc;
+        border-radius:5px;
+        height:300px;
+        width:280px;
+        top:18px;
+        clear:both;
+    }
+    .confirmCreditCard{
+        position:relative;
+        margin:auto;
+        background:#ccc;
+        border-radius:5px;
+        height:45px;
+        width:280px;
+        top:10px;
+        padding-left:10px;
+        clear:both;
+    }
+    .preview {
+        position:absolute;
+        width:500px;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        background: #1E1E1E;
+        height:700px;
+        border-radius:10px;
+        display: none;
+        top:150px;
+        z-index:10;
+        border:2px solid #fff;
+    }
+    .previewVehicleAndPrice
+    {
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 13px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewVehicle {
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold; 
+        
+    }
+    .previewPrice{
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold;
+        left:100px;
+
+    }
+    .lblPreviewVehicle{
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    
+    .clientPreviewVehicle{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        color:#fff;
+        font-size:12px;
+    }
+    .lblPreviewPrice {
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewPrice{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        color:#fff;
+        font-size:12px;
+    }
+    .previewPickupLocation {
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 17px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .lblPreviewPickup{
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewPickup{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        font-size:12px;
+        color:#fff;
+    }
+    .previewDropOffLocation{
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 21px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .lblPreviewDropOffLocation{
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewDropOffLocation{
+        position: relative;
+        float:left;
+        color:#fff;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        font-size:12px;
+    }
+    .previewDropOffDateTime {
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 31px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewDropOffDate {
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold;   
+    }
+    .lblPreviewDropoffDate{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewDropoffDate{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        color:#fff;
+        font-size:12px;
+    }
+    .previewDropOffTime {
+        position: relative;
+        margin: 2px;
+        float:left;
+        left:50px;
+        border-radius:10px;
+        font-weight:bold;
+       
+    }
+    .lblPreviewDropoffTime{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+        
+    }
+    .clientPreviewDropoffTime{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        font-size:12px;
+        color:#fff;
+    }
+    .previewPickUpDateTime{
+        
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 26px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    
+    .previewPickUpDate{
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold; 
+    }
+    .lblPreviewPickupDate{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        color:#fff;
+        font-weight:bold;
+    }
+    .clientPreviewPickupDate{
+        position: relative;
+        float:left;
+        clear:both;
+        color:#fff;
+        font-size:12px;
+        font-weight:normal;
+        margin:2px;
+    }
+    .previewPickupTime{
+        position: relative;
+        margin: 2px;
+        float:left;
+        left:73px;
+        border-radius:10px;
+        font-weight:bold;
+    }
+    .lblPreviewPickupTime {
+        position: relative;
+        float:left;
+        color:#fff;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+    }
+    .clientPreviewPickupTime{
+        position: relative;
+        float:left;
+        color:#fff;
+        clear:both;
+        font-size:12px;
+        font-weight:normal;
+        margin:2px;
+    }
+    .previewAddons{
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 35px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewGarmin{
+        position: relative;
+        margin: 0px;
+        float:left;
+        font-weight:bold; 
+    }
+    .lblPreviewGarmin{
+        position: relative;
+        float:left;
+        font-weight:bold; 
+        margin:2px;
+        color:#fff;
+    }
+    .clientPreviewGarmin{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal; 
+        font-size:12px;
+        color:#fff;
+    }
+    .previewBabySeat{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold;
+        left:110px;
+    }
+    .lblPreviewBabySeat{
+        position: relative;
+        float:left;
+        font-weight:bold; 
+        margin:2px;
+        color:#fff;
+    }
+    .clientBabySeat{
+         position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal; 
+        color:#fff;
+        font-size:12px;
+    }
+    .previewName{
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 40px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewFirstname{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold; 
+    }
+    .lblPreviewFirstname{
+        position: relative;
+        margin: 2px;
+        float:left;
+        clear:both;
+        font-weight:bold; 
+        color:#fff;
+    }
+    .clientFirstname{
+        position: relative;
+        float:left;
+        margin:2px;
+        font-weight:normal;
+        clear:both;
+        color:#fff;
+        font-size:12px;
+        
+    }
+    .previewLastname{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold; 
+        left:86px;
+    }
+    .clientLastname {
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal;
+        color:#fff;
+        font-size:12px;
+    }
+    .lblPreviewLastname{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .previewContact{
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 45px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewPhone{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold;
+    }
+    .lblPhone{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPhone{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal;
+        color:#fff;
+        font-size:12px;
+    }
+    .previewEmail{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold; 
+        left:67px;
+    }
+    .lblPreviewEmail{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+        left:25px;
+    }
+    .clientEmail{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:normal;
+        clear:both;
+        color:#fff;
+        left:25px;
+        font-size:12px;
+    }
+    .previewSubmit {
+        position:relative;
+        width:200px;
+        height:45px;
+        margin:auto;
+        background:#BD4E4E;
+        color:#fff;
+        top:60px;
+        cursor:pointer;
+        font-weight:bold;
+        padding-left:70px;
+        padding-top:9px;
+        border-radius:8px;
+    }
+    .previewInfo{
+        position:absolute;
+        width:200px;
+        height:45px;
+        left: 0; 
+        right: 0; 
+        padding-left:40px;
+        padding-top:10px;
+        margin-left: auto; 
+        margin-right: auto; 
+        background:#4D85BD;
+        border-radius:8px;
+        color:#fff;
+        border:2px solid #fff; 
+        font-weight:bold;
+        top:-25px;
+    }
+    .currencyStatement
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:145px;
+        font-size:15px;
+        top:53px;
+        left:10px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) 
+{
+   .bookingPage 
+  {
+            height:1700px!important;
+  }
+   
+    .closePreview {
+        position: relative;
+        width: 30px;
+        border-radius: 50%;
+        height: 30px;
+        top: -12px;
+        left: 95%;
+        background-color: #000;
+        color: #ffffff;
+        cursor: pointer;
+        font-family: Verdana;
+        font-size: 8pt;
+    }
+  .logo 
+  {
+      position:relative;
+      margin:auto;
+      width:350px;
+      height:123px;
+  }
+  .desktopMenuContainer
+  {
+      display :none;
+  }
+  .bottom 
+  {
+      display:none;
+  }
+  .pushRight
+  {
+      position:relative;
+      float:left;
+      clear:both;
+     
+  }
+  .dateWidth
+  {
+     width: 120px;
+  }
+  .timeWidth
+  {
+      width: 120px;
+  }
+  .buttonBg 
+  {
+      background: url(../images/color.png) repeat;
+      position: relative;
+      top:-60px;
+      height:100px;
+      width:100%;
+  }
+  .dropDown {
+      position: relative;
+      float:left;
+      height:100px;
+      top:45px;
+      width:100%;
+      z-index:20;
+  }
+  
+  
+  .menu_desktop_device a {
+      color: #fff;
+      padding: 12px 16px;
+      background: url(../images/color.png) repeat;
+      text-decoration: none;
+      width:100%;
+      display: block;
+  }
+  .menu_desktop_device a:hover 
+  {
+      color:#fff;
+      background: #386592;
+     
+  }
+  .menu_desktop_device 
+  {
+      display:none;
+      overflow: hidden;
+      position:absolute;
+      top:34px;
+      left:0px;
+      color:#fff;
+      width:35%;
+      z-index: 20;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .dropDown:hover .menu_desktop_device 
+  {
+      display: block;
+      z-index:10;
+      
+  }
+  
+  .mnu_button {
+      overflow: hidden;
+      color:#fff;
+      height:60px;
+      width:100%;
+      position:relative;
+      top:20px;
+      background-repeat:no-repeat;
+      width:60px;
+      height:60px;
+      float:left;
+      left:10px;
+      display:block;
+      cursor:pointer;
+      background-image: url(../images/small/menu_icon.png);
+ }
+ .leftSide 
+    {
+        position:relative;
+        float:left;
+        margin:1px;
+        clear:both;
+    }
+    .rightSide 
+    {
+        position:relative;
+        float:left;
+        margin:1px;
+        clear:both;
+        
+        
+    }
+    
+    .additions
+    {
+        left:15px;
+        position:relative;
+        float:left;
+        font-size:15px;
+        clear:both
+    }
+    .babySeat {
+        position:relative;
+        float:left;
+        left:8px;
+        width:162px;
+        border-radius:5px;
+        background:#FE5722;
+    }
+    .garmin {
+        position:relative;
+        float:left;
+        border-radius:5px;
+        background:#FE5722;
+        width:162px;
+    }
+    .timeWidth 
+    {
+         width:150px !important;
+    }
+    .ui-btn.ui-corner-none {
+        border-radius: 0;
+    }
+    .widthClass
+    {
+        width:340px;
+        left:10px;
+    }
+    .dateTimeMargin 
+    {
+        position:relative;
+        margin:4px;
+        width:162px;
+    } 
+    
+    .bookingInfo 
+    {
+        position:relative;
+        width:365px;
+        height:780px;
+        margin:auto;
+        top:180px;
+        border:2px solid #E3DEDE;
+        border-radius:10px;
+         box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    }
+    .namesBooking 
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        left:10px;
+        
+    }
+    .clsfirstname
+    {
+        position:relative;
+        float:left;
+        margin:5px;
+        width:160px;
+    }
+    .clslastname
+    {
+        position:relative;
+        float:left;
+        margin:5px; 
+        height:45px;
+        width:160px;
+    }
+    .clsPayment 
+    {
+        position:relative;
+        float:left;
+        top:15px;
+        left:15px;
+        clear:both;
+        
+        
+    }
+    
+    .clsphone
+    {
+        position:relative;
+        float:left;
+        margin:5px;
+        width:160px;
+    }
+    .clsemail
+    {
+        position:relative;
+        float:left;
+        margin:5px; 
+        width:160px;
+    }
+    .clscontact {
+     position :relative;
+     float:left;
+     margin:5px;
+     clear:both;
+     left:5px;
+    }
+    
+    .searchResultHeaderBooking 
+    {
+        position:relative;
+        width:100%;
+        height:150px;
+        background:#EBE8E8;
+        top:150px;
+    }
+    .bookingHeaderLabel 
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:138px;
+        font-size:30px;
+        top:-10px;
+    }
+    .selectIcon {
+        position:absolute;
+        top:17px;
+        left:270px;
+        z-index:10;
+    }
+    .bookingHeaderSubLabel {
+        position: relative;
+        clear: both;
+        margin: auto;
+        color: #000;
+        width: 141px;
+        font-size: 15px;
+        left:11px;
+        top: 6px;
+    }
+    .currencyStatement
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:145px;
+        font-size:15px;
+        top:40px;
+        left:10px;
+    }
+    .srh a 
+    {
+        text-decoration:none;
+        color:#000;
+       
+    }
+    /* unvisited link */
+    .srh a:link {
+     color: #000;
+     font-weight:normal;
+   }
+    .srh a:hover 
+    {
+        color:#F60100;
+    }
+    /* visited link */
+    .srh a:visited {
+     color: #F60100;
+    }
+    .processBooking {
+         position:relative;
+         margin:auto;
+         width:240px;
+         height:50px;
+         clear:both;
+         top:40px;
+         cursor:pointer;
+         border-radius:10px;
+         background:#D42F2F;
+    }
+    .viewPayment {
+         position:relative;
+         margin:auto;
+         width:240px;
+         height:50px;
+         clear:both;
+         top:40px;
+         cursor:pointer;
+         border-radius:10px;
+         background:#D42F2F;
+    }
+    .processBookingLabel
+    {
+        position:relative;
+        width:60px;
+        margin:auto;
+        top:14px;
+        left:37px;
+        color:#fff;
+    }
+    .mobileBottom
+     {
+        width:100%;
+        height:350px;
+        text-align:center;
+        left:0px;
+        bottom:0px;
+        color:#fff;
+        padding-top:15px;
+        padding-bottom:5px;
+        background:#fff;
+        position:absolute;
+    
+     }
+   
+    .selected
+    {
+                background: #D42828;
+                color: #fff;
+                font-size: 20px;
+    }
+    .unselected
+    {
+                background: #ABA9A9;
+                color: #fff;
+                font-size: 20px;
+    }
+
+     .booking_step_menu
+     {
+            
+                    height: 75px;
+                    width:100% !important;
+                    font-weight: normal;
+                    position:relative;
+                    float:left;
+                    clear:both;
+                
+     }
+    
+     .textAboutUs 
+     {
+         font-size:13px;
+         width:300px;
+     }
+     .booking_step_container 
+    {
+        height:250px;
+        width:99.4% !important;
+        font-weight: normal;
+        position:relative;
+        margin:auto;
+        clear:both;
+        top:3px;
+        left:2px;
+        background:#ABA9A9;   
+    }
+    .cardinfo 
+    {
+         position:relative;
+         float:left;
+         clear:both;
+         width:100%;
+    }
+    .clsCreditCardDetails
+    {
+        position:relative;
+        float:left;
+        top:20px;
+        left:5px;
+        clear:both;
+        width:600px;
+    }
+    #securitycode 
+    {
+        width:100px;
+    }
+    .clscreditcard
+    {
+        position:relative;
+        float:left;
+        top:0px;
+        left:5px;
+        margin:3px;
+        width:395px;
+    }
+    .clscardexpiration{
+        position:relative;
+        float:left;
+        clear:both;
+        width:500px;
+        left:7px;
+    }
+    .clsaddress
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        width:500px;
+        left:7px;
+    }
+    .clsName {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 374px;
+        left: 0px;
+    }
+    .clscountry {
+         position:relative;
+        float:left;
+        clear:both;
+        width:500px;
+        left:7px;
+    }
+    
+    
+    .clscity {
+        position: relative;
+        float: left;
+        clear: both;
+        width:500px;
+        left: 7px;
+    }
+    .clsstate{
+        position: relative;
+        float: left;
+        clear: both;
+        width: 500px;
+        left: 7px;
+    }
+    .paywith 
+    {
+        background:#006FFD;
+        width:318px;
+        position:relative;
+        height:40px;
+        float:left;
+        clear:both;
+        color:#fff;
+        left:23px;
+        border-radius:5px;
+        
+        
+    }
+    .clssecuritycode
+    {
+        position:relative;
+        float:left;
+        top:0px;
+        left:5px;
+        margin:3px;
+        width:100px;
+    }
+    .clszip
+    {
+      position:relative;
+      float:left;
+      clear:both;
+      width:480px;
+      left:7px;   
+    }
+    .cardtype
+    {
+        position:relative;
+        float:left;
+        margin:10px;
+        left:-10px;
+        top:25px;
+    }
+    .poszipcode
+    {
+        position:relative;float:left;margin:10px;clear:both;left:0px;
+    }
+  .popup
+  {
+     display:none;
+     position:absolute;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+     width:400px; 
+     z-index:10;
+     top:450px;
+     width:520px;
+     height:750px;
+     background: #1E1E1E;
+     border-radius:5px;
+  }
+  .close 
+        {
+            position:relative;
+            width:30px;
+            border-radius:50%;
+            height:30px;
+            top:-7px;
+            left:97%;
+            background-color:#000;
+            color:#ffffff;
+            cursor: pointer;
+            font-family:Verdana;
+            font-size:8pt;
+         }
+         .booktop
+         {
+             top:70px;
+         }
+         .cardTop
+         {
+             top:20px;
+         }
+       .cover
+       {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color:#000;
+            background: rgba(0,0,0,0.6);
+            z-index: 5;
+            width: 100% !important;
+            height: 100% !important;
+            display: none;
+        }
+           .confirmpopup 
+   {
+     display:none;
+     position:absolute;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+     width:400px; 
+     z-index:10;
+     top:250px;
+     height:600px;
+     background:#fff;
+     border-radius:5px;
+   }
+   .confirmBooking
+    {
+        position:relative;
+         margin:auto;
+         width:240px;
+         height:50px;
+         clear:both;
+         top:40px;
+         cursor:pointer;
+         border-radius:10px;
+         background:#D42F2F;
+    }
+    
+    .confirmName
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        left:0px;
+        width:250px;
+        margin:10px;
+    }
+    
+    .confirmAddress 
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        width:450px;
+        margin:10px;
+    }
+    .confirmCity {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 450px;
+        margin: 10px;
+    }
+    .confirmState{
+        position: relative;
+        float: left;
+        clear: both;
+        width: 450px;
+        margin: 10px;
+    }
+    .confirmBookingCode
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        width:450px;
+        margin:10px;
+    }
+    
+    
+   
+    .clsCity{
+        width: 450px;
+        font-size: 16px;
+    }
+    clsCreditCard
+    {
+        width:450px;
+        font-size:16px;
+    }
+    .clsBookingCode 
+    {
+        width:450px;
+        font-size:16px;
+    }
+    .confirmLabel {
+        position: relative;
+        margin: auto;
+        width: 70px;
+        top: 13px;
+    }
+    .confirmCreditCard {
+        position: relative;
+        clear: both;
+        width: 330px;
+        margin:auto;
+        margin-bottom:10px;
+        height:45px;
+        padding-left:10px;
+        padding-top:2px;
+    }
+    .confirmPrice {
+        position: relative;
+        clear: both;
+        width: 330px;
+        margin:auto;
+        margin-bottom:10px;
+        height:45px;
+        padding-left:10px;
+        padding-top:2px;
+        margin-top:10px;
+    }
+
+    .confirmAddress {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 450px;
+        margin: 10px;
+    }  
+    .confirmCity {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 450px;
+        margin: 10px;
+    }
+    .confirmState{
+        position: relative;
+        float: left;
+        clear: both;
+        width: 450px;
+        margin: 10px;
+    }
+    .confirmPrice {
+        position:relative;
+        margin:auto;
+        background:#ccc;
+        border-radius:5px;
+        height:45px;
+        width:280px;
+        top:25px;
+        padding-left:10px;
+        clear:both;
+    }
+    .confirmField
+    {
+        position:relative;
+        margin:auto;
+        background:#ccc;
+        border-radius:5px;
+        height:300px;
+        width:280px;
+        top:18px;
+        clear:both;
+    }
+    .confirmCreditCard{
+        position:relative;
+        margin:auto;
+        background:#ccc;
+        border-radius:5px;
+        height:45px;
+        width:280px;
+        top:10px;
+        padding-left:10px;
+        clear:both;
+    }
+    .preview {
+        position:absolute;
+        width:400px;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        background: #1E1E1E;
+        height:700px;
+        border-radius:10px;
+        display: none;
+        top:150px;
+        z-index:10;
+        border:2px solid #fff;
+    }
+    .previewVehicleAndPrice
+    {
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 13px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewVehicle {
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold; 
+        
+    }
+    .previewPrice{
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold;
+        left:100px;
+
+    }
+    .lblPreviewVehicle{
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    
+    .clientPreviewVehicle{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        color:#fff;
+        font-size:12px;
+    }
+    .lblPreviewPrice {
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewPrice{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        color:#fff;
+        font-size:12px;
+    }
+    .previewPickupLocation {
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 17px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .lblPreviewPickup{
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewPickup{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        font-size:12px;
+        color:#fff;
+    }
+    .previewDropOffLocation{
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 21px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .lblPreviewDropOffLocation{
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewDropOffLocation{
+        position: relative;
+        float:left;
+        color:#fff;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        font-size:12px;
+    }
+    .previewDropOffDateTime {
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 31px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewDropOffDate {
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold;   
+    }
+    .lblPreviewDropoffDate{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewDropoffDate{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        color:#fff;
+        font-size:12px;
+    }
+    .previewDropOffTime {
+        position: relative;
+        margin: 2px;
+        float:left;
+        left:50px;
+        border-radius:10px;
+        font-weight:bold;
+       
+    }
+    .lblPreviewDropoffTime{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+        
+    }
+    .clientPreviewDropoffTime{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        font-size:12px;
+        color:#fff;
+    }
+    .previewPickUpDateTime{
+        
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 26px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    
+    .previewPickUpDate{
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold; 
+    }
+    .lblPreviewPickupDate{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        color:#fff;
+        font-weight:bold;
+    }
+    .clientPreviewPickupDate{
+        position: relative;
+        float:left;
+        clear:both;
+        color:#fff;
+        font-size:12px;
+        font-weight:normal;
+        margin:2px;
+    }
+    .previewPickupTime{
+        position: relative;
+        margin: 2px;
+        float:left;
+        left:73px;
+        border-radius:10px;
+        font-weight:bold;
+    }
+    .lblPreviewPickupTime {
+        position: relative;
+        float:left;
+        color:#fff;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+    }
+    .clientPreviewPickupTime{
+        position: relative;
+        float:left;
+        color:#fff;
+        clear:both;
+        font-size:12px;
+        font-weight:normal;
+        margin:2px;
+    }
+    .previewAddons{
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 35px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewGarmin{
+        position: relative;
+        margin: 0px;
+        float:left;
+        font-weight:bold; 
+    }
+    .lblPreviewGarmin{
+        position: relative;
+        float:left;
+        font-weight:bold; 
+        margin:2px;
+        color:#fff;
+    }
+    .clientPreviewGarmin{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal; 
+        font-size:12px;
+        color:#fff;
+    }
+    .previewBabySeat{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold;
+        left:110px;
+    }
+    .lblPreviewBabySeat{
+        position: relative;
+        float:left;
+        font-weight:bold; 
+        margin:2px;
+        color:#fff;
+    }
+    .clientBabySeat{
+         position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal; 
+        color:#fff;
+        font-size:12px;
+    }
+    .previewName{
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 40px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewFirstname{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold; 
+    }
+    .lblPreviewFirstname{
+        position: relative;
+        margin: 2px;
+        float:left;
+        clear:both;
+        font-weight:bold; 
+        color:#fff;
+    }
+    .clientFirstname{
+        position: relative;
+        float:left;
+        margin:2px;
+        font-weight:normal;
+        clear:both;
+        color:#fff;
+        font-size:12px;
+        
+    }
+    .previewLastname{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold; 
+        left:86px;
+    }
+    .clientLastname {
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal;
+        color:#fff;
+        font-size:12px;
+    }
+    .lblPreviewLastname{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .previewContact{
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 45px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewPhone{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold;
+    }
+    .lblPhone{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPhone{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal;
+        color:#fff;
+        font-size:12px;
+    }
+    .previewEmail{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold; 
+        left:67px;
+    }
+    .lblPreviewEmail{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+        left:25px;
+    }
+    .clientEmail{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:normal;
+        clear:both;
+        color:#fff;
+        left:25px;
+        font-size:12px;
+    }
+    .previewSubmit {
+        position:relative;
+        width:200px;
+        height:45px;
+        margin:auto;
+        background:#BD4E4E;
+        color:#fff;
+        top:60px;
+        cursor:pointer;
+        font-weight:bold;
+        padding-left:70px;
+        padding-top:9px;
+        border-radius:8px;
+    }
+    .previewInfo{
+        position:absolute;
+        width:200px;
+        height:45px;
+        left: 0; 
+        right: 0; 
+        padding-left:40px;
+        padding-top:10px;
+        margin-left: auto; 
+        margin-right: auto; 
+        background:#4D85BD;
+        border-radius:8px;
+        color:#fff;
+        border:2px solid #fff; 
+        font-weight:bold;
+        top:-25px;
+    }
+    .currencyStatement
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:145px;
+        font-size:15px;
+        top:24px;
+        left:13px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) 
+{
+   .bookingPage 
+  {
+            height:1700px!important;
+  }
+  .logo 
+  {
+      position:relative;
+      margin:auto;
+      width:350px;
+      height:123px;
+  }
+   .closePreview {
+        position: relative;
+        width: 30px;
+        border-radius: 50%;
+        height: 30px;
+        top: -12px;
+        left: 95%;
+        background-color: #000;
+        color: #ffffff;
+        cursor: pointer;
+        font-family: Verdana;
+        font-size: 8pt;
+    }
+  .desktopMenuContainer
+  {
+      display :none;
+  }
+  .bottom 
+  {
+      display:none;
+  }
+  .pushRight
+  {
+      position:relative;
+      float:left;
+      clear:both;
+     
+  }
+  .dateWidth
+  {
+     width: 120px;
+  }
+  .timeWidth
+  {
+      width: 120px;
+  }
+  .buttonBg 
+  {
+      background: url(../images/color.png) repeat;
+      position: relative;
+      top:-60px;
+      height:100px;
+      width:100%;
+  }
+  .dropDown {
+      position: relative;
+      float:left;
+      height:100px;
+      top:55px;
+      width:100%;
+  }
+  
+  
+  .menu_desktop_device a {
+      color: #fff;
+      padding: 12px 16px;
+      background: url(../images/color.png) repeat;
+      text-decoration: none;
+      width:100%;
+      display: block;
+  }
+  .menu_desktop_device a:hover 
+  {
+      color:#fff;
+      background: #386592;
+     
+  }
+  .menu_desktop_device 
+  {
+      display:none;
+      overflow: hidden;
+      position:absolute;
+      top:34px;
+      left:0px;
+      color:#fff;
+      width:35%;
+      z-index: 20;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .dropDown:hover .menu_desktop_device 
+  {
+      display: block;
+      z-index:10;
+      
+  }
+  
+  .mnu_button {
+      overflow: hidden;
+      color:#fff;
+      height:60px;
+      width:100%;
+      position:relative;
+      top:20px;
+      background-repeat:no-repeat;
+      width:60px;
+      height:60px;
+      float:left;
+      left:10px;
+      display:block;
+      cursor:pointer;
+      background-image: url(../images/small/menu_icon.png);
+ }
+ .leftSide 
+    {
+        position:relative;
+        float:left;
+        margin:1px;
+        clear:both;
+    }
+    .rightSide 
+    {
+        position:relative;
+        float:left;
+        margin:1px;
+        clear:both;
+        
+        
+    }
+    
+    .additions
+    {
+        left:15px;
+        position:relative;
+        float:left;
+        font-size:15px;
+        clear:both
+    }
+    .babySeat {
+        position:relative;
+        float:left;
+        left:8px;
+        width:162px;
+        border-radius:5px;
+        background:#FE5722;
+    }
+    .garmin {
+        position:relative;
+        float:left;
+        border-radius:5px;
+        background:#FE5722;
+        width:162px;
+    }
+    .timeWidth 
+    {
+         width:150px !important;
+    }
+    .ui-btn.ui-corner-none {
+        border-radius: 0;
+    }
+    .widthClass
+    {
+        width:340px;
+        left:10px;
+    }
+    .dateTimeMargin 
+    {
+        position:relative;
+        margin:4px;
+        width:162px;
+    } 
+    
+    .bookingInfo 
+    {
+        position:relative;
+        width:365px;
+        height:780px;
+        margin:auto;
+        top:180px;
+        border:2px solid #E3DEDE;
+        border-radius:10px;
+         box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    }
+    .namesBooking 
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        left:10px;
+        
+    }
+    .clsfirstname
+    {
+        position:relative;
+        float:left;
+        margin:5px;
+        width:160px;
+    }
+    .clslastname
+    {
+        position:relative;
+        float:left;
+        margin:5px; 
+        height:45px;
+        width:160px;
+    }
+    .clsPayment 
+    {
+        position:relative;
+        float:left;
+        top:15px;
+        left:15px;
+        clear:both;
+        
+        
+    }
+    
+    .clsphone
+    {
+        position:relative;
+        float:left;
+        margin:5px;
+        width:160px;
+    }
+    .clsemail
+    {
+        position:relative;
+        float:left;
+        margin:5px; 
+        width:160px;
+    }
+    .clscontact {
+     position :relative;
+     float:left;
+     margin:5px;
+     clear:both;
+     left:5px;
+    }
+    
+    .searchResultHeaderBooking 
+    {
+        position:relative;
+        width:100%;
+        height:150px;
+        background:#EBE8E8;
+        top:150px;
+    }
+    .bookingHeaderLabel 
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:138px;
+        font-size:30px;
+        top:-15px;
+    }
+    .selectIcon {
+        position:absolute;
+        top:17px;
+        left:270px;
+        z-index:10;
+    }
+    .bookingHeaderSubLabel {
+        position: relative;
+        clear: both;
+        margin: auto;
+        color: #000;
+        width: 141px;
+        font-size: 15px;
+        left:11px;
+        top: 6px;
+    }
+    .currencyStatement
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:145px;
+        font-size:15px;
+        top:40px;
+        left:10px;
+    }
+    .srh a 
+    {
+        text-decoration:none;
+        color:#000;
+       
+    }
+    /* unvisited link */
+    .srh a:link {
+     color: #000;
+     font-weight:normal;
+   }
+    .srh a:hover 
+    {
+        color:#F60100;
+    }
+    /* visited link */
+    .srh a:visited {
+     color: #F60100;
+    }
+    .processBooking {
+         position:relative;
+         margin:auto;
+         width:240px;
+         height:50px;
+         clear:both;
+         top:40px;
+         cursor:pointer;
+         border-radius:10px;
+         background:#D42F2F;
+    }
+    .viewPayment {
+         position:relative;
+         margin:auto;
+         width:240px;
+         height:50px;
+         clear:both;
+         top:40px;
+         cursor:pointer;
+         border-radius:10px;
+         background:#D42F2F;
+    }
+    .processBookingLabel
+    {
+        position:relative;
+        width:60px;
+        margin:auto;
+        top:14px;
+        left:37px;
+        color:#fff;
+    }
+    .mobileBottom
+     {
+        width:100%;
+        height:350px;
+        text-align:center;
+        left:0px;
+        bottom:0px;
+        color:#fff;
+        padding-top:15px;
+        padding-bottom:5px;
+        background:#fff;
+        position:absolute;
+    
+     }
+   
+    .selected
+    {
+                background: #D42828;
+                color: #fff;
+                font-size: 20px;
+    }
+    .unselected
+    {
+                background: #ABA9A9;
+                color: #fff;
+                font-size: 20px;
+    }
+
+     .booking_step_menu
+     {
+            
+                    height: 75px;
+                    width:100% !important;
+                    font-weight: normal;
+                    position:relative;
+                    float:left;
+                    clear:both;
+                
+     }
+    
+     .textAboutUs 
+     {
+         font-size:13px;
+         width:300px;
+     }
+     .booking_step_container 
+    {
+        height:250px;
+        width:99.4% !important;
+        font-weight: normal;
+        position:relative;
+        margin:auto;
+        clear:both;
+        top:3px;
+        left:2px;
+        background:#ABA9A9;   
+    }
+    .cardinfo 
+    {
+         position:relative;
+         float:left;
+         clear:both;
+         width:100%;
+    }
+    .clsCreditCardDetails
+    {
+        position:relative;
+        float:left;
+        top:20px;
+        left:5px;
+        clear:both;
+        width:600px;
+    }
+    #securitycode 
+    {
+        width:100px;
+    }
+    .clscreditcard
+    {
+        position:relative;
+        float:left;
+        top:0px;
+        left:5px;
+        margin:3px;
+        width:395px;
+    }
+    .clscardexpiration{
+        position:relative;
+        float:left;
+        clear:both;
+        width:500px;
+        left:7px;
+    }
+    
+    .clsaddress
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        width:500px;
+        left:7px;
+    }
+    .clscountry {
+         position:relative;
+        float:left;
+        clear:both;
+        width:500px;
+        left:7px;
+    }
+    .clscountry {
+         position:relative;
+        float:left;
+        clear:both;
+        width:500px;
+        left:7px;
+    }
+    .clscardexpiration{
+        position:relative;
+        float:left;
+        clear:both;
+        width:500px;
+        left:7px;
+    }
+    .clsName {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 500px;
+        left: 7px;
+    }
+    .clscity {
+        position: relative;
+        float: left;
+        clear: both;
+        width:500px;
+        left: 7px;
+       
+    }
+    .clsstate{
+        position: relative;
+        float: left;
+        clear: both;
+        width: 500px;
+        left: 7px;
+    }
+    .paywith 
+    {
+        background:#006FFD;
+        width:318px;
+        position:relative;
+        height:40px;
+        float:left;
+        clear:both;
+        color:#fff;
+        left:23px;
+        border-radius:5px;
+        
+        
+    }
+    .clssecuritycode
+    {
+        position:relative;
+        float:left;
+        top:0px;
+        left:5px;
+        margin:3px;
+        width:100px;
+    }
+    .clszip
+    {
+      position:relative;
+      float:left;
+      clear:both;
+      width:480px;
+      left:7px;   
+    }
+    .cardtype
+    {
+        position:relative;
+        float:left;
+        margin:10px;
+        left:-10px;
+        top:25px;
+    }
+    .poszipcode
+    {
+        position:relative;float:left;margin:10px;clear:both;left:0px;
+    }
+  .popup
+  {
+     display:none;
+     position:absolute;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+     width:400px; 
+     z-index:10;
+     top:450px;
+     width:520px;
+     height:750px;
+     background: #1E1E1E;
+     border-radius:5px;
+  }
+  .close 
+        {
+            position:relative;
+            width:30px;
+            border-radius:50%;
+            height:30px;
+            top:-7px;
+            left:97%;
+            background-color:#000;
+            color:#ffffff;
+            cursor: pointer;
+            font-family:Verdana;
+            font-size:8pt;
+         }
+         .booktop
+         {
+             top:70px;
+         }
+         .cardTop
+         {
+             top:20px;
+         }
+       .cover
+       {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color:#000;
+            background: rgba(0,0,0,0.6);
+            z-index: 5;
+            width: 100% !important;
+            height: 100% !important;
+            display: none;
+   }
+   .confirmpopup 
+   {
+     display:none;
+     position:absolute;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+     width:400px; 
+     z-index:10;
+     top:250px;
+     height:600px;
+     background:#fff;
+     border-radius:5px;
+   }
+   .confirmBooking
+    {
+        position:relative;
+         margin:auto;
+         width:240px;
+         height:50px;
+         clear:both;
+         top:40px;
+         cursor:pointer;
+         border-radius:10px;
+         background:#D42F2F;
+    }
+    
+    .confirmName
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        left:0px;
+        width:250px;
+        margin:10px;
+    }
+    
+    .confirmAddress 
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        width:450px;
+        margin:10px;
+    }
+    .confirmCity {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 450px;
+        margin: 10px;
+    }
+    .confirmState{
+        position: relative;
+        float: left;
+        clear: both;
+        width: 450px;
+        margin: 10px;
+    }
+    .confirmBookingCode
+    {
+        position:relative;
+        float:left;
+        clear:both;
+        width:450px;
+        margin:10px;
+    }
+    
+    
+    
+    clsCreditCard
+    {
+        width:450px;
+        font-size:16px;
+    }
+    .clsBookingCode 
+    {
+        width:450px;
+        font-size:16px;
+    }
+    .confirmLabel {
+        position: relative;
+        margin: auto;
+        width: 70px;
+        top: 13px;
+    }
+    .confirmCreditCard {
+        position: relative;
+        clear: both;
+        width: 330px;
+        margin:auto;
+        margin-bottom:10px;
+        height:45px;
+        padding-left:10px;
+        padding-top:2px;
+    }
+    .confirmPrice {
+        position: relative;
+        clear: both;
+        width: 330px;
+        margin:auto;
+        margin-bottom:10px;
+        height:45px;
+        padding-left:10px;
+        padding-top:2px;
+        margin-top:10px;
+    }
+
+    .confirmAddress {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 450px;
+        margin: 10px;
+    }  
+    .confirmCity {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 450px;
+        margin: 10px;
+    }
+    .confirmState{
+        position: relative;
+        float: left;
+        clear: both;
+        width: 450px;
+        margin: 10px;
+    }
+    .confirmPrice {
+        position:relative;
+        margin:auto;
+        background:#ccc;
+        border-radius:5px;
+        height:45px;
+        width:280px;
+        top:25px;
+        padding-left:10px;
+        clear:both;
+    }
+    .confirmField
+    {
+        position:relative;
+        margin:auto;
+        background:#ccc;
+        border-radius:5px;
+        height:300px;
+        width:280px;
+        top:18px;
+        clear:both;
+    }
+    .confirmCreditCard{
+        position:relative;
+        margin:auto;
+        background:#ccc;
+        border-radius:5px;
+        height:45px;
+        width:280px;
+        top:10px;
+        padding-left:10px;
+        clear:both;
+    }
+    .preview {
+        position:absolute;
+        width:500px;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        background: #1E1E1E;
+        height:700px;
+        border-radius:10px;
+        display: none;
+        top:200px;
+        z-index:10;
+        border:2px solid #fff;
+    }
+    .previewVehicleAndPrice
+    {
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 13px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewVehicle {
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold; 
+        
+    }
+    .previewPrice{
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold;
+        left:100px;
+
+    }
+    .lblPreviewVehicle{
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    
+    .clientPreviewVehicle{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        color:#fff;
+        font-size:12px;
+    }
+    .lblPreviewPrice {
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewPrice{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        color:#fff;
+        font-size:12px;
+    }
+    .previewPickupLocation {
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 17px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .lblPreviewPickup{
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewPickup{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        font-size:12px;
+        color:#fff;
+    }
+    .previewDropOffLocation{
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 21px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .lblPreviewDropOffLocation{
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewDropOffLocation{
+        position: relative;
+        float:left;
+        color:#fff;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        font-size:12px;
+    }
+    .previewDropOffDateTime {
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 31px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewDropOffDate {
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold;   
+    }
+    .lblPreviewDropoffDate{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewDropoffDate{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        color:#fff;
+        font-size:12px;
+    }
+    .previewDropOffTime {
+        position: relative;
+        margin: 2px;
+        float:left;
+        left:50px;
+        border-radius:10px;
+        font-weight:bold;
+       
+    }
+    .lblPreviewDropoffTime{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+        
+    }
+    .clientPreviewDropoffTime{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        font-size:12px;
+        color:#fff;
+    }
+    .previewPickUpDateTime{
+        
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 26px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    
+    .previewPickUpDate{
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold; 
+    }
+    .lblPreviewPickupDate{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        color:#fff;
+        font-weight:bold;
+    }
+    .clientPreviewPickupDate{
+        position: relative;
+        float:left;
+        clear:both;
+        color:#fff;
+        font-size:12px;
+        font-weight:normal;
+        margin:2px;
+    }
+    .previewPickupTime{
+        position: relative;
+        margin: 2px;
+        float:left;
+        left:73px;
+        border-radius:10px;
+        font-weight:bold;
+    }
+    .lblPreviewPickupTime {
+        position: relative;
+        float:left;
+        color:#fff;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+    }
+    .clientPreviewPickupTime{
+        position: relative;
+        float:left;
+        color:#fff;
+        clear:both;
+        font-size:12px;
+        font-weight:normal;
+        margin:2px;
+    }
+    .previewAddons{
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 35px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewGarmin{
+        position: relative;
+        margin: 0px;
+        float:left;
+        font-weight:bold; 
+    }
+    .lblPreviewGarmin{
+        position: relative;
+        float:left;
+        font-weight:bold; 
+        margin:2px;
+        color:#fff;
+    }
+    .clientPreviewGarmin{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal; 
+        font-size:12px;
+        color:#fff;
+    }
+    .previewBabySeat{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold;
+        left:110px;
+    }
+    .lblPreviewBabySeat{
+        position: relative;
+        float:left;
+        font-weight:bold; 
+        margin:2px;
+        color:#fff;
+    }
+    .clientBabySeat{
+         position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal; 
+        color:#fff;
+        font-size:12px;
+    }
+    .previewName{
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 40px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewFirstname{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold; 
+    }
+    .lblPreviewFirstname{
+        position: relative;
+        margin: 2px;
+        float:left;
+        clear:both;
+        font-weight:bold; 
+        color:#fff;
+    }
+    .clientFirstname{
+        position: relative;
+        float:left;
+        margin:2px;
+        font-weight:normal;
+        clear:both;
+        color:#fff;
+        font-size:12px;
+        
+    }
+    .previewLastname{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold; 
+        left:86px;
+    }
+    .clientLastname {
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal;
+        color:#fff;
+        font-size:12px;
+    }
+    .lblPreviewLastname{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .previewContact{
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 45px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewPhone{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold;
+    }
+    .lblPhone{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPhone{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal;
+        color:#fff;
+        font-size:12px;
+    }
+    .previewEmail{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold; 
+        left:67px;
+    }
+    .lblPreviewEmail{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+        left:25px;
+    }
+    .clientEmail{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:normal;
+        clear:both;
+        color:#fff;
+        left:25px;
+        font-size:12px;
+    }
+    .previewSubmit {
+        position:relative;
+        width:200px;
+        height:45px;
+        margin:auto;
+        background:#BD4E4E;
+        color:#fff;
+        top:60px;
+        cursor:pointer;
+        font-weight:bold;
+        padding-left:70px;
+        padding-top:9px;
+        border-radius:8px;
+    }
+    .previewInfo{
+        position:absolute;
+        width:200px;
+        height:45px;
+        left: 0; 
+        right: 0; 
+        padding-left:40px;
+        padding-top:10px;
+        margin-left: auto; 
+        margin-right: auto; 
+        background:#4D85BD;
+        border-radius:8px;
+        color:#fff;
+        border:2px solid #fff; 
+        font-weight:bold;
+        top:-25px;
+    }
+    .currencyStatement
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:145px;
+        font-size:15px;
+        top:20px;
+        left:10px;
+    }
+    .closePreview {
+        position: relative;
+        width: 30px;
+        border-radius: 50%;
+        height: 30px;
+        top: -7px;
+        left: 97%;
+        background-color: #000;
+        color: #ffffff;
+        cursor: pointer;
+        font-family: Verdana;
+        font-size: 8pt;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .bookingPage {
+        height: 1700px !important;
+    }
+
+    .logo {
+        position: relative;
+        margin: auto;
+        width: 350px;
+        height: 123px;
+    }
+    .confirmPrice {
+        position:relative;
+        margin:auto;
+        background:#ccc;
+        border-radius:5px;
+        height:35px;
+        width:300px;
+        top:15px;
+        clear:both;
+    }
+    .confirmField
+    {
+        position:relative;
+        margin:auto;
+        background:#ccc;
+        border-radius:5px;
+        height:280px;
+        width:330px;
+        top:15px;
+        clear:both;
+    }
+    .confirmCreditCard{
+        position:relative;
+        margin:auto;
+        background:#ccc;
+        border-radius:5px;
+        height:35px;
+        width:330px;
+        top:15px;
+        clear:both;
+    }
+    .desktopMenuContainer {
+        background: url(../images/color.png) repeat;
+        position: relative;
+        clear: both;
+        height: 100px;
+        width: 100%;
+    }
+
+    .buttonBg {
+        display: none;
+    }
+
+    .dropDown {
+        z-index: 10;
+        background-image: url(../images/color.png) repeat;
+        position: relative;
+        clear: both;
+        height: 100px;
+        width: 100%;
+    }
+
+    .mnu_button {
+        overflow: hidden;
+        background-color: #386592;
+        color: #fff;
+        height: 60px;
+        position: relative;
+        top: 20px;
+        background-repeat: no-repeat;
+        width: 60px;
+        height: 60px;
+        width: 100%;
+        display: none;
+        background-image: url(../images/small/menu_icon.png);
+    }
+    /* Style the top navigation bar */
+    .menu_desktop_device {
+        overflow: hidden;
+        background: url(../images/color.png) repeat;
+        color: #fff;
+        height: 100px;
+        width: 100%;
+    }
+
+        /* Style the topnav links */
+        .menu_desktop_device a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 37px 16px;
+            text-decoration: none;
+        }
+
+            /* Change color on hover */
+            .menu_desktop_device a:hover {
+                background-color: #6794C2;
+                color: #fff;
+                height: 100px;
+                display: block;
+                color: #000;
+                text-align: center;
+                padding: 37px 16px;
+                text-decoration: none;
+            }
+
+    .additions {
+        left: 0px;
+        position: relative;
+        float: left;
+        font-size: 15px;
+        clear: both;
+        width:400px;
+        z-index:1;
+    }
+    .babySeat {
+        position:relative;
+        float:left;
+        left:1px;
+        border-radius:5px;
+        background:#FE5722;
+        margin:4px;
+        width:192px;
+    }
+    .garmin {
+        position:relative;
+        float:left;
+        border-radius:5px;
+        background:#FE5722;
+        margin:4px;
+        width:192px;
+    }
+    .timeWidth {
+        width: 123px !important;
+    }
+
+    .ui-btn.ui-corner-none {
+        border-radius: 0;
+    }
+
+    .widthClass {
+        width: 400px;
+    }
+
+    .dateTimeMargin 
+    {
+        position:relative;
+        margin:4px;
+        width:192px;
+    } 
+
+    .bookingPage {
+        height: 1500px;
+    }
+
+    .bookingInfo {
+        position: relative;
+        width: 1000px;
+        height: 550px;
+        margin: auto;
+        top: 50px;
+        border: 2px solid #E3DEDE;
+        border-radius: 10px;
+        box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    }
+    
+    .namesBooking {
+        position: relative;
+        float: left;
+        clear: both;
+        left: 0px;
+        
+    }
+
+    .clsfirstname {
+        position: relative;
+        float: left;
+        margin: 5px;
+        width: 250px;
+        
+    }
+
+    .clslastname {
+        position: relative;
+        float: left;
+        margin: 5px;
+        width: 250px;
+    }
+
+    .clsphone {
+        position: relative;
+        float: left;
+        margin: 5px;
+        width: 250px;
+    }
+
+    .clsemail {
+        position: relative;
+        float: left;
+        margin: 5px;
+        width: 250px;
+    }
+
+    .clscontact {
+        position: relative;
+        float: left;
+        margin: 5px;
+        clear: both;
+    }
+    .clsprice
+    {
+        width:250px;
+        font-size:16px;
+        position:relative;
+        margin:7px;
+        display:none;
+        float:left;
+        clear:both;
+    }
+    .searchResultHeaderBooking {
+        position: relative;
+        width: 100%;
+        height: 150px;
+        background: #EBE8E8;
+        top: 0px;
+    }
+
+    .bookingHeaderLabel {
+        position: relative;
+        clear: both;
+        margin: auto;
+        color: #000;
+        width: 138px;
+        font-size: 30px;
+        top: 20px;
+    }
+
+    .bookingHeaderSubLabel {
+        position: relative;
+        clear: both;
+        margin: auto;
+        color: #000;
+        width: 141px;
+        font-size: 15px;
+        left:11px;
+        top: 35px;
+    }
+    .currencyStatement {
+        position: relative;
+        clear: both;
+        margin: auto;
+        color: #000;
+        width: 142px;
+        font-size: 15px;
+        top: 50px;
+        left:10px;
+    }
+    .srh a {
+        text-decoration: none;
+        color: #000;
+    }
+        /* unvisited link */
+        .srh a:link {
+            color: #000;
+            font-weight: normal;
+        }
+
+        .srh a:hover {
+            color: #F60100;
+        }
+        /* visited link */
+        .srh a:visited {
+            color: #F60100;
+        }
+
+    .leftSide {
+        position: relative;
+        float: left;
+        margin: 10px;
+    }
+
+    .rightSide {
+        position: relative;
+        float: left;
+        margin: 10px;
+    }
+
+    .selectIcon {
+        position: absolute;
+        top: 17px;
+        left: 350px;
+        z-index: 10;
+    }
+
+    select {
+        font-size: 13px;
+    }
+
+        select option {
+            font-size: 11px;
+        }
+
+            select option:first-child {
+                font-size: 7pt;
+            }
+
+    .processBooking {
+        position: relative;
+        margin: auto;
+        width: 240px;
+        height: 50px;
+        clear: both;
+        top: 40px;
+        cursor: pointer;
+        border-radius: 10px;
+        background: #D42F2F;
+    }
+    .viewPayment {
+         position:relative;
+         margin:auto;
+         width:240px;
+         height:50px;
+         clear:both;
+         top:40px;
+         cursor:pointer;
+         border-radius:10px;
+         background:#D42F2F;
+    }
+    .processPayment {
+        position: relative;
+        margin: auto;
+        width: 240px;
+        height: 50px;
+        clear: both;
+        cursor: pointer;
+        border-radius: 10px;
+        background: #D42F2F;
+    }
+
+    .processBookingLabel {
+        position: relative;
+        width: 120px;
+        margin: auto;
+        top: 14px;
+        left: 33px;
+        color: #fff;
+        clear: both;
+    }
+
+    .clsPayment {
+        position: relative;
+        margin: auto;
+        top: 10px;
+        clear: both;
+        width: 336px;
+    }
+
+    .poszipcode {
+        position: relative;
+        float: left;
+        margin: 10px;
+        left: -5px;
+    }
+
+    .cardinfo {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 100%;
+    }
+
+    .clsCreditCardDetails {
+        position: relative;
+        float: left;
+        top: 20px;
+        left: 5px;
+        clear: both;
+        width: 600px;
+    }
+
+    #securitycode {
+        width: 100px;
+    }
+
+    .clscreditcard {
+        position: relative;
+        float: left;
+        top: 0px;
+        left: 5px;
+        margin: 3px;
+        width: 395px;
+    }
+    .clscardexpiration{
+        position:relative;
+        float:left;
+        clear:both;
+        width:500px;
+        left:7px;
+    }
+    .clsaddress {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 500px;
+        left: 7px;
+    }
+    .clscountry {
+         position:relative;
+        float:left;
+        clear:both;
+        width:500px;
+        left:7px;
+    }
+    .clsName {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 500px;
+        left: 4px;
+    }
+     .clscity {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 500px;
+        left: 7px;
+    }
+    .clsstate{
+        position: relative;
+        float: left;
+        clear: both;
+        width: 500px;
+        left: 7px;
+    }
+    .paywith {
+        background: #006FFD;
+        width: 500px;
+        position: relative;
+        height: 40px;
+        float: left;
+        clear: both;
+        color: #fff;
+        left: 15px;
+        border-radius: 5px;
+    }
+
+    .clssecuritycode {
+        position: relative;
+        float: left;
+        top: 0px;
+        left: 5px;
+        margin: 3px;
+        width: 100px;
+    }
+
+    .clszip {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 480px;
+        left: 7px;
+    }
+
+    .cardtype {
+        position: relative;
+        float: left;
+        margin: 10px;
+        left: -10px;
+        top: 25px;
+    }
+
+    .headerbottom {
+        position: relative;
+        bottom: 0px !important;
+        clear: both;
+        background: #AD3434;
+        top: -19px;
+        height: 90px;
+    }
+
+    .bottom {
+        width: 100%;
+        height: 470px;
+        text-align: center;
+        left: 0px;
+        color: #fff;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        background: #2A2B2D;
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .textAboutUs {
+        font-size: 25px;
+        width: 600px;
+    }
+
+    .mobileBottom {
+        display: none;
+    }
+
+    .mobilemenu {
+        display: none;
+    }
+
+    .menuContainer {
+        position: relative;
+        margin: auto;
+        width: 520px;
+    }
+
+        .menuContainer a {
+            display: block;
+            color: #fff;
+            float: left;
+            text-align: center;
+            padding: 37px 16px;
+            text-decoration: none;
+        }
+
+            .menuContainer a:hover {
+                background-color: #6794C2;
+                color: #fff;
+                height: 100px;
+                display: block;
+                color: #000;
+                text-align: center;
+                padding: 37px 16px;
+                text-decoration: none;
+            }
+
+    .popup {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        z-index: 10;
+        top: 200px;
+        width: 530px;
+        height: 800px;
+        background: #1E1E1E;
+        border-radius: 5px;
+        border:2px solid #fff;
+    }
+
+    .close {
+        position: relative;
+        width: 30px;
+        border-radius: 50%;
+        height: 30px;
+        top: -7px;
+        left: 97%;
+        background-color: #000;
+        color: #ffffff;
+        cursor: pointer;
+        font-family: Verdana;
+        font-size: 8pt;
+        border:2px solid #fff;
+    }
+    .closePreview {
+        position: relative;
+        width: 30px;
+        border-radius: 50%;
+        height: 30px;
+        top: -7px;
+        left: 97%;
+        background-color: #000;
+        color: #ffffff;
+        cursor: pointer;
+        font-family: Verdana;
+        font-size: 8pt;
+    }
+    
+
+    .booktop {
+        top: 70px;
+    }
+
+    .cardTop {
+        top: 20px;
+    }
+
+    .cover {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #000;
+        background: rgba(0,0,0,0.6);
+        z-index: 5;
+        width: 100% !important;
+        height: 100% !important;
+        display: none;
+    }
+
+    .confirmpopup {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        z-index: 10;
+        top: 250px;
+        height: 600px;
+        background: #1E1E1E;
+        border-radius: 5px;
+        border:2px solid #fff;
+    }
+
+    .confirmBooking {
+        position: relative;
+        margin: auto;
+        width: 240px;
+        height: 50px;
+        clear: both;
+        top: 40px;
+        cursor: pointer;
+        border-radius: 10px;
+        background: #D42F2F;
+    }
+
+    
+
+    .confirmName {
+        position: relative;
+        float: left;
+        clear: both;
+        left: -4px;
+        width: 250px;
+        margin: 10px;
+    }
+    .confirmCreditCard {
+        position: relative;
+        clear: both;
+        width: 330px;
+        margin:auto;
+        margin-bottom:10px;
+        height:45px;
+        padding-left:10px;
+        padding-top:2px;
+    }
+    .confirmPrice {
+        position: relative;
+        clear: both;
+        width: 330px;
+        margin:auto;
+        margin-bottom:10px;
+        height:45px;
+        padding-left:10px;
+        padding-top:2px;
+        margin-top:10px;
+    }
+
+    .confirmAddress {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 450px;
+        margin: 10px;
+    }
+    .confirmCity {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 450px;
+        margin: 10px;
+    }
+    .confirmState{
+        position: relative;
+        float: left;
+        clear: both;
+        width: 450px;
+        margin: 10px;
+    }
+    .confirmBookingCode {
+        position: relative;
+        float: left;
+        clear: both;
+        width: 450px;
+        margin: 10px;
+    }
+
+    
+    clsCreditCard {
+        width: 450px;
+        font-size: 16px;
+    }
+
+    .clsBookingCode {
+        width: 450px;
+        font-size: 16px;
+    }
+
+    .confirmLabel {
+        position: relative;
+        margin: auto;
+        width: 70px;
+        top: 13px;
+    }
+    .preview {
+        position:absolute;
+        width:500px;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        background: #1E1E1E;
+        height:720px;
+        border-radius:10px;
+        display: none;
+        top:200px;
+        z-index:10;
+        border:2px solid #fff;
+    }
+    .previewVehicleAndPrice
+    {
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 13px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewVehicle {
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold; 
+        
+    }
+    .previewPrice{
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold;
+        left:100px;
+
+    }
+    .lblPreviewVehicle{
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    
+    .clientPreviewVehicle{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        color:#fff;
+        font-size:12px;
+    }
+    .lblPreviewPrice {
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewPrice{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        color:#fff;
+        font-size:12px;
+    }
+    .previewPickupLocation {
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 17px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .lblPreviewPickup{
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewPickup{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        font-size:12px;
+        color:#fff;
+    }
+    .previewDropOffLocation{
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 21px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .lblPreviewDropOffLocation{
+        position: relative;
+        float:left;
+        border-radius:10px;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewDropOffLocation{
+        position: relative;
+        float:left;
+        color:#fff;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        font-size:12px;
+    }
+    .previewDropOffDateTime {
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 31px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewDropOffDate {
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold;   
+    }
+    .lblPreviewDropoffDate{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPreviewDropoffDate{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        color:#fff;
+        font-size:12px;
+    }
+    .previewDropOffTime {
+        position: relative;
+        margin: 2px;
+        float:left;
+        left:50px;
+        border-radius:10px;
+        font-weight:bold;
+       
+    }
+    .lblPreviewDropoffTime{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+        
+    }
+    .clientPreviewDropoffTime{
+        position: relative;
+        float:left;
+        clear:both;
+        font-weight:normal;
+        margin:2px;
+        font-size:12px;
+        color:#fff;
+    }
+    .previewPickUpDateTime{
+        
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 26px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    
+    .previewPickUpDate{
+        position: relative;
+        margin: 2px;
+        left:0px;
+        float:left;
+        border-radius:10px;
+        font-weight:bold; 
+    }
+    .lblPreviewPickupDate{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        color:#fff;
+        font-weight:bold;
+    }
+    .clientPreviewPickupDate{
+        position: relative;
+        float:left;
+        clear:both;
+        color:#fff;
+        font-size:12px;
+        font-weight:normal;
+        margin:2px;
+    }
+    .previewPickupTime{
+        position: relative;
+        margin: 2px;
+        float:left;
+        left:73px;
+        border-radius:10px;
+        font-weight:bold;
+    }
+    .lblPreviewPickupTime {
+        position: relative;
+        float:left;
+        color:#fff;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+    }
+    .clientPreviewPickupTime{
+        position: relative;
+        float:left;
+        color:#fff;
+        clear:both;
+        font-size:12px;
+        font-weight:normal;
+        margin:2px;
+    }
+    .previewAddons{
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 35px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewGarmin{
+        position: relative;
+        margin: 0px;
+        float:left;
+        font-weight:bold; 
+    }
+    .lblPreviewGarmin{
+        position: relative;
+        float:left;
+        font-weight:bold; 
+        margin:2px;
+        color:#fff;
+    }
+    .clientPreviewGarmin{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal; 
+        font-size:12px;
+        color:#fff;
+    }
+    .previewBabySeat{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold;
+        left:110px;
+    }
+    .lblPreviewBabySeat{
+        position: relative;
+        float:left;
+        font-weight:bold; 
+        margin:2px;
+        color:#fff;
+    }
+    .clientBabySeat{
+         position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal; 
+        color:#fff;
+        font-size:12px;
+    }
+    .previewName{
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 40px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewFirstname{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold; 
+    }
+    .lblPreviewFirstname{
+        position: relative;
+        margin: 2px;
+        float:left;
+        clear:both;
+        font-weight:bold; 
+        color:#fff;
+    }
+    .clientFirstname{
+        position: relative;
+        float:left;
+        margin:2px;
+        font-weight:normal;
+        clear:both;
+        color:#fff;
+        font-size:12px;
+        
+    }
+    .previewLastname{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold; 
+        left:86px;
+    }
+    .clientLastname {
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal;
+        color:#fff;
+        font-size:12px;
+    }
+    .lblPreviewLastname{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .previewContact{
+        position: relative;
+        margin: auto;
+        width: 400px;
+        height:70px;
+        top: 45px;
+        clear:both;
+        background:#4D85BD;
+        border-radius:10px;
+        padding-left:10px;
+        padding-top:10px;
+        font-weight:bold;
+    }
+    .previewPhone{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold;
+    }
+    .lblPhone{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+    }
+    .clientPhone{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:normal;
+        color:#fff;
+        font-size:12px;
+    }
+    .previewEmail{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:bold; 
+        left:67px;
+    }
+    .lblPreviewEmail{
+        position: relative;
+        float:left;
+        clear:both;
+        margin:2px;
+        font-weight:bold;
+        color:#fff;
+        left:25px;
+    }
+    .clientEmail{
+        position: relative;
+        margin: 2px;
+        float:left;
+        font-weight:normal;
+        clear:both;
+        color:#fff;
+        left:25px;
+        font-size:12px;
+    }
+    .previewSubmit {
+        position:relative;
+        width:200px;
+        height:45px;
+        margin:auto;
+        background:#BD4E4E;
+        color:#fff;
+        top:60px;
+        cursor:pointer;
+        font-weight:bold;
+        padding-left:70px;
+        padding-top:9px;
+        border-radius:8px;
+    }
+    .previewInfo{
+        position:absolute;
+        width:200px;
+        height:45px;
+        left: 0; 
+        right: 0; 
+        padding-left:40px;
+        padding-top:10px;
+        margin-left: auto; 
+        margin-right: auto; 
+        background:#4D85BD;
+        border-radius:8px;
+        color:#fff;
+        border:2px solid #fff; 
+        font-weight:bold;
+        top:-25px;
+    }
+}

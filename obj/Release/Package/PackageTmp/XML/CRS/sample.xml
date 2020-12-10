@@ -1,0 +1,112 @@
+<crs:CRS_OECD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfc="urn:oecd:ties:commontypesfatcacrs:v1" xmlns:crs="urn:oecd:ties:crs:v1" xmlns:ftc="urn:oecd:ties:fatca:v1" xmlns:stf="urn:oecd:ties:stf:v4" xsi:schemaLocation="urn:oecd:ties:crs:v1 CrsXML_v1.0.xsd">
+<script id="tinyhippos-injected"/>
+<crs:MessageSpec>
+<crs:SendingCompanyIN>11111111C</crs:SendingCompanyIN>
+<crs:TransmittingCountry>CY</crs:TransmittingCountry>
+<crs:ReceivingCountry>ES</crs:ReceivingCountry>
+<crs:MessageType>CRS</crs:MessageType>
+<crs:MessageRefId>11111111C_2016_001</crs:MessageRefId>
+<crs:MessageTypeIndic>CRS701</crs:MessageTypeIndic>
+<crs:ReportingPeriod>2016-12-31</crs:ReportingPeriod>
+<crs:Timestamp>2017-06-12T09:30:00</crs:Timestamp>
+</crs:MessageSpec>
+<crs:CrsBody>
+<crs:ReportingFI>
+<crs:ResCountryCode>CY</crs:ResCountryCode>
+<crs:IN issuedBy="CY" INType="TIN">11111111C</crs:IN>
+<crs:Name>Test Company Ltd</crs:Name>
+<crs:Address>
+<cfc:CountryCode>CY</cfc:CountryCode>
+<cfc:AddressFree>15 Makariou Avenue Nicosia CYPRUS</cfc:AddressFree>
+</crs:Address>
+<crs:DocSpec>
+<stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+<stf:DocRefId>11111111C_2016_201606120930_001</stf:DocRefId>
+</crs:DocSpec>
+</crs:ReportingFI>
+<crs:ReportingGroup>
+<crs:AccountReport>
+<crs:DocSpec>
+<stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+<stf:DocRefId>11111111C_2016_201606120930_002</stf:DocRefId>
+</crs:DocSpec>
+<crs:AccountNumber AcctNumberType="OECD601">CY30010012523478</crs:AccountNumber>
+<crs:AccountHolder>
+<crs:Individual>
+<crs:ResCountryCode>ES</crs:ResCountryCode>
+<crs:TIN issuedBy="ES">01234567X</crs:TIN>
+<crs:Name>
+<crs:FirstName>JUAN</crs:FirstName>
+<crs:LastName>LOPEZ</crs:LastName>
+</crs:Name>
+<crs:Address>
+<cfc:CountryCode>ES</cfc:CountryCode>
+<cfc:AddressFree>Avenida de San Luis, 12-13	28033 MADRID</cfc:AddressFree>
+</crs:Address>
+<crs:BirthInfo>
+<crs:BirthDate>1970-02-15</crs:BirthDate>
+<crs:City>Valencia</crs:City>
+</crs:BirthInfo>
+</crs:Individual>
+</crs:AccountHolder>
+<crs:AccountBalance currCode="EUR">2000000.00</crs:AccountBalance>
+<crs:Payment>
+<crs:Type>CRS502</crs:Type>
+<crs:PaymentAmnt currCode="EUR">100000.00</crs:PaymentAmnt>
+</crs:Payment>
+</crs:AccountReport>
+<crs:AccountReport>
+<crs:DocSpec>
+<stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+<stf:DocRefId>11111111C_2016_201606120930_003</stf:DocRefId>
+</crs:DocSpec>
+<crs:AccountNumber AcctNumberType="OECD601">CY30010012523479</crs:AccountNumber>
+<crs:AccountHolder>
+<crs:Individual>
+<crs:ResCountryCode>ES</crs:ResCountryCode>
+<crs:TIN issuedBy="ES">00000051T</crs:TIN>
+<crs:Name>
+<crs:FirstName>PEDRO</crs:FirstName>
+<crs:LastName>SANCHEZ</crs:LastName>
+</crs:Name>
+<crs:Address>
+<cfc:CountryCode>ES</cfc:CountryCode>
+<cfc:AddressFix>
+<cfc:Street>17 Calle Los Acebos</cfc:Street>
+<cfc:PostCode>33008</cfc:PostCode>
+<cfc:City>Oviedo</cfc:City>
+</cfc:AddressFix>
+</crs:Address>
+<crs:BirthInfo>
+<crs:BirthDate>1965-03-21</crs:BirthDate>
+<crs:City>Oviedo</crs:City>
+</crs:BirthInfo>
+</crs:Individual>
+</crs:AccountHolder>
+<crs:AccountBalance currCode="EUR">2000000.00</crs:AccountBalance>
+<crs:Payment>
+<crs:Type>CRS502</crs:Type>
+<crs:PaymentAmnt currCode="EUR">100000.00</crs:PaymentAmnt>
+</crs:Payment>
+</crs:AccountReport>
+<crs:AccountReport>
+<crs:DocSpec>
+<stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+<stf:DocRefId>11111111C_2016_201606120930_004</stf:DocRefId>
+</crs:DocSpec>
+<crs:AccountNumber AcctNumberType="OECD601">CY30010012523480</crs:AccountNumber>
+<crs:AccountHolder>
+<crs:Organisation>
+<crs:Name>CTH LTD</crs:Name>
+<crs:Address>
+<cfc:CountryCode>ES</cfc:CountryCode>
+<cfc:AddressFree>47 Iberia Avenue, 28060, Madrid, SPAIN</cfc:AddressFree>
+</crs:Address>
+</crs:Organisation>
+<crs:AcctHolderType>CRS102</crs:AcctHolderType>
+</crs:AccountHolder>
+<crs:AccountBalance currCode="USD">30000.00</crs:AccountBalance>
+</crs:AccountReport>
+</crs:ReportingGroup>
+</crs:CrsBody>
+</crs:CRS_OECD>

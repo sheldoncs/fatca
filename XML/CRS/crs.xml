@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CRS_OECD  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfc="urn:oecd:ties:commontypesfatcacrs:v1" xmlns:crs="urn:oecd:ties:crs:v1" xmlns:ftc="urn:oecd:ties:fatca:v1" xmlns:stf="urn:oecd:ties:stf:v4" xsi:schemaLocation="urn:oecd:ties:crs:v1 CrsXML_v1.0.xsd">
+  <crs:MessageSpec>
+    <SendingCompanyIN/>
+	<TransmittingCountry>BB<TransmittingCountry/>
+	<ReceivingCountry>US</ReceivingCountry>
+	<MessageType>CRS</MessageType>
+	<Warning/>
+	<MessageRefId>CRS90.00000.LE.052.2017_0007</MessageRefId>
+	<MessageTypeIndic/>
+	<CorrMessageRefID/>
+	<ReportingPeriod>2017-12-31</ReportingPeriod>
+	<Timestamp>2018-07-25T15:36:00</Timestamp>
+  </crs:MessageSpec>
+  <crs:CrsBody>
+    <crs:ReportingFI>
+	   <crs:ResCountryCode/>
+	   <crs:IN/>
+	   <crs:Name/>
+	   <crs:Address/>
+	   <crs:DocSpec>
+	     <stf::DocTypeIndic/>
+		 <stf:DocRefId/>
+		 <stf:CorrMessageRefId/>
+		 <stf:CorrDocRefId/>
+	   </crs:DocSpec>
+	</crs:ReportingFI>
+	<crs:ReportingGroup>
+	  <crs:Sponsor/>
+	  <crs:Intermediary/>
+	  <crs:AccountReport>
+	    <crs:DocSpec>
+		  <stf:DocTypeIndic/>
+		  <stf:DocRefId/>
+		  <stf:CorrMessageRefId/>
+		  <stf:CorrDocRefId/>
+		</crs:DocSpec>
+		<crs:AccountNumber/>
+		<crs:AccountHolder/>
+		<crs:ControllingPerson/>
+		<crs:AccountBalance/>
+		<crs:Payment/>
+	  </crs:AccountReport>
+	  <crs:PoolReport/>
+	</crs:ReportingGroup>
+  </crs:CrsBody>
+</CRS_OECD>

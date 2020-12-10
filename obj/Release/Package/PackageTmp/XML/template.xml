@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ftc:FATCA_OECD xsi:schemaLocation="urn:oecd:ties:fatca:v2 FatcaXML_v2.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sfa="urn:oecd:ties:stffatcatypes:v2" xmlns:ftc="urn:oecd:ties:fatca:v2" version="2.0">
+<ftc:AccountReport>
+                <ftc:DocSpec>
+                    <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+                    <ftc:DocRefId></ftc:DocRefId>
+                    <ftc:CorrMessageRefId/>
+                    <ftc:CorrDocRefId/>
+                </ftc:DocSpec>
+                <ftc:AccountNumber></ftc:AccountNumber>
+                <ftc:AccountHolder>
+                    <ftc:Individual>
+                        <sfa:ResCountryCode></sfa:ResCountryCode>
+                        <sfa:TIN issuedBy="US"></sfa:TIN>
+                        <sfa:Name>
+                            <sfa:FirstName></sfa:FirstName>
+                            <sfa:LastName></sfa:LastName>
+                            <sfa:GenerationIdentifier/>
+                            <sfa:Suffix/>
+                            <sfa:GeneralSuffix/>
+                        </sfa:Name>
+                        <sfa:Address>
+                            <sfa:CountryCode></sfa:CountryCode>
+                            <sfa:AddressFix>
+                                <sfa:Street></sfa:Street>
+                                <sfa:BuildingIdentifier/>
+                                <sfa:SuiteIdentifier/>
+                                <sfa:FloorIdentifier/>
+                                <sfa:DistrictName/>
+                                <sfa:POB/>
+                                <sfa:PostCode></sfa:PostCode>
+                                <sfa:City></sfa:City>
+                                <sfa:CountrySubentity/>
+                            </sfa:AddressFix>
+                            <sfa:AddressFree/>
+                        </sfa:Address>
+                        <sfa:BirthInfo>
+                            <sfa:BirthDate></sfa:BirthDate>
+                            <sfa:City/>
+                            <sfa:CitySubentity/>
+                        </sfa:BirthInfo>
+                    </ftc:Individual>
+                </ftc:AccountHolder>
+                <ftc:AccountBalance currCode="BBD"></ftc:AccountBalance>
+                <ftc:Payment>
+                    <ftc:Type>FATCA502</ftc:Type>
+                    <ftc:PaymentTypeDesc/>
+                    <ftc:PaymentAmnt currCode="BBD"></ftc:PaymentAmnt>
+                </ftc:Payment>
+</ftc:AccountReport>
+</ftc:FATCA_OECD>

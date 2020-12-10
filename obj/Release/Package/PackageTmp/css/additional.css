@@ -1,0 +1,2883 @@
+﻿* {
+  box-sizing: border-box;
+}
+.ui-btn.ui-corner-none {
+    border-radius: 0;
+   }
+@media screen and (max-width: 480px) 
+{
+    .landingMobilePage{
+       height:2500px;
+       width:100%;
+       
+    }
+    .mobileButtons{
+     position:relative;
+     width:200px!important;
+     margin:auto;
+     height:60px;
+     top:-260px;
+     left:27px;
+     clear:both;
+    }
+    .signinLogo{
+        position:relative;
+        float:left;
+        margin:10px;
+        left:100px;
+        top:30px;
+    }
+    .landingPage{
+       display:none;
+    }
+    .logoSize{
+      width:250px;
+      height:67px;
+  }
+    
+    .bajan {
+        position:relative;
+        margin:auto;
+        width:250px;
+        clear:both;
+    }
+    .desktop{
+       display:none;
+    }
+    .mobileBottom{
+         display:none;
+    }
+    .landingMobilePage{
+        height:700px;
+        width:100%;
+    }
+     .topHeader{
+      position:relative;
+      margin:auto;
+      clear:both;
+      width:100%;
+      background:#192032;
+      height:154px;
+      transform:scale(1);
+      box-shadow: 0px 0px 8px 2px #000000;
+  }
+  .logo{
+     position:relative;
+     margin:auto;
+     width:400px;
+      top:15px;
+  }
+   .mobilebuttons{
+     position:relative;
+     margin:auto;
+     width:340px!important;
+     height:60px;
+     top:-80px;
+     left:2px;
+     clear:both;
+ }
+   .mobilebtn{
+     position:relative;
+     float:left;
+     height:58px;
+     width:60px;
+     top:109px;
+     margin:2px;
+     cursor:pointer;
+     
+     border-radius:7px;
+     padding-top:15px;
+ }
+ .title {
+     
+      background:#A32431;
+      width:300px!important;
+      height:55px;
+      margin:auto;
+      clear:both;
+      top:-30px;
+      border-top-left-radius:5px;
+      border-top-right-radius:5px;
+      position:relative;
+      margin:12px;
+      left:-12px;
+      
+  }
+ .tabOrder{
+       position:relative;
+       margin:auto;
+       top:20px;
+       width:300px!important;
+       background:#192032;
+       padding-top:20px;
+       left:-2px;
+       border-radius:5px;
+      height:64%;
+   }
+   .tabSelect{
+       position:relative;
+       margin:auto;
+       width:270px!important;
+       height:50px;
+       background:#C1946D;
+       cursor:pointer;
+       clear:both;
+       margin:12px;
+       border-radius:5px;
+   }
+   .tabUnSelect{
+       position:relative;
+       margin:auto;
+       width:270px!important;
+       height:50px;
+       background:#707370;
+       cursor:pointer;
+       margin:12px;
+       clear:both;
+       border-radius:5px;
+   }
+    .stepContainer{
+       position:relative;
+       margin:auto;
+       top:20px;
+       clear:both;
+       width:80%!important;
+       border-radius:15px;
+       height:90%;
+       top:0px;
+       z-index:20;
+       display:none;
+       background:#A32431;
+   }
+   .step{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:40px;
+       height:60px;
+       height:300px;
+       width:100%!important;
+   }
+   .step1{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:30px;
+       height:60px;
+       height:300px;
+       width:100%!important;
+   }
+   .step2{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:40px;
+       height:370px;
+       width:100%!important;
+   }
+    .step3{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:20px;
+       height:500px;
+       width:100%!important;
+   }
+   .step4{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:10px;
+       height:300px;
+       width:100%!important;
+   }
+   .step5{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:140px;
+       height:300px;
+       width:20%!important;
+   }
+    .saladSize{
+        position:relative;
+        width:280px;
+        margin:auto;
+        clear:both;
+    }
+    .salad{
+        position:relative;
+        width:280px;
+        margin:auto;
+        clear:both;
+    }
+   .portionSize {
+        position:relative;
+        width:250px;
+        margin:auto;
+        clear:both;
+    }
+   .toCart{
+    position:relative;
+    float:right;
+    margin:10px;
+    width:50px;
+    height:40px;
+    right:30px;
+    z-index:20;
+    top:-90px;
+ }
+   .pizzaCntDiv {
+    position:absolute;
+    float:right;
+    right:-52px;
+    margin:auto;
+    width:80px;
+    height:40px;
+    top:21px;
+ }
+ .tallypricediv{
+        position:relative;
+        float:right;
+        clear:both;
+        right:-55px;
+        width:200px;
+        margin:7px;
+        top:23px;
+ }
+  .close{
+        position:relative;
+        float:right;
+        width:8px;
+        top:7px;
+        color:#000;
+        font-weight:bold;
+        font-size:20px;
+        right:18px;
+    }
+  .closeM{
+        position:relative;
+        float:right;
+        width:8px;
+        top:7px;
+        color:#fff;
+        font-weight:bold;
+        font-size:20px;
+        right:18px;
+        cursor:pointer;
+    }
+    .footerHeaderMobile{
+      position:relative;
+      /*bottom:0px !important;*/
+      clear:both;
+      /*background:#AB1D24;*/
+      width:370px!important;
+      height:110px;
+      margin:auto;
+      top:50px;
+    }
+    .bottom{
+        display:none;
+    }
+     
+    .bottomMobile{
+       position:relative;
+       width:100%;
+       bottom:0px !important;
+       height:100px!important;
+       margin:auto;
+       background:#000;
+    }
+    
+    .btnFooter{
+     position:relative;
+     float:left;
+     height:33px;
+     width:110px;
+     margin:15px;
+     cursor:pointer;
+     background:#B03030;
+     border-radius:7px;
+     padding-top:9px;
+ }
+ .addtocart{
+    position:relative;
+    clear:both;
+    margin:auto;
+    width:230px;
+    height:200px;
+    border:0px solid #428A42;  
+    border-radius:10px;
+    background:#707370;
+ }
+  .btnGrey{
+     position:relative;
+     float:left;
+     margin:15px;
+     height:40px;
+     width:200px;
+     background:#7B859E;
+     border-radius:7px;
+ }
+  .btn{
+     position:relative;
+     float:left;
+     margin:15px;
+     height:40px;
+     width:200px;
+     cursor:pointer;
+     background:#192032;
+     border-radius:7px;
+ }
+  .deliveryClick{
+        
+        border:2px solid #428A42;
+        position:relative;
+        float:left;
+        width:65px;
+        height:65px;
+        background:#192032;
+        color:#fff;
+        top:65px;
+        left:15px;
+        margin:10px;
+        padding-top:21px;
+        font-size:14px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    .delivery{
+        position:relative;
+        float:left;
+        width:65px;
+        height:65px;
+        background:#192032;
+        color:#fff;
+        top:65px;
+        left:15px;
+        margin:10px;
+        padding-top:22px;
+        font-size:14px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    .condition {
+        position: relative;
+        float: left;
+        margin: 10px;
+        width: 77px;
+        color: #477847;
+        top: 87px;
+        
+    }
+    .carryOut{
+        position:relative;
+        float:left;
+        width:65px;
+        height:65px;
+        background:#192032;
+        color:#fff;
+        top:65px;
+        left:-55px;
+        margin:10px;
+        padding-top:22px;
+        font-size:14px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    
+    .carryOutClick{
+       
+        border:2px solid #428A42;
+        position:relative;
+        float:left;
+        width:65px;
+        height:65px;
+        background:#192032;
+        color:#fff;
+        top:65px;
+        left:-55px;
+        margin:10px;
+        padding-top:21px;
+        font-size:14px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    .order{
+      position:relative;
+      margin:auto;
+      top:-90px;
+      width:270px;
+      clear:both;
+      z-index:20;
+      height:55px;
+      left:17px;
+      background-size:cover; 
+  }
+  .cover{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color:#000;
+        background: rgba(0,0,0,0.6);
+        z-index: 5;
+        width: 100% !important;
+        height: 100% !important;
+        display:none;
+ }
+ .typepopup{
+     display:none;
+         position:absolute;
+         left: 0;
+         right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:10;
+         top:30%!important;
+         width:300px;
+         height:180px;
+         background: #fff;
+         border-radius:5px;
+         z-index:20;
+ }
+ .popup{
+     display:none;
+         position:absolute;
+         left: 0;
+         right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:10;
+         top:150px;
+         width:40%!important;
+         height:650px;
+         background: #fff;
+         border-radius:5px;
+         z-index:20;
+ }
+ .textMobileFont {
+        font-weight: normal;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+        text-rendering: optimizeLegibility !important;
+        -webkit-font-smoothing: antialiased !important;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:12px;
+        color:#fff;
+ }
+ .bajan{
+     padding-top:20px;
+ }
+}
+@media screen and (min-width: 481px) and (max-width: 599px) 
+{
+    .landingPage{
+       height:1600px;
+       width:100%;
+    }
+    .headerSize {
+      width:400px;
+      height:105px;
+  }
+  .downloadTop{
+     position:relative;
+     width:150px!important;
+     margin:auto;
+     clear:both;
+     top:23px;
+     clear:both;
+  }
+    .background 
+     {
+         background-image: url('../images/paradise/blurbg.png');
+         position:relative;
+         margin:auto;
+         clear:both;
+         top:0px;
+         background-repeat:no-repeat;
+         width:100%;
+         height:40%;
+         background-size:cover; 
+     }
+    .foodType{
+         width:350px;
+         height:142px;
+     }
+     .lunch {
+     position:relative;
+     float:left;
+     top:20px;
+     margin:0px;
+     width:33.33%!important;
+     margin:10px;
+     clear:both;
+ }
+ 
+ .pizza {
+     position:relative;
+     float:left;
+     top:20px;
+     width:33.33%!important;
+     margin:10px;
+     clear:both;
+ }
+ .drinks {
+     position:relative;
+     float:left;
+     top:20px;
+     margin:0px;
+     width:33.33%!important;
+     margin:10px;
+     clear:both;
+ }
+ .hide {
+     display:none;
+ }
+ .vclass{
+     position:relative;
+     float:left;
+     left:0px;
+     top:10px;
+     width:430px;
+     height:300px; 
+     border-radius:10px;
+     border:5px solid #000;
+     margin:20px;
+ }
+ .video{
+     position:relative;
+     float:left;
+     height:320px;
+     width:33%!important;
+     margin:0px;
+     top:20px;
+     clear:both;
+     border-radius:10px;
+ }
+ .spacesize {
+     width:150px;
+     height:150px;
+ }
+ .space{
+    position:relative;
+    float:left;
+    width:33%!important;
+    margin:0px;
+    left:27%!important;
+    top:120px;
+    clear:both;
+    display:none;
+    clear:both;
+ }
+ .download {
+     position:relative;
+     width:150px!important;
+     margin:auto;
+     top:120px;
+     clear:both;
+ }
+  
+}
+@media screen and (min-width:481) and (max-width:599){
+    .landingMobilePage{
+       height:2500px;
+       width:100%;
+       
+    }
+    .mobileButtons{
+     position:relative;
+     width:200px!important;
+     margin:auto;
+     height:60px;
+     top:-260px;
+     left:27px;
+     clear:both;
+    }
+    .signinLogo{
+        position:relative;
+        float:left;
+        margin:10px;
+        left:100px;
+        top:30px;
+    }
+    .landingPage{
+       display:none;
+    }
+    .logoSize{
+      width:250px;
+      height:67px;
+  }
+    
+    .bajan {
+        position:relative;
+        margin:auto;
+        width:250px;
+        clear:both;
+    }
+    .desktop{
+       display:none;
+    }
+    .mobileBottom{
+         display:none;
+    }
+    .landingMobilePage{
+        height:700px;
+        width:100%;
+    }
+     .topHeader{
+      position:relative;
+      margin:auto;
+      clear:both;
+      width:100%;
+      background:#192032;
+      height:154px;
+      transform:scale(1);
+      box-shadow: 0px 0px 8px 2px #000000;
+  }
+  .logo{
+     position:relative;
+     margin:auto;
+     width:400px;
+      top:15px;
+  }
+   .mobilebuttons{
+     position:relative;
+     margin:auto;
+     width:340px!important;
+     height:60px;
+     top:-80px;
+     left:2px;
+     clear:both;
+ }
+   .mobilebtn{
+     position:relative;
+     float:left;
+     height:58px;
+     width:60px;
+     top:109px;
+     margin:2px;
+     cursor:pointer;
+     
+     border-radius:7px;
+     padding-top:15px;
+ }
+ .title {
+     
+      background:#A32431;
+      width:300px!important;
+      height:55px;
+      margin:auto;
+      clear:both;
+      top:-30px;
+      border-top-left-radius:5px;
+      border-top-right-radius:5px;
+      position:relative;
+      margin:12px;
+      left:-12px;
+      
+  }
+ .tabOrder{
+       position:relative;
+       margin:auto;
+       top:20px;
+       width:300px!important;
+       background:#192032;
+       padding-top:20px;
+       left:-2px;
+       border-radius:5px;
+      height:64%;
+   }
+   .tabSelect{
+       position:relative;
+       margin:auto;
+       width:270px!important;
+       height:50px;
+       background:#C1946D;
+       cursor:pointer;
+       clear:both;
+       margin:12px;
+       border-radius:5px;
+   }
+   .tabUnSelect{
+       position:relative;
+       margin:auto;
+       width:270px!important;
+       height:50px;
+       background:#707370;
+       cursor:pointer;
+       margin:12px;
+       clear:both;
+       border-radius:5px;
+   }
+    .stepContainer{
+       position:relative;
+       margin:auto;
+       top:20px;
+       clear:both;
+       width:80%!important;
+       border-radius:15px;
+       height:90%;
+       top:0px;
+       z-index:20;
+       display:none;
+       background:#A32431;
+   }
+   .step{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:40px;
+       height:60px;
+       height:300px;
+       width:100%!important;
+   }
+   .step1{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:30px;
+       height:60px;
+       height:300px;
+       width:100%!important;
+   }
+   .step2{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:40px;
+       height:370px;
+       width:100%!important;
+   }
+    .step3{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:20px;
+       height:500px;
+       width:100%!important;
+   }
+   .step4{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:10px;
+       height:300px;
+       width:100%!important;
+   }
+   .step5{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:140px;
+       height:300px;
+       width:20%!important;
+   }
+    .saladSize{
+        position:relative;
+        width:280px;
+        margin:auto;
+        clear:both;
+    }
+    .salad{
+        position:relative;
+        width:280px;
+        margin:auto;
+        clear:both;
+    }
+   .portionSize {
+        position:relative;
+        width:250px;
+        margin:auto;
+        clear:both;
+    }
+   .toCart{
+    position:relative;
+    float:right;
+    margin:10px;
+    width:50px;
+    height:40px;
+    right:30px;
+    z-index:20;
+    top:-90px;
+ }
+   .pizzaCntDiv {
+    position:absolute;
+    float:right;
+    right:-52px;
+    margin:auto;
+    width:80px;
+    height:40px;
+    top:21px;
+ }
+ .tallypricediv{
+        position:relative;
+        float:right;
+        clear:both;
+        right:-55px;
+        width:200px;
+        margin:7px;
+        top:23px;
+ }
+  .close{
+        position:relative;
+        float:right;
+        width:8px;
+        top:7px;
+        color:#000;
+        font-weight:bold;
+        font-size:20px;
+        right:18px;
+    }
+  .closeM{
+        position:relative;
+        float:right;
+        width:8px;
+        top:7px;
+        color:#fff;
+        font-weight:bold;
+        font-size:20px;
+        right:18px;
+        cursor:pointer;
+    }
+    .footerHeaderMobile{
+      position:relative;
+      /*bottom:0px !important;*/
+      clear:both;
+      /*background:#AB1D24;*/
+      width:370px!important;
+      height:110px;
+      margin:auto;
+      top:50px;
+    }
+    .bottom{
+        display:none;
+    }
+     
+    .bottomMobile{
+       position:relative;
+       width:100%;
+       bottom:0px !important;
+       height:100px!important;
+       margin:auto;
+       background:#000;
+    }
+    
+    .btnFooter{
+     position:relative;
+     float:left;
+     height:33px;
+     width:110px;
+     margin:15px;
+     cursor:pointer;
+     background:#B03030;
+     border-radius:7px;
+     padding-top:9px;
+ }
+ .addtocart{
+    position:relative;
+    clear:both;
+    margin:auto;
+    width:230px;
+    height:200px;
+    border:0px solid #428A42;  
+    border-radius:10px;
+    background:#707370;
+ }
+  .btnGrey{
+     position:relative;
+     float:left;
+     margin:15px;
+     height:40px;
+     width:200px;
+     background:#7B859E;
+     border-radius:7px;
+ }
+  .btn{
+     position:relative;
+     float:left;
+     margin:15px;
+     height:40px;
+     width:200px;
+     cursor:pointer;
+     background:#192032;
+     border-radius:7px;
+ }
+  .deliveryClick{
+        
+        border:2px solid #428A42;
+        position:relative;
+        float:left;
+        width:65px;
+        height:65px;
+        background:#192032;
+        color:#fff;
+        top:65px;
+        left:15px;
+        margin:10px;
+        padding-top:21px;
+        font-size:14px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    .delivery{
+        position:relative;
+        float:left;
+        width:65px;
+        height:65px;
+        background:#192032;
+        color:#fff;
+        top:65px;
+        left:15px;
+        margin:10px;
+        padding-top:22px;
+        font-size:14px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    .condition {
+        position: relative;
+        float: left;
+        margin: 10px;
+        width: 77px;
+        color: #477847;
+        top: 87px;
+        
+    }
+    .carryOut{
+        position:relative;
+        float:left;
+        width:65px;
+        height:65px;
+        background:#192032;
+        color:#fff;
+        top:65px;
+        left:-55px;
+        margin:10px;
+        padding-top:22px;
+        font-size:14px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    
+    .carryOutClick{
+       
+        border:2px solid #428A42;
+        position:relative;
+        float:left;
+        width:65px;
+        height:65px;
+        background:#192032;
+        color:#fff;
+        top:65px;
+        left:-55px;
+        margin:10px;
+        padding-top:21px;
+        font-size:14px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    .order{
+      position:relative;
+      margin:auto;
+      top:-90px;
+      width:270px;
+      clear:both;
+      z-index:20;
+      height:55px;
+      left:17px;
+      background-size:cover; 
+  }
+  .cover{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color:#000;
+        background: rgba(0,0,0,0.6);
+        z-index: 5;
+        width: 100% !important;
+        height: 100% !important;
+        display:none;
+ }
+ .typepopup{
+     display:none;
+         position:absolute;
+         left: 0;
+         right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:10;
+         top:30%!important;
+         width:300px;
+         height:180px;
+         background: #fff;
+         border-radius:5px;
+         z-index:20;
+ }
+ .popup{
+     display:none;
+         position:absolute;
+         left: 0;
+         right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:10;
+         top:150px;
+         width:40%!important;
+         height:650px;
+         background: #fff;
+         border-radius:5px;
+         z-index:20;
+ }
+ 
+ .textMobileFont {
+        font-weight: normal;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+        text-rendering: optimizeLegibility !important;
+        -webkit-font-smoothing: antialiased !important;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:12px;
+        color:#fff;
+ }
+ .bajan{
+     padding-top:20px;
+ }
+}
+@media screen and (min-width: 481px) and (max-width: 599px) 
+{
+    .landingPage{
+       height:1600px;
+       width:100%;
+    }
+    .headerSize {
+      width:400px;
+      height:105px;
+  }
+  .downloadTop{
+     position:relative;
+     width:150px!important;
+     margin:auto;
+     clear:both;
+     top:23px;
+     clear:both;
+  }
+    .background 
+     {
+         background-image: url('../images/paradise/blurbg.png');
+         position:relative;
+         margin:auto;
+         clear:both;
+         top:0px;
+         background-repeat:no-repeat;
+         width:100%;
+         height:40%;
+         background-size:cover; 
+     }
+    .foodType{
+         width:350px;
+         height:142px;
+     }
+     .lunch {
+     position:relative;
+     float:left;
+     top:20px;
+     margin:0px;
+     width:33.33%!important;
+     margin:10px;
+     clear:both;
+ }
+ 
+ .pizza {
+     position:relative;
+     float:left;
+     top:20px;
+     width:33.33%!important;
+     margin:10px;
+     clear:both;
+ }
+ .drinks {
+     position:relative;
+     float:left;
+     top:20px;
+     margin:0px;
+     width:33.33%!important;
+     margin:10px;
+     clear:both;
+ }
+ .hide {
+     display:none;
+ }
+ .vclass{
+     position:relative;
+     float:left;
+     left:0px;
+     top:10px;
+     width:430px;
+     height:300px; 
+     border-radius:10px;
+     border:5px solid #000;
+     margin:20px;
+ }
+ .video{
+     position:relative;
+     float:left;
+     height:320px;
+     width:33%!important;
+     margin:0px;
+     top:20px;
+     clear:both;
+     border-radius:10px;
+ }
+ .spacesize {
+     width:150px;
+     height:150px;
+ }
+ .space{
+    position:relative;
+    float:left;
+    width:33%!important;
+    margin:0px;
+    left:27%!important;
+    top:120px;
+    clear:both;
+    display:none;
+    clear:both;
+ }
+ .download {
+     position:relative;
+     width:150px!important;
+     margin:auto;
+     top:120px;
+     clear:both;
+ }
+}
+@media screen and (min-width: 600px) and (max-width: 767px) 
+{
+  .landingMobilePage{
+       height:2500px;
+       width:100%;
+       
+    }
+    .mobileButtons{
+     position:relative;
+     width:200px!important;
+     margin:auto;
+     height:60px;
+     top:-260px;
+     left:27px;
+     clear:both;
+    }
+    .signinLogo{
+        position:relative;
+        float:left;
+        margin:10px;
+        left:100px;
+        top:30px;
+    }
+    .landingPage{
+       display:none;
+    }
+    .logoSize{
+      width:250px;
+      height:67px;
+  }
+    
+    .bajan {
+        position:relative;
+        margin:auto;
+        width:250px;
+        clear:both;
+    }
+    .desktop{
+       display:none;
+    }
+    .mobileBottom{
+         display:none;
+    }
+    .landingMobilePage{
+        height:700px;
+        width:100%;
+    }
+     .topHeader{
+      position:relative;
+      margin:auto;
+      clear:both;
+      width:100%;
+      background:#192032;
+      height:154px;
+      transform:scale(1);
+      box-shadow: 0px 0px 8px 2px #000000;
+  }
+  .logo{
+     position:relative;
+     margin:auto;
+     width:400px;
+      top:15px;
+  }
+   .mobilebuttons{
+     position:relative;
+     margin:auto;
+     width:340px!important;
+     height:60px;
+     top:-80px;
+     left:2px;
+     clear:both;
+ }
+   .mobilebtn{
+     position:relative;
+     float:left;
+     height:58px;
+     width:60px;
+     top:109px;
+     margin:2px;
+     cursor:pointer;
+     
+     border-radius:7px;
+     padding-top:15px;
+ }
+ .title {
+     
+      background:#A32431;
+      width:300px!important;
+      height:55px;
+      margin:auto;
+      clear:both;
+      top:-30px;
+      border-top-left-radius:5px;
+      border-top-right-radius:5px;
+      position:relative;
+      margin:12px;
+      left:-12px;
+      
+  }
+ .tabOrder{
+       position:relative;
+       margin:auto;
+       top:20px;
+       width:300px!important;
+       background:#192032;
+       padding-top:20px;
+       left:-2px;
+       border-radius:5px;
+      height:64%;
+   }
+   .tabSelect{
+       position:relative;
+       margin:auto;
+       width:270px!important;
+       height:50px;
+       background:#C1946D;
+       cursor:pointer;
+       clear:both;
+       margin:12px;
+       border-radius:5px;
+   }
+   .tabUnSelect{
+       position:relative;
+       margin:auto;
+       width:270px!important;
+       height:50px;
+       background:#707370;
+       cursor:pointer;
+       margin:12px;
+       clear:both;
+       border-radius:5px;
+   }
+    .stepContainer{
+       position:relative;
+       margin:auto;
+       top:20px;
+       clear:both;
+       width:80%!important;
+       border-radius:15px;
+       height:90%;
+       top:0px;
+       z-index:20;
+       display:none;
+       background:#A32431;
+   }
+   .step{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:40px;
+       height:60px;
+       height:300px;
+       width:100%!important;
+   }
+   .step1{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:30px;
+       height:60px;
+       height:300px;
+       width:100%!important;
+   }
+   .step2{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:40px;
+       height:370px;
+       width:100%!important;
+   }
+    .step3{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:20px;
+       height:500px;
+       width:100%!important;
+   }
+   .step4{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:10px;
+       height:300px;
+       width:100%!important;
+   }
+   .step5{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:140px;
+       height:300px;
+       width:20%!important;
+   }
+    .saladSize{
+        position:relative;
+        width:280px;
+        margin:auto;
+        clear:both;
+    }
+    .salad{
+        position:relative;
+        width:280px;
+        margin:auto;
+        clear:both;
+    }
+   .portionSize {
+        position:relative;
+        width:250px;
+        margin:auto;
+        clear:both;
+    }
+   .toCart{
+    position:relative;
+    float:right;
+    margin:10px;
+    width:50px;
+    height:40px;
+    right:30px;
+    z-index:20;
+    top:-90px;
+ }
+   .pizzaCntDiv {
+    position:absolute;
+    float:right;
+    right:-52px;
+    margin:auto;
+    width:80px;
+    height:40px;
+    top:21px;
+ }
+ .tallypricediv{
+        position:relative;
+        float:right;
+        clear:both;
+        right:-55px;
+        width:200px;
+        margin:7px;
+        top:23px;
+ }
+  .close{
+        position:relative;
+        float:right;
+        width:8px;
+        top:7px;
+        color:#000;
+        font-weight:bold;
+        font-size:20px;
+        right:18px;
+    }
+  .closeM{
+        position:relative;
+        float:right;
+        width:8px;
+        top:7px;
+        color:#fff;
+        font-weight:bold;
+        font-size:20px;
+        right:18px;
+        cursor:pointer;
+    }
+    .footerHeaderMobile{
+      position:relative;
+      /*bottom:0px !important;*/
+      clear:both;
+      /*background:#AB1D24;*/
+      width:370px!important;
+      height:110px;
+      margin:auto;
+      top:50px;
+    }
+    .bottom{
+        display:none;
+    }
+     
+    .bottomMobile{
+       position:relative;
+       width:100%;
+       bottom:0px !important;
+       height:100px!important;
+       margin:auto;
+       background:#000;
+    }
+    
+    .btnFooter{
+     position:relative;
+     float:left;
+     height:33px;
+     width:110px;
+     margin:15px;
+     cursor:pointer;
+     background:#B03030;
+     border-radius:7px;
+     padding-top:9px;
+ }
+ .addtocart{
+    position:relative;
+    clear:both;
+    margin:auto;
+    width:230px;
+    height:200px;
+    border:0px solid #428A42;  
+    border-radius:10px;
+    background:#707370;
+ }
+  .btnGrey{
+     position:relative;
+     float:left;
+     margin:15px;
+     height:40px;
+     width:200px;
+     background:#7B859E;
+     border-radius:7px;
+ }
+  .btn{
+     position:relative;
+     float:left;
+     margin:15px;
+     height:40px;
+     width:200px;
+     cursor:pointer;
+     background:#192032;
+     border-radius:7px;
+ }
+  .deliveryClick{
+        
+        border:2px solid #428A42;
+        position:relative;
+        float:left;
+        width:65px;
+        height:65px;
+        background:#192032;
+        color:#fff;
+        top:65px;
+        left:15px;
+        margin:10px;
+        padding-top:21px;
+        font-size:14px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    .delivery{
+        position:relative;
+        float:left;
+        width:65px;
+        height:65px;
+        background:#192032;
+        color:#fff;
+        top:65px;
+        left:15px;
+        margin:10px;
+        padding-top:22px;
+        font-size:14px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    .condition {
+        position: relative;
+        float: left;
+        margin: 10px;
+        width: 77px;
+        color: #477847;
+        top: 87px;
+        
+    }
+    .carryOut{
+        position:relative;
+        float:left;
+        width:65px;
+        height:65px;
+        background:#192032;
+        color:#fff;
+        top:65px;
+        left:-55px;
+        margin:10px;
+        padding-top:22px;
+        font-size:14px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    
+    .carryOutClick{
+       
+        border:2px solid #428A42;
+        position:relative;
+        float:left;
+        width:65px;
+        height:65px;
+        background:#192032;
+        color:#fff;
+        top:65px;
+        left:-55px;
+        margin:10px;
+        padding-top:21px;
+        font-size:14px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    .order{
+      position:relative;
+      margin:auto;
+      top:-90px;
+      width:270px;
+      clear:both;
+      z-index:20;
+      height:55px;
+      left:17px;
+      background-size:cover; 
+  }
+  .cover{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color:#000;
+        background: rgba(0,0,0,0.6);
+        z-index: 5;
+        width: 100% !important;
+        height: 100% !important;
+        display:none;
+ }
+ .typepopup{
+     display:none;
+         position:absolute;
+         left: 0;
+         right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:10;
+         top:30%!important;
+         width:300px;
+         height:180px;
+         background: #fff;
+         border-radius:5px;
+         z-index:20;
+ }
+ .popup{
+     display:none;
+         position:absolute;
+         left: 0;
+         right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:10;
+         top:150px;
+         width:40%!important;
+         height:650px;
+         background: #fff;
+         border-radius:5px;
+         z-index:20;
+ }
+ .textMobileFont {
+        font-weight: normal;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+        text-rendering: optimizeLegibility !important;
+        -webkit-font-smoothing: antialiased !important;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:12px;
+        color:#fff;
+ }
+ .bajan{
+     padding-top:20px;
+ }
+}
+@media screen and (min-width: 481px) and (max-width: 599px) 
+{
+    .landingPage{
+       height:1600px;
+       width:100%;
+    }
+    .headerSize {
+      width:400px;
+      height:105px;
+  }
+  .downloadTop{
+     position:relative;
+     width:150px!important;
+     margin:auto;
+     clear:both;
+     top:23px;
+     clear:both;
+  }
+    .background 
+     {
+         background-image: url('../images/paradise/blurbg.png');
+         position:relative;
+         margin:auto;
+         clear:both;
+         top:0px;
+         background-repeat:no-repeat;
+         width:100%;
+         height:40%;
+         background-size:cover; 
+     }
+    .foodType{
+         width:350px;
+         height:142px;
+     }
+     .lunch {
+     position:relative;
+     float:left;
+     top:20px;
+     margin:0px;
+     width:33.33%!important;
+     margin:10px;
+     clear:both;
+ }
+ 
+ .pizza {
+     position:relative;
+     float:left;
+     top:20px;
+     width:33.33%!important;
+     margin:10px;
+     clear:both;
+ }
+ .drinks {
+     position:relative;
+     float:left;
+     top:20px;
+     margin:0px;
+     width:33.33%!important;
+     margin:10px;
+     clear:both;
+ }
+ .hide {
+     display:none;
+ }
+ .vclass{
+     position:relative;
+     float:left;
+     left:0px;
+     top:10px;
+     width:430px;
+     height:300px; 
+     border-radius:10px;
+     border:5px solid #000;
+     margin:20px;
+ }
+ .video{
+     position:relative;
+     float:left;
+     height:320px;
+     width:33%!important;
+     margin:0px;
+     top:20px;
+     clear:both;
+     border-radius:10px;
+ }
+ .spacesize {
+     width:150px;
+     height:150px;
+ }
+ .space{
+    position:relative;
+    float:left;
+    width:33%!important;
+    margin:0px;
+    left:27%!important;
+    top:120px;
+    clear:both;
+    display:none;
+    clear:both;
+ }
+ .download {
+     position:relative;
+     width:150px!important;
+     margin:auto;
+     top:120px;
+     clear:both;
+ }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) 
+{
+  .landingMobilePage{
+       height:2500px;
+       width:100%;
+       
+    }
+    .mobileButtons{
+     position:relative;
+     width:200px!important;
+     margin:auto;
+     height:60px;
+     top:-260px;
+     left:27px;
+     clear:both;
+    }
+    .signinLogo{
+        position:relative;
+        float:left;
+        margin:10px;
+        left:100px;
+        top:30px;
+    }
+    .landingPage{
+       display:none;
+    }
+    .logoSize{
+      width:250px;
+      height:67px;
+  }
+    
+    .bajan {
+        position:relative;
+        margin:auto;
+        width:250px;
+        clear:both;
+    }
+    .desktop{
+       display:none;
+    }
+    .mobileBottom{
+         display:none;
+    }
+    .landingMobilePage{
+        height:700px;
+        width:100%;
+    }
+     .topHeader{
+      position:relative;
+      margin:auto;
+      clear:both;
+      width:100%;
+      background:#192032;
+      height:154px;
+      transform:scale(1);
+      box-shadow: 0px 0px 8px 2px #000000;
+  }
+  .logo{
+     position:relative;
+     margin:auto;
+     width:400px;
+      top:15px;
+  }
+   .mobilebuttons{
+     position:relative;
+     margin:auto;
+     width:340px!important;
+     height:60px;
+     top:-80px;
+     left:2px;
+     clear:both;
+ }
+   .mobilebtn{
+     position:relative;
+     float:left;
+     height:58px;
+     width:60px;
+     top:109px;
+     margin:2px;
+     cursor:pointer;
+     
+     border-radius:7px;
+     padding-top:15px;
+ }
+ .title {
+     
+      background:#A32431;
+      width:300px!important;
+      height:55px;
+      margin:auto;
+      clear:both;
+      top:-30px;
+      border-top-left-radius:5px;
+      border-top-right-radius:5px;
+      position:relative;
+      margin:12px;
+      left:-12px;
+      
+  }
+ .tabOrder{
+       position:relative;
+       margin:auto;
+       top:20px;
+       width:300px!important;
+       background:#192032;
+       padding-top:20px;
+       left:-2px;
+       border-radius:5px;
+      height:64%;
+   }
+   .tabSelect{
+       position:relative;
+       margin:auto;
+       width:270px!important;
+       height:50px;
+       background:#C1946D;
+       cursor:pointer;
+       clear:both;
+       margin:12px;
+       border-radius:5px;
+   }
+   .tabUnSelect{
+       position:relative;
+       margin:auto;
+       width:270px!important;
+       height:50px;
+       background:#707370;
+       cursor:pointer;
+       margin:12px;
+       clear:both;
+       border-radius:5px;
+   }
+    .stepContainer{
+       position:relative;
+       margin:auto;
+       top:20px;
+       clear:both;
+       width:80%!important;
+       border-radius:15px;
+       height:90%;
+       top:0px;
+       z-index:20;
+       display:none;
+       background:#A32431;
+   }
+   .step{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:40px;
+       height:60px;
+       height:300px;
+       width:100%!important;
+   }
+   .step1{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:30px;
+       height:60px;
+       height:300px;
+       width:100%!important;
+   }
+   .step2{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:40px;
+       height:370px;
+       width:100%!important;
+   }
+    .step3{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:20px;
+       height:500px;
+       width:100%!important;
+   }
+   .step4{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:10px;
+       height:300px;
+       width:100%!important;
+   }
+   .step5{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:140px;
+       height:300px;
+       width:20%!important;
+   }
+    .saladSize{
+        position:relative;
+        width:280px;
+        margin:auto;
+        clear:both;
+    }
+    .salad{
+        position:relative;
+        width:280px;
+        margin:auto;
+        clear:both;
+    }
+   .portionSize {
+        position:relative;
+        width:250px;
+        margin:auto;
+        clear:both;
+    }
+   .toCart{
+    position:relative;
+    float:right;
+    margin:10px;
+    width:50px;
+    height:40px;
+    right:30px;
+    z-index:20;
+    top:-90px;
+ }
+   .pizzaCntDiv {
+    position:absolute;
+    float:right;
+    right:-52px;
+    margin:auto;
+    width:80px;
+    height:40px;
+    top:21px;
+ }
+ .tallypricediv{
+        position:relative;
+        float:right;
+        clear:both;
+        right:-55px;
+        width:200px;
+        margin:7px;
+        top:23px;
+ }
+  .close{
+        position:relative;
+        float:right;
+        width:8px;
+        top:7px;
+        color:#000;
+        font-weight:bold;
+        font-size:20px;
+        right:18px;
+    }
+  .closeM{
+        position:relative;
+        float:right;
+        width:8px;
+        top:7px;
+        color:#fff;
+        font-weight:bold;
+        font-size:20px;
+        right:18px;
+        cursor:pointer;
+    }
+    .footerHeaderMobile{
+      position:relative;
+      /*bottom:0px !important;*/
+      clear:both;
+      /*background:#AB1D24;*/
+      width:370px!important;
+      height:110px;
+      margin:auto;
+      top:50px;
+    }
+    .bottom{
+        display:none;
+    }
+     
+    .bottomMobile{
+       position:relative;
+       width:100%;
+       bottom:0px !important;
+       height:100px!important;
+       margin:auto;
+       background:#000;
+    }
+    
+    .btnFooter{
+     position:relative;
+     float:left;
+     height:33px;
+     width:110px;
+     margin:15px;
+     cursor:pointer;
+     background:#B03030;
+     border-radius:7px;
+     padding-top:9px;
+ }
+ .addtocart{
+    position:relative;
+    clear:both;
+    margin:auto;
+    width:230px;
+    height:200px;
+    border:0px solid #428A42;  
+    border-radius:10px;
+    background:#707370;
+ }
+  .btnGrey{
+     position:relative;
+     float:left;
+     margin:15px;
+     height:40px;
+     width:200px;
+     background:#7B859E;
+     border-radius:7px;
+ }
+  .btn{
+     position:relative;
+     float:left;
+     margin:15px;
+     height:40px;
+     width:200px;
+     cursor:pointer;
+     background:#192032;
+     border-radius:7px;
+ }
+  .deliveryClick{
+        
+        border:2px solid #428A42;
+        position:relative;
+        float:left;
+        width:65px;
+        height:65px;
+        background:#192032;
+        color:#fff;
+        top:65px;
+        left:15px;
+        margin:10px;
+        padding-top:21px;
+        font-size:14px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    .delivery{
+        position:relative;
+        float:left;
+        width:65px;
+        height:65px;
+        background:#192032;
+        color:#fff;
+        top:65px;
+        left:15px;
+        margin:10px;
+        padding-top:22px;
+        font-size:14px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    .condition {
+        position: relative;
+        float: left;
+        margin: 10px;
+        width: 77px;
+        color: #477847;
+        top: 87px;
+        
+    }
+    .carryOut{
+        position:relative;
+        float:left;
+        width:65px;
+        height:65px;
+        background:#192032;
+        color:#fff;
+        top:65px;
+        left:-55px;
+        margin:10px;
+        padding-top:22px;
+        font-size:14px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    
+    .carryOutClick{
+       
+        border:2px solid #428A42;
+        position:relative;
+        float:left;
+        width:65px;
+        height:65px;
+        background:#192032;
+        color:#fff;
+        top:65px;
+        left:-55px;
+        margin:10px;
+        padding-top:21px;
+        font-size:14px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    .order{
+      position:relative;
+      margin:auto;
+      top:-90px;
+      width:270px;
+      clear:both;
+      z-index:20;
+      height:55px;
+      left:17px;
+      background-size:cover; 
+  }
+  .cover{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color:#000;
+        background: rgba(0,0,0,0.6);
+        z-index: 5;
+        width: 100% !important;
+        height: 100% !important;
+        display:none;
+ }
+ .typepopup{
+     display:none;
+         position:absolute;
+         left: 0;
+         right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:10;
+         top:30%!important;
+         width:300px;
+         height:180px;
+         background: #fff;
+         border-radius:5px;
+         z-index:20;
+ }
+ .popup{
+     display:none;
+         position:absolute;
+         left: 0;
+         right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:10;
+         top:150px;
+         width:40%!important;
+         height:650px;
+         background: #fff;
+         border-radius:5px;
+         z-index:20;
+ }
+ .textMobileFont {
+        font-weight: normal;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+        text-rendering: optimizeLegibility !important;
+        -webkit-font-smoothing: antialiased !important;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:12px;
+        color:#fff;
+ }
+ .bajan{
+     padding-top:20px;
+ }
+}
+@media screen and (min-width: 481px) and (max-width: 599px) 
+{
+    .landingPage{
+       height:1600px;
+       width:100%;
+    }
+    .headerSize {
+      width:400px;
+      height:105px;
+  }
+  .downloadTop{
+     position:relative;
+     width:150px!important;
+     margin:auto;
+     clear:both;
+     top:23px;
+     clear:both;
+  }
+    .background 
+     {
+         background-image: url('../images/paradise/blurbg.png');
+         position:relative;
+         margin:auto;
+         clear:both;
+         top:0px;
+         background-repeat:no-repeat;
+         width:100%;
+         height:40%;
+         background-size:cover; 
+     }
+    .foodType{
+         width:350px;
+         height:142px;
+     }
+     .lunch {
+     position:relative;
+     float:left;
+     top:20px;
+     margin:0px;
+     width:33.33%!important;
+     margin:10px;
+     clear:both;
+ }
+ 
+ .pizza {
+     position:relative;
+     float:left;
+     top:20px;
+     width:33.33%!important;
+     margin:10px;
+     clear:both;
+ }
+ .drinks {
+     position:relative;
+     float:left;
+     top:20px;
+     margin:0px;
+     width:33.33%!important;
+     margin:10px;
+     clear:both;
+ }
+ .hide {
+     display:none;
+ }
+ .vclass{
+     position:relative;
+     float:left;
+     left:0px;
+     top:10px;
+     width:430px;
+     height:300px; 
+     border-radius:10px;
+     border:5px solid #000;
+     margin:20px;
+ }
+ .video{
+     position:relative;
+     float:left;
+     height:320px;
+     width:33%!important;
+     margin:0px;
+     top:20px;
+     clear:both;
+     border-radius:10px;
+ }
+ .spacesize {
+     width:150px;
+     height:150px;
+ }
+ .space{
+    position:relative;
+    float:left;
+    width:33%!important;
+    margin:0px;
+    left:27%!important;
+    top:120px;
+    clear:both;
+    display:none;
+    clear:both;
+ }
+ .download {
+     position:relative;
+     width:150px!important;
+     margin:auto;
+     top:120px;
+     clear:both;
+ } 
+}
+@media screen and (min-width: 1024px) 
+{
+    .closeM{
+        display:none;
+    }
+   .landingPage{
+       height:1500px;
+       width:100%;
+  }
+   
+    .landingMobilePage{
+       display:none;
+    }
+    .bottomMobile{
+        display:none;
+    }
+  .pizzaSize{
+      width:200px;
+  }
+  .tabCircleOrder{
+       position:relative;
+       margin:auto;
+       top:110px;
+       clear:both;
+       width:65%;
+   }
+   .circleSelect{
+       position:relative;
+       float:left;
+       margin:7%!important;
+       width:80px;
+       height:80px;
+       border-radius:50%;
+       background:#192032;
+   }
+   .circleUnSelect{
+       position:relative;
+       float:left;
+       margin:7%!important;
+       width:80px;
+       height:80px;
+       border-radius:50%;
+       background:#707370;
+   }
+   
+   .tabOrder{
+       position:relative;
+       margin:auto;
+       top:190px;
+       clear:both;
+       left:12.5%;
+       width:90%!important;
+       height:80px;
+   }
+   .tabSelect{
+       position:relative;
+       float:left;
+       margin:1px;
+       width:12%!important;
+       height:80px;
+       background:#192032;
+       cursor:pointer;
+   }
+   .tabUnSelect{
+       position:relative;
+       float:left;
+       margin:1px;
+       width:12%!important;
+       height:80px;
+       background:#707370;
+       cursor:pointer;
+   }
+   .stepContainer{
+       position:relative;
+       margin:auto;
+       top:200px;
+       clear:both;
+       width:65.5%!important;
+       left:3.2px;
+       background:#A32431;
+       border-radius:15px;
+       height:530px;
+   }
+   .step{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:40px;
+       height:60px;
+       height:300px;
+       width:100%!important;
+   }
+   .step1{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:100px;
+       height:60px;
+       height:300px;
+       width:100%!important;
+   }
+   .step2{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:70px;
+       height:300px;
+       width:100%!important;
+   }
+   .step3{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:10px;
+       height:500px;
+       width:100%!important;
+   }
+   .step4{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:10px;
+       height:300px;
+       width:100%!important;
+   }
+   .step5{
+       position:relative;
+       margin:auto;
+       clear:both;
+       top:140px;
+       height:300px;
+       width:20%!important;
+   }
+   .basicTop1{
+       position:relative;
+       margin:10px;
+       float:left;
+       left:20px;
+       width:200px!important;
+   }
+   .basicTop2{
+       position:relative;
+       margin:10px;
+       float:right;
+       right:-2px;
+       width:200px!important;
+   }
+   .extraTop{
+       position:relative;
+       margin:10px;
+       float:right;
+       right:35px;
+       width:200px!important;
+   }
+   .basicContainer{
+       position:relative;
+       margin:2px;
+       float:left;
+       left:20px;
+       top:-30px;
+       width:440px!important;
+   }
+   .extrasContainer{
+       position:relative;
+       margin:2px;
+       float:right;
+       right:0px;
+       top:-30px;
+       width:270px!important;
+   }
+   
+   .title {
+      background:#707370;
+      width:65.0%!important;
+      height:55px;
+      margin:auto;
+      border-radius:10px;
+      clear:both;
+      top:145px;
+      left:2px;
+      position:relative;
+  }
+  .fields{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:10px;
+      width:400px;
+      height:35px;
+  }
+  .headerSize {
+      width:383px;
+      height:121px;
+  }
+  .topHeader{
+      position:relative;
+      float:left;
+      clear:both;
+      width:100%;
+      background:#192032;
+      height:154px;
+      transform:scale(1);
+      box-shadow: 0px 0px 8px 2px #000000;
+  }
+  .logo{
+      position:relative;
+      float:left;
+      margin:10px;
+      top:-33px;
+  }
+  .logoSize{
+      width:400px;
+      height:107px;
+  }
+  .menu{
+      position:relative;
+      float:left;
+      margin:10px;
+      color:#fff;
+      z-index:20;
+      
+  }
+  .fieldproperty{
+      font-size:14px;
+  }
+  .textFont
+{
+    font-weight:normal;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-rendering: optimizeLegibility !important;
+     -webkit-font-smoothing: antialiased !important;
+     font-family:   'Agency FB';
+  }
+  
+.items {
+      position:relative;
+      float:left;
+      margin:10px;
+      font-size:25px;
+      font-weight:normal;
+      color:#fff;
+      cursor:pointer;
+      top:60px;
+  }
+  
+  .order{
+      position:relative;
+      margin:auto;
+      width:300px;
+      clear:both;
+      z-index:20;
+      height:55px;
+      background-size:cover; 
+  }
+  .catClass{
+
+      position:relative;
+      top:60px;
+      
+  }
+ 
+  .orderHere {
+      position:relative;
+      margin:auto;
+      width:195px;
+      font-size:30px;
+      color:#477847;
+      top:-20px;
+     
+    }
+  .labelBasic {
+      position:relative;
+      margin:auto;
+      width:214px;
+      color:#477847;
+     
+    }
+      .condition {
+      position:relative;
+      float:left;
+      margin:10px;
+      width:77px;
+      left:10px;
+      font-size:30px;
+      color:#477847;
+      top:50px;
+    }
+
+    .delivery{
+        position:relative;
+        float:left;
+        width:90px;
+        height:90px;
+        background:#192032;
+        color:#fff;
+        top:35px;
+        padding-top:33px;
+        font-size:20px;
+        border-radius:50%;
+       
+    }
+    .deliveryClick{
+        position:relative;
+        float:left;
+        width:90px;
+        height:90px;
+        background:#192032;
+        color:#fff;
+        top:35px;
+        padding-top:27px;
+        font-size:20px;
+        border-radius:50%;
+        border:5px solid #428A42;
+        
+    }
+    .carryOut{
+         position:relative;
+        float:left;
+        width:90px;
+        height:90px;
+        background:#192032;
+        color:#fff;
+        top:35px;
+        padding-top:33px;
+        font-size:20px;
+        border-radius:50%;
+       
+    }
+    .carryOutClick{
+         position:relative;
+        float:left;
+        width:90px;
+        height:90px;
+        background:#192032;
+        color:#fff;
+        top:35px;
+        padding-top:27px;
+        font-size:20px;
+        border-radius:50%;
+        border:5px solid #428A42;
+       
+    }
+    
+    
+     .signinText{
+        position:relative;
+        float:left;
+        margin:10px;
+        top:20px;
+    }
+    .signtext {
+      position:relative;
+      float:left;
+      margin:10px;
+      font-size:20px;
+      font-weight:bold;
+      color:#fff;
+      cursor:pointer;
+      top:30px;
+  }
+    .signin{
+        position:relative;
+        float:right;
+        right:150px;
+        margin:10px;
+        top:-44px;
+        /*background:#556285;*/
+        width:200px;
+        height:154px;
+       
+    }
+    .signinLogo{
+        position:relative;
+        float:left;
+        margin:10px;
+        top:30px;
+    }
+ .lunch {
+     position:relative;
+     float:left;
+     top:250px;
+     margin:0px;
+     width:33.33%!important;
+     margin:0px;
+ }
+ .outerWidth{
+     width:1100px!important;
+ }
+ .pizza {
+     position:relative;
+     float:right;
+     top:250px;
+     width:33.33%!important;
+     margin:0px;
+
+ }
+ .drinks {
+     position:relative;
+     float:left;
+     top:250px;
+     margin:0px;
+     width:33.33%!important;
+     margin:0px;
+
+ }
+ .foodType{
+     width:350px;
+     height:142px;
+ }
+ .downloadTop{
+     position:absolute;
+     float:right;
+     margin:10px;
+     right:40px;
+     top:0px;
+ }
+
+ 
+.pizzaCntDiv {
+    position:absolute;
+    float:right;
+    right:-53px;
+    margin:auto;
+    width:80px;
+    height:40px;
+    top:20px;
+ }
+ .newPizza {
+    position:relative;
+    float:left;
+    clear:both;
+    margin:10px;
+    width:200px;
+    height:40px;
+    
+ }
+ .toCart{
+    position:relative;
+    float:right;
+    margin:10px;
+    width:50px;
+    height:40px;
+    right:80px;
+    z-index:20;
+    top:-170px;
+ }
+ .addtocart{
+    position:absolute;
+    float:right;
+    clear:both;
+    margin:10px;
+    right:0px;
+    width:230px;
+    height:200px;
+    top:0px;
+    border:0px solid #428A42;  
+    border-radius:10px;
+    background:#707370;
+ }
+ .opPizza{
+     position:relative;
+     border-radius:50%;
+     height:40px;
+     width:40px;
+     float:left;
+     margin:7px;
+     top:10px;
+     background:#F0051C;
+     cursor:pointer;
+ }
+ .btn{
+     position:relative;
+     float:left;
+     margin:15px;
+     height:40px;
+     width:200px;
+     cursor:pointer;
+     background:#F0051C;
+     border-radius:7px;
+ }
+ .btnLight{
+     position:relative;
+     float:left;
+     margin:15px;
+     height:40px;
+     width:200px;
+     background:#D19299;
+     border-radius:7px;
+ }
+ .cover{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color:#000;
+        background: rgba(0,0,0,0.6);
+        z-index: 5;
+        width: 100% !important;
+        height: 100% !important;
+        display:none;
+ }
+ .popup {
+         display:none;
+         position:absolute;
+         left: 0;
+         right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:10;
+         top:150px;
+         width:40%!important;
+         height:650px;
+         background: #fff;
+         border-radius:5px;
+         z-index:20;
+  }
+ .typepopup {
+         display:none;
+         position:absolute;
+         left: 0;
+         right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:10;
+         top:30%!important;
+         width:400px;
+         height:180px;
+         background: #fff;
+         border-radius:5px;
+         z-index:20;
+  }
+  .close{
+        position:relative;
+        float:right;
+        width:8px;
+        top:7px;
+        color:#000;
+        font-weight:bold;
+        font-size:20px;
+        right:18px;
+    }
+    .centreButtonObject{
+         position:relative;
+         margin:auto;
+         width:220px;
+         top:50px;
+    }
+    .itemlist{
+        position:relative;
+        margin:auto;
+        width:70%;
+        clear:both;
+        top:120px;
+    }
+
+    
+    .salad{
+        position:relative;
+        width:300px;
+        margin:auto;
+        clear:both;
+    }
+ .bajan {
+        position:relative;
+        width:220px;
+        float:left;
+        margin:5px;
+    }
+    .portionSize {
+        position:relative;
+        width:450px;
+        margin:auto;
+        clear:both;
+    }
+       .saladSize{
+        position:relative;
+        width:300px;
+        margin:auto;
+        clear:both;
+    }
+
+    .tallypricediv{
+        position:relative;
+        clear:both;
+        width:150px;
+        margin:auto;
+        top:12px;
+    }
+}

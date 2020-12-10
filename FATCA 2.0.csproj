@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A04E7B01-893B-46D1-8A68-0E32265B06EC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FATCA_2._0</RootNamespace>
+    <AssemblyName>FATCA 2.0</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.10.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\wwwroot\PhotoApplication - test\PhotoApplication\bin\MySql.Data.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="css\aboutus.css" />
+    <Content Include="css\additional.css" />
+    <Content Include="css\addtohomescreen.css" />
+    <Content Include="css\ajax-loader.gif" />
+    <Content Include="css\book.css" />
+    <Content Include="css\combo.select.css" />
+    <Content Include="css\completed.css" />
+    <Content Include="css\confirm.css" />
+    <Content Include="css\contactus.css" />
+    <Content Include="css\customslick.css" />
+    <Content Include="css\demo.css" />
+    <Content Include="css\devices.css" />
+    <Content Include="css\displayRight.png" />
+    <Content Include="css\emailaddress.png" />
+    <Content Include="css\fatca.css" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\horizontalList.css" />
+    <Content Include="css\items.css" />
+    <Content Include="css\Jcrop.gif" />
+    <Content Include="css\jquery-editable-select.css" />
+    <Content Include="css\jquery-editable-select.min.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\jquery.datetimepicker.css" />
+    <Content Include="css\jquery.drag-n-crop.css" />
+    <Content Include="css\jquery.Jcrop.css" />
+    <Content Include="css\jquery.Jcrop.min.css" />
+    <Content Include="css\jquery.mCustomScrollbar.css" />
+    <Content Include="css\jquery.mobile-1.4.5.css" />
+    <Content Include="css\jquery.mobile-git.css" />
+    <Content Include="css\jquery.mobile.iscrollview-pull.css" />
+    <Content Include="css\jquery.mobile.iscrollview.css" />
+    <Content Include="css\jquery.timepicker.css" />
+    <Content Include="css\jquerysctipttop.css" />
+    <Content Include="css\layout.css" />
+    <Content Include="css\lightslider.css" />
+    <Content Include="css\lightslider.min.css" />
+    <Content Include="css\locator.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\lostlogin.css" />
+    <Content Include="css\nice-select.css" />
+    <Content Include="css\orders.css" />
+    <Content Include="css\paradisepizza.css" />
+    <Content Include="css\payment.css" />
+    <Content Include="css\progress.css" />
+    <Content Include="css\rentals.css" />
+    <Content Include="css\results.css" />
+    <Content Include="css\search.css" />
+    <Content Include="css\selectTheme.css" />
+    <Content Include="css\selectTheme.min.css" />
+    <Content Include="css\signin.css" />
+    <Content Include="css\signup.css" />
+    <Content Include="css\slick-theme.css" />
+    <Content Include="css\slick.css" />
+    <Content Include="css\Slider.css" />
+    <Content Include="css\sliding.css" />
+    <Content Include="css\Style.css" />
+    <Content Include="css\sweetalert.css" />
+    <Content Include="css\terms.css" />
+    <Content Include="css\themes\btnTheme.css" />
+    <Content Include="css\themes\btnTheme.min.css" />
+    <Content Include="css\themes\buttonTheme.css" />
+    <Content Include="css\themes\buttonTheme.min.css" />
+    <Content Include="css\themes\images\ajax-loader.gif" />
+    <Content Include="css\themes\images\icons-png\action-black.png" />
+    <Content Include="css\themes\images\icons-png\action-white.png" />
+    <Content Include="css\themes\images\icons-png\alert-black.png" />
+    <Content Include="css\themes\images\icons-png\alert-white.png" />
+    <Content Include="css\themes\images\icons-png\arrow-d-black.png" />
+    <Content Include="css\themes\images\icons-png\arrow-d-l-black.png" />
+    <Content Include="css\themes\images\icons-png\arrow-d-l-white.png" />
+    <Content Include="css\themes\images\icons-png\arrow-d-r-black.png" />
+    <Content Include="css\themes\images\icons-png\arrow-d-r-white.png" />
+    <Content Include="css\themes\images\icons-png\arrow-d-white.png" />
+    <Content Include="css\themes\images\icons-png\arrow-l-black.png" />
+    <Content Include="css\themes\images\icons-png\arrow-l-white.png" />
+    <Content Include="css\themes\images\icons-png\arrow-r-black.png" />
+    <Content Include="css\themes\images\icons-png\arrow-r-white.png" />
+    <Content Include="css\themes\images\icons-png\arrow-u-black.png" />
+    <Content Include="css\themes\images\icons-png\arrow-u-l-black.png" />
+    <Content Include="css\themes\images\icons-png\arrow-u-l-white.png" />
+    <Content Include="css\themes\images\icons-png\arrow-u-r-black.png" />
+    <Content Include="css\themes\images\icons-png\arrow-u-r-white.png" />
+    <Content Include="css\themes\images\icons-png\arrow-u-white.png" />
+    <Content Include="css\themes\images\icons-png\audio-black.png" />
+    <Content Include="css\themes\images\icons-png\audio-white.png" />
+    <Content Include="css\themes\images\icons-png\back-black.png" />
+    <Content Include="css\themes\images\icons-png\back-white.png" />
+    <Content Include="css\themes\images\icons-png\bars-black.png" />
+    <Content Include="css\themes\images\icons-png\bars-white.png" />
+    <Content Include="css\themes\images\icons-png\bullets-black.png" />
+    <Content Include="css\themes\images\icons-png\bullets-white.png" />
+    <Content Include="css\themes\images\icons-png\calendar-black.png" />
+    <Content Include="css\themes\images\icons-png\calendar-white.png" />
+    <Content Include="css\themes\images\icons-png\camera-black.png" />
+    <Content Include="css\themes\images\icons-png\camera-white.png" />
+    <Content Include="css\themes\images\icons-png\carat-d-black.png" />
+    <Content Include="css\themes\images\icons-png\carat-d-white.png" />
+    <Content Include="css\themes\images\icons-png\carat-l-black.png" />
+    <Content Include="css\themes\images\icons-png\carat-l-white.png" />
+    <Content Include="css\themes\images\icons-png\carat-r-black.png" />
+    <Content Include="css\themes\images\icons-png\carat-r-white.png" />
+    <Content Include="css\themes\images\icons-png\carat-u-black.png" />
+    <Content Include="css\themes\images\icons-png\carat-u-white.png" />
+    <Content Include="css\themes\images\icons-png\check-black.png" />
+    <Content Include="css\themes\images\icons-png\check-white.png" />
+    <Content Include="css\themes\images\icons-png\clock-black.png" />
+    <Content Include="css\themes\images\icons-png\clock-white.png" />
+    <Content Include="css\themes\images\icons-png\cloud-black.png" />
+    <Content Include="css\themes\images\icons-png\cloud-white.png" />
+    <Content Include="css\themes\images\icons-png\comment-black.png" />
+    <Content Include="css\themes\images\icons-png\comment-white.png" />
+    <Content Include="css\themes\images\icons-png\delete-black.png" />
+    <Content Include="css\themes\images\icons-png\delete-white.png" />
+    <Content Include="css\themes\images\icons-png\edit-black.png" />
+    <Content Include="css\themes\images\icons-png\edit-white.png" />
+    <Content Include="css\themes\images\icons-png\eye-black.png" />
+    <Content Include="css\themes\images\icons-png\eye-white.png" />
+    <Content Include="css\themes\images\icons-png\forbidden-black.png" />
+    <Content Include="css\themes\images\icons-png\forbidden-white.png" />
+    <Content Include="css\themes\images\icons-png\forward-black.png" />
+    <Content Include="css\themes\images\icons-png\forward-white.png" />
+    <Content Include="css\themes\images\icons-png\gear-black.png" />
+    <Content Include="css\themes\images\icons-png\gear-white.png" />
+    <Content Include="css\themes\images\icons-png\grid-black.png" />
+    <Content Include="css\themes\images\icons-png\grid-white.png" />
+    <Content Include="css\themes\images\icons-png\heart-black.png" />
+    <Content Include="css\themes\images\icons-png\heart-white.png" />
+    <Content Include="css\themes\images\icons-png\home-black.png" />
+    <Content Include="css\themes\images\icons-png\home-white.png" />
+    <Content Include="css\themes\images\icons-png\info-black.png" />
+    <Content Include="css\themes\images\icons-png\info-white.png" />
+    <Content Include="css\themes\images\icons-png\location-black.png" />
+    <Content Include="css\themes\images\icons-png\location-white.png" />
+    <Content Include="css\themes\images\icons-png\lock-black.png" />
+    <Content Include="css\themes\images\icons-png\lock-white.png" />
+    <Content Include="css\themes\images\icons-png\mail-black.png" />
+    <Content Include="css\themes\images\icons-png\mail-white.png" />
+    <Content Include="css\themes\images\icons-png\minus-black.png" />
+    <Content Include="css\themes\images\icons-png\minus-white.png" />
+    <Content Include="css\themes\images\icons-png\navigation-black.png" />
+    <Content Include="css\themes\images\icons-png\navigation-white.png" />
+    <Content Include="css\themes\images\icons-png\phone-black.png" />
+    <Content Include="css\themes\images\icons-png\phone-white.png" />
+    <Content Include="css\themes\images\icons-png\plus-black.png" />
+    <Content Include="css\themes\images\icons-png\plus-white.png" />
+    <Content Include="css\themes\images\icons-png\power-black.png" />
+    <Content Include="css\themes\images\icons-png\power-white.png" />
+    <Content Include="css\themes\images\icons-png\recycle-black.png" />
+    <Content Include="css\themes\images\icons-png\recycle-white.png" />
+    <Content Include="css\themes\images\icons-png\refresh-black.png" />
+    <Content Include="css\themes\images\icons-png\refresh-white.png" />
+    <Content Include="css\themes\images\icons-png\search-black.png" />
+    <Content Include="css\themes\images\icons-png\search-white.png" />
+    <Content Include="css\themes\images\icons-png\shop-black.png" />
+    <Content Include="css\themes\images\icons-png\shop-white.png" />
+    <Content Include="css\themes\images\icons-png\star-black.png" />
+    <Content Include="css\themes\images\icons-png\star-white.png" />
+    <Content Include="css\themes\images\icons-png\tag-black.png" />
+    <Content Include="css\themes\images\icons-png\tag-white.png" />
+    <Content Include="css\themes\images\icons-png\user-black.png" />
+    <Content Include="css\themes\images\icons-png\user-white.png" />
+    <Content Include="css\themes\images\icons-png\video-black.png" />
+    <Content Include="css\themes\images\icons-png\video-white.png" />
+    <Content Include="css\themes\jquery.mobile.icons.min.css" />
+    <Content Include="css\themes\listviewtheme.css" />
+    <Content Include="css\themes\listviewtheme.min.css" />
+    <Content Include="css\themes\selectTheme.css" />
+    <Content Include="css\themes\selectTheme.min.css" />
+    <Content Include="css\themes\theme_roller_select.css" />
+    <Content Include="css\themes\theme_roller_select.min.css" />
+    <Content Include="css\tours.css" />
+    <Content Include="fatca.asmx" />
+    <Content Include="fatca\default.aspx" />
+    <Content Include="images\formats\bpw_crs.PNG" />
+    <Content Include="images\formats\bpw_fatca.PNG" />
+    <Content Include="images\formats\capita_crs.PNG" />
+    <Content Include="images\formats\capita_fatca.PNG" />
+    <Content Include="images\gear_loading.gif" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\small\lftarrow.png" />
+    <Content Include="images\small\rgtarrow.png" />
+    <Content Include="login\default.aspx" />
+    <Content Include="Scripts\address.js" />
+    <Content Include="Scripts\addtohomescreen.js" />
+    <Content Include="Scripts\addtohomescreen.min.js" />
+    <Content Include="Scripts\AdvertSlider.js" />
+    <Content Include="Scripts\ai.0.22.9-build00167.js" />
+    <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Scripts\animation.js" />
+    <Content Include="Scripts\booking.js" />
+    <Content Include="Scripts\bootstrap-formhelpers-countries.js" />
+    <Content Include="Scripts\carousel.js" />
+    <Content Include="Scripts\carrentals.js" />
+    <Content Include="Scripts\central.js" />
+    <Content Include="Scripts\chart.js" />
+    <Content Include="Scripts\confirmed.js" />
+    <Content Include="Scripts\CustomGoogleMapMarker.js" />
+    <Content Include="Scripts\dashboard.js" />
+    <Content Include="Scripts\datacharts.js" />
+    <Content Include="Scripts\distress.js" />
+    <Content Include="Scripts\dropoffs.js" />
+    <Content Include="Scripts\ecombobox.js" />
+    <Content Include="Scripts\EventEmitter.js" />
+    <Content Include="Scripts\external_funcs.js" />
+    <Content Include="Scripts\geocode.js" />
+    <Content Include="Scripts\Gruntfile.js" />
+    <Content Include="Scripts\horizontal.js" />
+    <Content Include="Scripts\horizontalList.js" />
+    <Content Include="Scripts\imagesloaded.js" />
+    <Content Include="Scripts\imagesloaded.pkgd.js" />
+    <Content Include="Scripts\imagesloaded.pkgd.min.js" />
+    <Content Include="Scripts\inputmask_bundle.js" />
+    <Content Include="Scripts\itemlist.js" />
+    <Content Include="Scripts\itemslide.js" />
+    <Content Include="Scripts\itemslide.min.js" />
+    <Content Include="Scripts\jquery-1.12.4.js" />
+    <Content Include="Scripts\jquery-ui.js" />
+    <Content Include="Scripts\jquery.color.js" />
+    <Content Include="Scripts\jquery.combo.select.js" />
+    <Content Include="Scripts\jquery.datetimepicker.js" />
+    <Content Include="Scripts\jquery.drag-n-crop.amd.js" />
+    <Content Include="Scripts\jquery.drag-n-crop.css" />
+    <Content Include="Scripts\jquery.drag-n-crop.js" />
+    <Content Include="Scripts\jquery.flexslider-min.js" />
+    <Content Include="Scripts\jquery.flexslider.js" />
+    <Content Include="Scripts\jquery.inputmask.bundle.js" />
+    <Content Include="Scripts\jquery.Jcrop.js" />
+    <Content Include="Scripts\jquery.Jcrop.min.js" />
+    <Content Include="Scripts\jquery.maskedinput.js" />
+    <Content Include="Scripts\jquery.maskMoney.js" />
+    <Content Include="Scripts\jquery.mCustomScrollbar.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\jquery.mobile-1.4.5.js" />
+    <Content Include="Scripts\jquery.mobile.iscrollview-closure-min.js" />
+    <Content Include="Scripts\jquery.mobile.iscrollview-yui-min.js" />
+    <Content Include="Scripts\jquery.mobile.iscrollview.js" />
+    <Content Include="Scripts\jquery.mousewheel.js" />
+    <Content Include="Scripts\jquery.nice-select.js" />
+    <Content Include="Scripts\jquery.timepicker.js" />
+    <Content Include="Scripts\jquery.ui.draggable.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\sweetalert.min.js" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+    <Content Include="XML\accountreport.txt" />
+    <Content Include="XML\CRS\countrycodes.xml" />
+    <Content Include="XML\CRS\crs.xml" />
+    <Content Include="XML\CRS\currencycodes.xml" />
+    <Content Include="XML\CRS\sample.xml" />
+    <Content Include="XML\CRS\testtypes.xml" />
+    <Content Include="XML\template.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Library.cs" />
+    <Compile Include="login\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sessions.cs" />
+    <Compile Include="TinException.cs" />
+    <Compile Include="DateException.cs" />
+    <Compile Include="CountryCodeException.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fatca.asmx.cs">
+      <DependentUpon>fatca.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FatcaLibrary.cs" />
+    <Compile Include="services\ExcelHandler.ashx.cs">
+      <DependentUpon>ExcelHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Fatca.Master.cs">
+      <DependentUpon>Fatca.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fatca.Master.designer.cs">
+      <DependentUpon>Fatca.Master</DependentUpon>
+    </Compile>
+    <Compile Include="fatca\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fatca\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Variables.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fatca.Master" />
+    <Content Include="services\ExcelHandler.ashx" />
+    <Content Include="excel\bpw_crs.xlsx" />
+    <Content Include="excel\bpw_fatca.xlsx" />
+    <Content Include="excel\capita_crs.xlsx" />
+    <Content Include="excel\capita_fatca.xlsx" />
+    <None Include="Properties\PublishProfiles\FATCA 2.0.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="XML\FatcaXML_v2.0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\isofatcatypes_v1.1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\oecdtypes_v4.2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\stffatcatypes_v2.0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51220</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51220/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

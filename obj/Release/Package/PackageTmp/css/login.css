@@ -1,0 +1,165 @@
+﻿
+
+@media screen and (min-width: 1024px) 
+{
+ .bodyHeight
+ {
+    height:1500px;
+ }
+    
+ .mobilemenu 
+  {
+      display:none;
+  }
+ .buttonBg 
+  {
+      display:none;
+  }
+  .desktopMenuContainer
+  {
+     background: url(../images/color.png) repeat;
+     position:relative;
+     clear:both;
+     height:100px;
+     width:100%;
+  }
+  .menuContainer 
+  {
+      position:relative;
+      margin:auto;
+      width:420px;
+      
+  }
+  .menuContainer a 
+  {
+      display: block;
+      color: #fff;
+      float:left;
+      text-align: center;
+      padding: 37px 16px;
+      text-decoration: none;
+  }
+  .menuContainer a:hover {
+      background-color: #6794C2;
+      color: #fff;
+      height:25px;
+      display: block;
+      color: #000;
+      text-align: center;
+      padding: 37px 16px;
+      text-decoration: none;
+  }
+  .dropDown 
+  {
+     z-index:10;
+     background-image: url(../images/color.png) repeat;
+     position:relative;
+     clear:both;
+     margin:auto;
+     height:100px;
+     width:100%;
+ }
+ .submenu
+  {
+      position:relative;
+      width:100%;
+      clear:both;
+      float:left;
+  }
+  .logo 
+  {
+      position:relative;
+      margin:auto;
+      width:350px;
+  }
+  .login
+  {
+      background-image: url('../images/loginstyle.png');
+     position:relative;
+     float:right;
+     background-repeat:no-repeat;
+     width:539px;
+     height:144px;
+     background-size:auto 100%;
+  }
+  .menu_desktop_device {
+  overflow: hidden;
+  background: url(../images/color.png) repeat;
+  color:#fff;
+  height:100px;
+  width:100%;
+}
+
+/* Style the topnav links */
+.menu_desktop_device a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 37px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.menu_desktop_device a:hover {
+  background-color: #6794C2;
+  color: #fff;
+  height:100px;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 37px 16px;
+  text-decoration: none;
+ }
+ .searchResultHeaderVehicles
+ {
+        position:relative;
+        width:100%;
+        height:150px;
+        background:#EBE8E8;
+        top:0px;
+        clear:both;
+        margin:auto;
+ }
+ .searchResultTextHeaderVehicles 
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:230px;
+        font-size:27px;
+        top:33px;
+        left:0px;
+    }
+    
+    .searchResultTextSubHeaderVehicles 
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:138px;
+        font-size:15px;
+        top:40px;
+    }
+ .srh a 
+    {
+        text-decoration:none;
+        color:#000;
+       
+    }
+    /* unvisited link */
+    .srh a:link {
+     color: #000;
+     font-weight:normal;
+   }
+    .srh a:hover 
+    {
+        color:#F60100;
+    }
+    /* visited link */
+    .srh a:visited {
+     color: #F60100;
+    }
+}

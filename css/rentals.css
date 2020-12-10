@@ -1,0 +1,523 @@
+﻿img{border:0;}
+.header 
+{
+    position:absolute;
+    top:0px;
+    width:100%;
+    height:70px;
+    background:#000;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+}
+ 
+
+   .tabstyles 
+ {
+     font-size:10px;
+     color:#fff;
+     position:relative;
+     margin:0 auto;
+ }
+  .tabBase 
+    {
+        width:23%;
+        height:75px;
+        padding-top:20px;
+    }
+.processButton
+{
+    height:45px;
+    width:180px;
+    border-radius:5px;
+    color:#fff;
+    background:#CC3945;
+}
+.quotationButton 
+{
+    display:none;
+}
+.center
+{
+  position: absolute;
+  margin: auto;
+  top:40px;
+  right: 0;
+  bottom: 0;
+  left:0;
+  background-repeat:no-repeat;
+  background-image: url(../images/cretabg.png);
+  background-size:100% 130%;
+}
+.hdrText 
+{
+    text-decoration: none;
+    font-size:30px;
+    font-weight:normal;
+    opacity:1.5;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+     text-rendering: optimizeLegibility !important;
+     -webkit-font-smoothing: antialiased !important;
+     /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;*/
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+}
+.errorColor 
+{
+    color:red;
+}
+.normalColor 
+{
+    color:#000;
+}
+.emptycheckbox 
+{
+  background-size:100% 100%;  
+  width:50px;
+  height:50px;
+  /*background-repeat:no-repeat;*/
+  background-image: url(../images/small/emptycheckbox.png);
+}
+.tickedcheckbox 
+{
+  background-size:100% 100%;  
+  width:50px;
+  height:50px;
+  /*background-repeat:no-repeat;*/
+  background-image: url(../images/small/tickedcheckbox.png);
+}
+ .errorColor 
+    {
+        color:red;
+    }
+.facebook 
+{
+     width:50px;
+     height:50px;
+     cursor:pointer;
+}
+.instagram 
+{
+     width:50px;
+     height:50px;
+     cursor:pointer;
+}
+
+
+.tabBooking 
+{
+    width:150px;
+}
+.booking_step_menu
+{
+            
+                height: 75px;
+                width:400px !important;
+                font-weight: normal;
+                position:relative;
+                float:left;
+                clear:both;
+                
+}
+.booking_car_display_footer 
+{  /*F5F2F2*/
+     background:#D1D1CF;
+     width:586px !important;
+     font-weight: normal;
+     position:relative;
+     float:left;
+     clear:both;
+     height:477px;
+}
+.footerLabel
+{
+    position:relative;
+    bottom:0px !important;
+    clear:both;
+    background:#AB1D24;
+    width:100%!important;
+    height:90px;
+}
+.booking_car_display_header 
+{
+    height: 40px;
+    background:#000;
+    width:586px !important;
+    font-weight: normal;
+    position:relative;
+    float:left;
+    clear:both;
+}
+.booking_step_container 
+{
+    height:490px;
+    width:395px !important;
+    font-weight: normal;
+    position:relative;
+    top:-33px;
+    float:left;
+    clear:both;
+    background:#F5F2F2;
+    background:rgba(0,0,0,0.9);
+     border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    
+}
+.textFont
+{
+    font-weight:normal;
+    font-size:11pt;
+   
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-rendering: optimizeLegibility !important;
+     -webkit-font-smoothing: antialiased !important;
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.listFont
+{
+    font-weight:normal;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-rendering: optimizeLegibility !important;
+     -webkit-font-smoothing: antialiased !important;
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.tabClassBooking 
+{
+    font-weight:normal;
+    font-size:12pt;
+    height:30px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-rendering: optimizeLegibility !important;
+     -webkit-font-smoothing: antialiased !important;
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.txtFAQ 
+{
+    font-weight:normal;
+    font-size:22pt;
+    font-weight:normal;
+    height:30px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-rendering: optimizeLegibility !important;
+     -webkit-font-smoothing: antialiased !important;
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.phone 
+{
+    font-weight:normal;
+    font-size:12pt;
+    font-weight:normal;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-rendering: optimizeLegibility !important;
+     -webkit-font-smoothing: antialiased !important;
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+
+.txtphone 
+{
+    font-weight:normal;
+    font-size:12pt;
+    font-weight:normal;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-rendering: optimizeLegibility !important;
+     -webkit-font-smoothing: antialiased !important;
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+
+
+.agent
+{
+    width: 190px !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+}
+.menu 
+{
+    position:absolute;
+    top:25px;
+    color:#fff;
+    width:100%;
+    float:right;
+}
+#vacationmenu
+{
+            position: relative;
+            top: -800px;
+            z-index: 5;
+            width: 165px !important;
+            height: 370px !important;
+            right:-170px;
+            float:right;
+            display: none;
+            /*background-color: rgba(0, 0, 0, 0.5);*/
+            background:#000;
+            border-bottom-left-radius:5px;
+            border-bottom-right-radius:5px;
+            
+}
+
+.bg 
+{
+    background: url("../images/carbg.png") no-repeat center center;
+    opacity: 0.7;
+    width:100%;
+    height:100%;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.photoResize 
+{
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.buttons 
+{
+    background:#FFFF0A;
+    color:#000;
+    border-radius:7px;
+    width:100px;
+    height:35px;
+}
+.selected
+{
+            background: #F5F2F2;
+            color: #fff;
+            font-size: 16px;
+}
+.unselected
+{
+            background: #FFFF0A;
+            color: #000;
+            font-size: 16px;
+}
+.grey_text
+{
+            color: #666;
+            font-size: 10px;
+}
+.ui-datepicker-trigger  
+{
+    position:relative;
+    top:70px ;
+    left:90px ; 
+    height:30px;
+    width:30px;
+    cursor:pointer;
+}
+select 
+{
+    width:350px;
+    height:39px;
+    border-radius:5px;
+    background:#E0DCDC;
+    
+}
+
+/* This CSS will put a solid red border around the arrow symbols. */
+
+.ui-datepicker-prev span {
+    background-image: url(../images/small/lftarrow.png) !important;
+        background-position: 0px 0px !important;
+}
+
+.ui-datepicker-next span {
+    background-image: url(../images/small/rgtarrow.png) !important;
+        background-position: 0px 0px !important;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   background-color:#000;
+   color: white;
+   height:25px;
+   text-align: center;
+   
+}
+#bottom {
+position:fixed;
+width:100%;
+height:65px;
+text-align:center;
+left:0px;
+bottom:0px;
+color:#fff;
+padding-top:15px;
+padding-bottom:5px;
+background:#000;
+}
+.bottom{
+       position:relative;
+       width:100%;
+       left:0px;
+       bottom:0px !important;
+       height:100px!important;
+       margin:auto;
+       background:#000;
+}
+.slide-viewer 
+{
+    position:relative;
+    overflow:hidden;
+    height:300px;
+    width:100%;
+}
+
+.active
+{
+    background:#ffcc00;
+    
+}
+
+.slide-btn
+{
+    height:15px;
+    width:60px;
+}
+
+.slide:first-child 
+{
+    display:block;
+}
+#scrollShow 
+{
+    position:fixed;
+    top:20px;
+    background:#fff;/*FF473D*/
+    height:220px;
+    width:150%;
+    border:2px solid #fff;
+    overflow: hidden;
+}
+ul#slideShow
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    height:200px;
+    width:100%;
+    border:0px solid #fff;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+}
+li.lislideShow
+{
+    float: left;
+    width:200px !important;
+    height: 180px !important;
+    color: #000;
+    border :0px solid #000;
+    text-align: center;
+    background:#403E3E;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-transform:  scale(0.95);
+    -ms-transform:  scale(0.95);
+    -moz-transform:  scale(0.95);
+    transform: scale(0.95);
+}
+#toTop {
+    padding: 5px 3px;
+    background: #D42424;
+    color: #fff;
+    position: fixed;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    bottom: 0;
+    right: 5px;
+    display: none;
+    z-index:10;
+    cursor:pointer;
+}
+#toTop:hover {
+    padding: 5px 3px;
+    cursor:pointer;
+    background: #ffcc00;
+    color: #fff;
+    position: fixed;
+    width:60px;
+    height:60px;
+    border-radius:50;
+    z-index:10;
+    bottom: 0;
+    right: 5px;
+    display: none;
+}
+.enquiry {
+        text-decoration:none;
+        color:#fff;
+        font-weight:normal;
+
+    }
+
+  .outerElement {
+        display: -moz-inline-stack;
+        display: inline-block;
+        vertical-align: middle;
+        zoom: 1;
+        position: relative;
+        left: 50%;
+    }
+    .textFont
+    {
+        font-weight:normal;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+        text-rendering: optimizeLegibility !important;
+         -webkit-font-smoothing: antialiased !important;
+         font-family:   'Agency FB';
+    }
+	.innerElement {
+		position: relative;
+		left: -50%;
+	} 
+      .errorColor 
+    {
+        color:red;
+    }
+    .headerStyle{
+        position:relative;
+        width:100%!important;
+        float:left;
+        left:0px;
+        top:0px;
+        height:110px;
+        background:#A82828;
+        clear:both;
+    }
+    .logoStyle{
+        position:relative;
+        left:20px;
+        top:10px;
+        float:left;
+        width:90px;
+        height:90px;
+        z-index:20;
+        background-image: url(../images/logo.png);
+    }
+    .title{
+        position:relative;
+        left:45px;
+        top:32px;
+        float:left;
+        z-index:20;
+    }
+    
+    .textFont
+    {
+        font-weight:normal;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+        text-rendering: optimizeLegibility !important;
+         -webkit-font-smoothing: antialiased !important;
+         font-family:   'Agency FB';
+      }

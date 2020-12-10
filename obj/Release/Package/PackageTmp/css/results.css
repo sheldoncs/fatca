@@ -1,0 +1,3990 @@
+﻿* {
+  box-sizing: border-box;
+}
+html, body 
+{
+    height:100%;
+    width:100%;
+}
+.fontSize{
+    font-family:Verdana;
+    font-size:14px;
+}
+@media screen and (max-width: 480px)  
+{
+  .contactHeader{
+      display:none;
+  } 
+  .bookNow{
+
+      position:relative;margin:auto;width:85px;top:17px;
+
+  }
+  .bodyHeight
+  {
+      height:2100px!important;
+  }
+  .stepCount {
+    height: 75px;
+    width:330px !important;
+    float:left;
+    font-weight: normal;
+    position:relative;
+    clear:both;
+    top:-30px;
+    
+  }
+  .steps {
+      position:relative;
+      float:left;
+      border-radius:50%;
+      width:40px;
+      height:40px;
+      border:2px solid #386592;
+      margin:10%;
+      background:#fff;
+      color:#000;
+  }
+  .stepSolid {
+      position:relative;
+      float:left;
+      border-radius:50%;
+      width:40px;
+      height:40px;
+      background:#454444;
+      border:2px solid #386592;
+      margin:10%;
+      color:#fff;
+  }
+  .search_step_menu
+  {  
+    height: 75px;
+    width:  330px !important;
+    font-weight: normal;
+    position:relative;
+    margin:auto;
+    clear:both;
+    top:-40px;
+              
+  }
+  .tabtext{
+      top:10px;
+  }
+  
+  .rentalLabel{
+      position:relative;margin:auto;width:63px;
+  }
+  .conditionLabel{
+      position:relative;margin:auto;width:73px;
+  }
+  .bookingLabel {
+      position:relative;margin:auto;width:78px;
+  }
+  .tabUnSelect {
+    position:relative;
+    float:left;
+    margin:1px;
+    background:#fff;
+    width:31.5%;
+    padding-top:7px;
+    height:70px;
+    border:2px solid #386592;
+    font-size:20px;
+    top:20px;
+    cursor:pointer;
+    font-family:Impact;
+    border-radius:5px; 
+  }
+  .tabSelect {
+    position:relative;
+    float:left;
+    margin:1px;
+    width:31.5%;
+    height:70px;
+    background:#386592;
+    border:2px solid #386592;
+    color:#fff;
+    font-size:20px;
+    font-family:Impact;
+    top:20px;
+    border-radius:5px;
+    padding-top:7px;
+  }
+  .rentalDetails{
+      position:relative;
+      left:0px;
+      float:left;
+      width:340px;
+      height:1000px;
+      clear:both;
+      top:0px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+  }
+  .divCarLabel{
+     position:relative;
+     left:15px;
+     top:20px;
+     clear:both;
+     width:182px; 
+  }
+  .groupInfo {
+      position:relative;
+      float:left;
+      width:300px;
+      clear:both;
+      left:20px;
+      margin:0px;
+      background:#454444;
+      height:250px;
+      border-bottom-left-radius:10px;
+      border-bottom-right-radius:10px;
+      border-top-left-radius:10px;
+      border-top-right-radius:10px;
+  }
+ 
+  .searchVehicle
+  {
+      position:relative;
+      float:left;
+      left:0px;
+      margin:0px;
+      height:149px;
+      background-image: url('../images/background.png');
+      background-repeat:no-repeat;
+      width:48%;
+      border-top-left-radius:10px;
+      background-size:cover;
+  }
+  .aboutVehicle{
+      position:relative;
+      float:left;
+      margin:2px;
+      left:14px;
+  }
+  .aboutPrice{
+      position:relative;
+      float:left;
+      left:0px;
+      top:3px;
+      width:300px;
+      height:99px;
+      background:#1570A1;
+      background-size:cover;
+      clear:both;
+      /*bottom:300px;*/
+      border-bottom-left-radius:10px;
+      border-bottom-right-radius:10px;
+      border-top-left-radius:0px;
+      border-top-right-radius:0px;
+  }
+  .showVehicle{
+      position:relative;
+      float:left;
+      top:80px;
+      width:149px;
+      height:90px;
+      z-index:40;
+  }
+  .clsPassenger{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .clsDoor{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .clsTransmission{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .clsGasType{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .bookItNow {
+     position:relative;
+     margin:auto;
+     background:#F70707;
+     width:90px;
+     height:25px;
+     top:30px;
+     border-radius:2px;
+     cursor:pointer;
+     left:0px;
+     clear:both;
+ }
+  .conditionDetails{
+      display:none;
+      position:relative;
+      margin:auto;
+      width:330px;
+      clear:both;
+  }
+  .age {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:300px;
+      height:80px;
+      clear:both;
+      font-family:Verdana;
+      padding-top:20px;
+  }
+  .lossDamageWaiver {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:300px;
+      height:150px;
+      clear:both;
+      padding-top:12px;
+      top:30px;
+  }
+  .airportPickup{
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:300px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      top:43px;
+  }
+  .deliveryToHome {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:300px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      top:45px;
+  }
+  .gps {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:300px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      top:75px;
+  }
+  .babyseat {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:300px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      top:105px;
+  }
+  .bookingDetails{
+      display:none;
+      position:relative;
+      margin:auto;
+      width:100%;
+      clear:both;
+  }
+
+  .coverInput{
+      position:relative;
+      margin:auto;
+      width:340px;
+      top:-20px;
+      clear:both;
+  }
+  .alignPaymentDetails{
+      position:relative;margin:auto;width:180px;top:7px;
+  }
+  .widthClass {
+        width: 300px;
+        clear:both;
+        position:relative;
+        float:left;
+        left:10px;
+        clear:both;
+  }
+  .selectIcon {
+        position: absolute;
+        top: 15px;
+        left: 260px;
+        z-index: 10;
+  }
+  .dateTimeMargin 
+    {
+        position:relative;
+        margin:4px;
+        width:142px;
+    } 
+  .paymentBreakdown{
+     position:relative;
+     margin:auto;
+     top:30px;
+     width:340px;
+     clear:both;
+  }
+  .paymentheader {
+      position:relative;margin:auto;padding-left:20px; left:-19px; width:270px;font-size:20px;clear:both;background:#F2132A;color:#fff;font-family:Impact;border-radius:5px;height:45px;bottom:30px;
+  }
+  .dailyPrice {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:53px;
+     clear:both;
+     width:220px;
+  }
+  .vacationDays {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:53px;
+     clear:both;
+     width:220px;
+  }
+  .extraDays{
+     position:relative;
+     float:left;
+     margin:3px;
+     left:53px;
+     clear:both;
+     width:220px;
+  }
+  .totalPrice {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:53px;
+     clear:both;
+     width:220px;
+  }
+  .under25 {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:53px;
+     clear:both;
+     width:220px;
+  }
+  .airportlabel{
+     position:relative;
+     float:left;
+     margin:3px;
+     left:53px;
+     clear:both;
+     width:220px;
+  }
+  .lostDamageWaiver {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:53px;
+     clear:both;
+     width:220px;
+  }
+  .deliverytovilla {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:53px;
+     clear:both;
+     width:220px;
+  }
+  .gpslabel {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:53px;
+     clear:both;
+     width:220px;
+  }
+  .babyseatlabel{
+    position:relative;
+    float:left;
+    margin:3px;
+    left:53px;
+    clear:both;
+    width:220px;
+  }
+  .vat{
+    position:relative;
+    float:left;
+    margin:3px;
+    left:53px;
+    clear:both;
+    width:220px;
+  }
+  .grandtotal {
+    position:relative;
+    float:left;
+    margin:3px;
+    left:53px;
+    top:20px;
+    clear:both;
+    width:220px;
+  }
+  .alignPayNow{
+      position:relative;margin:auto;width:90px;top:10px;
+  }
+  .payNow {
+    position:relative;
+    margin:auto;
+    height:50px;
+    background:#5C84AB;
+    color:#fff;
+    cursor:pointer;
+    border-radius:5px;
+    font-family:Verdana;
+    font-size:20px;
+     margin:10px;
+     top:90px;
+    left:50px;
+    clear:both;
+    width:190px;
+  }
+  .alignRecalc{
+      position:relative;margin:auto;width:130px;top:10px;
+  }
+  .recalc {
+    position:relative;
+    float:left;
+    margin:3px;
+    left:50px;
+    height:50px;
+    background:#5C84AB;
+    color:#fff;
+    cursor:pointer;
+    border-radius:5px;
+    font-family:Verdana;
+    font-size:20px;
+    margin:10px;
+    clear:both;
+    width:190px;
+    top:90px;
+  }
+  .vehTitleText 
+  {
+      font-size:21px;
+      width:220px;
+  }
+  .vehTitle 
+  {
+      position:relative;
+      margin:auto;
+      color:#000;
+      width:220px;
+      margin:auto;
+  }   
+  .vehImage 
+  {
+      overflow:hidden;
+      position:relative;
+      top:50px;
+      left:10px;
+      color:#fff;
+      margin:auto;
+      width:450px;
+      height:450px;
+      clear:both;
+      /*box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);*/
+  }
+  .priceBox{
+      position:relative;
+      top:10px;
+      left:10px;
+      color:#fff;
+      margin:auto;
+      width:160px;
+      clear:both;
+      background:#3B3434;
+      border-radius:5px;
+  }
+  .menu_desktop_device a {
+      color: #fff;
+      padding: 12px 16px;
+      background: url(../images/color.png) repeat;
+      text-decoration: none;
+      width:100%;
+      display: block;
+  }
+  .menu_desktop_device a:hover 
+  {
+      color:#fff;
+      background: #386592;
+     
+  }
+  .menu_desktop_device 
+  {
+      display:none;
+      overflow: hidden;
+      position:absolute;
+      top:34px;
+      left:0px;
+      color:#fff;
+      width:200px;
+      z-index: 20;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .dropDown {
+      position: relative;
+      height:100px;
+      top:45px;
+      width:100%;
+  }
+  .dropDown:hover .menu_desktop_device 
+  {
+      display: block;
+      z-index:10;
+      
+  }
+   .buttonBg 
+  {
+      background: url(../images/color.png) repeat;
+      position: relative;
+      top:-60px;
+      height:100px;
+      width:100%;
+  }
+  .mnu_button {
+      overflow: hidden;
+      color:#fff;
+      height:60px;
+      width:100%;
+      position:relative;
+      top:20px;
+      background-repeat:no-repeat;
+      width:60px;
+      height:60px;
+      float:left;
+      left:10px;
+      display:block;
+      cursor:pointer;
+      background-image: url(../images/small/menu_icon.png);
+ }
+ .srh a 
+    {
+        text-decoration:none;
+        color:#000;
+       
+    }
+    /* unvisited link */
+    .srh a:link {
+     color: #000;
+     font-weight:normal;
+   }
+    .srh a:hover 
+    {
+        color:#F60100;
+    }
+    /* visited link */
+    .srh a:visited {
+     color: #F60100;
+    }
+    .bottom 
+    {
+        display:none;
+    }
+    .headerbottom
+     {
+         position:relative;
+         bottom:0px !important;
+         clear:both;
+         background:#AD3434;
+         top:-19px;
+         height:90px;
+     }
+    .searchResultHeaderVehicles
+    {
+        position:relative;
+        width:100%;
+        height:150px;
+        background:#EBE8E8;
+        top:0px;
+    }
+    
+    .centreDisplay 
+    {
+        position:relative;
+        margin:auto;
+        width:450px;
+        left:0px;
+    }
+    .buttonStyleResults 
+    {
+        position:relative;
+        top:100px;
+        width:180px;
+        height:55px;
+        cursor:pointer;
+        background:#B82A2F;
+        float:left;
+        left:85px;
+        border-radius:10px;
+    }
+    
+    .searchResultTextHeaderVehicles 
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:230px;
+        font-size:27px;
+        top:33px;
+        left:0px;
+    }
+    
+    .searchResultTextSubHeaderVehicles 
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:138px;
+        font-size:15px;
+        top:40px;
+    }
+    .vehicles
+    {
+        position:relative;
+        width:350px;
+        margin:auto;
+        top:10px;
+        clear:both;
+    }
+    .floatVehicle 
+    {
+        position:relative;
+        float:left;
+        margin:10px;
+        top:10px;
+    }
+    .floatVehiclePropeties 
+    {
+        position:relative;
+        float:left;
+        margin:10px;
+        top:10px;
+    }
+    .displayVehicle 
+    {
+        width:200px;
+        height:133px;
+    }
+    .searchResults 
+    {
+        position:relative;
+        width:300px;
+        height:550px;
+        margin:auto;
+        top:20px;
+        border:2px solid #E3DEDE;
+        border-radius:10px;
+        box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    }
+      
+    .selectIconResult 
+    {
+        position:absolute;
+        top:11px;
+        left:300px;
+        z-index:10;
+        font-size:15px;
+    }
+    .searchTextResults
+    {
+        position:relative;
+        margin:auto;
+        width:60px;
+        color:#fff;
+        top:18px;
+        left:48px;
+    }
+    .rateTextHeader 
+    {
+        position:relative;
+        margin:auto;
+        top:70px;
+        width:80px;
+    }
+    .rates 
+    {
+        position:relative;
+        margin:auto;
+        top:70px;
+        width:600px;
+    }
+    .rateAlign 
+    {
+        position:relative;
+        width:100px;
+        float:left;
+        margin:10px;
+        
+    }
+    .mobileBottom
+     {
+        width:100%;
+        height:350px;
+        text-align:center;
+        left:0px;
+        bottom:0px;
+        color:#fff;
+        padding-top:15px;
+        padding-bottom:5px;
+        background:#fff;
+        position:absolute;
+    
+     }
+    
+    .selected
+    {
+                background: #D42828;
+                color: #fff;
+                font-size: 20px;
+    }
+    .unselected
+    {
+                background: #ABA9A9;
+                color: #fff;
+                font-size: 20px;
+    }
+
+     .booking_step_menu
+     {
+            
+                    height: 75px;
+                    width:100% !important;
+                    font-weight: normal;
+                    position:relative;
+                    float:left;
+                    clear:both;
+                
+     }
+     
+     .textAboutUs 
+     {
+         font-size:13px;
+         width:300px;
+     }
+     .booking_step_container 
+    {
+        height:250px;
+        width:99.4% !important;
+        font-weight: normal;
+        position:relative;
+        margin:auto;
+        clear:both;
+        top:3px;
+        left:2px;
+        background:#ABA9A9;   
+    }
+    .desktopMenuContainer
+    {
+      display :none;
+    }
+}
+@media screen and (min-width: 481px) and (max-width:600px) 
+{
+  .contactHeader{
+      display:none;
+  }
+  
+  .logo 
+  {
+      position:relative;
+      margin:auto;
+      width:350px;
+      height:123px;
+  }
+  .bodyHeight
+  {
+      height:2200px!important;
+  }
+  .bookNow{
+
+      position:relative;margin:auto;width:90px;top:15px;
+
+  }
+  .stepCount {
+    height: 75px;
+    width:548px !important;
+    font-weight: normal;
+    position:relative;
+    margin:auto;
+    left:-35px;
+    clear:both;
+    top:-40px;
+  }
+  .steps {
+      position:relative;
+      float:left;
+      border-radius:50%;
+      width:40px;
+      height:40px;
+      border:2px solid #386592;
+      margin:13%;
+      background:#fff;
+      color:#000;
+  }
+  .stepSolid {
+      position:relative;
+      float:left;
+      border-radius:50%;
+      width:40px;
+      height:40px;
+      background:#454444;
+      border:2px solid #386592;
+      margin:13%;
+      color:#fff;
+  }
+  .search_step_menu
+  {  
+    height: 75px;
+    width:  600px !important;
+    font-weight: normal;
+    position:relative;
+    margin:auto;
+    clear:both;
+    top:-120px;
+              
+  }
+  .tabtext{
+      top:10px;
+  }
+  .tabSelect {
+    position:relative;
+    float:left;
+    margin:1px;
+    width:158px;
+    height:70px;
+    background:#386592;
+    border:2px solid #386592;
+    color:#fff;
+    font-size:25px;
+    font-family:Impact;
+    top:20px;
+    cursor:pointer;
+    border-radius:5px;
+  }
+  .rentalLabel{
+      position:relative;margin:auto;width:85px;
+  }
+  .conditionLabel{
+      position:relative;margin:auto;width:73px;
+  }
+  .bookingLabel {
+      position:relative;margin:auto;width:95px;
+  }
+  .tabUnSelect {
+    position:relative;
+    float:left;
+    margin:1px;
+    background:#fff;
+    width:158px;
+    height:70px;
+    border:2px solid #386592;
+    font-size:25px;
+    top:20px;
+    cursor:pointer;
+    font-family:Impact;
+    border-radius:5px;
+  }
+  .rentalDetails{
+      display:none;
+      position:relative;
+      margin:auto;
+      width:100%;
+      height:600px;
+      clear:both;
+      top:-100px;
+      left:0px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+  }
+  .divCarLabel{
+     position:relative;
+     float:left;
+     margin:0px;
+     clear:both;
+     width:182px;
+     top:50px;
+     left:0px;
+     
+  }
+  .groupInfo {
+
+      position:relative;
+      margin:auto;
+      width:580px;
+      clear:both;
+      left:0px;
+      top:0px;
+      background:#454444;
+      height:150px;
+      border-bottom-left-radius:0px;
+      border-top-left-radius:0px;
+  }
+ 
+   .searchVehicle
+  {
+      position:relative;
+      float:left;
+      left:0px;
+      margin:0px;
+      height:149.5px;
+      background-image: url('../images/background.png');
+      background-repeat:no-repeat;
+      width:32%;
+      background-size:cover;
+  }
+  .aboutVehicle{
+      position:relative;
+      float:left;
+      margin:2px;
+     
+  }
+  .aboutPrice{
+      position:relative;
+      float:left;
+      margin:0px;
+      left:0px;
+      width:168px;
+      height:149.5px;
+      background: url(../images/flag.png) no-repeat;
+      background-size:cover;
+  }
+  .showVehicle{
+      width:179px;
+      height:108px;
+      position:relative;
+      top:70px;
+      
+  }
+  .clsPassenger{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .clsDoor{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .clsTransmission{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .clsGasType{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .bookItNow {
+     position:absolute;
+     float:left;
+     background:#F70707;
+     width:70px;
+     height:25px;
+     top:81px;
+     border-radius:2px;
+     cursor:pointer;
+     left:70px;
+ }
+  .conditionDetails{
+      display:none;
+      position:relative;
+      margin:auto;
+      width:768px;
+      clear:both;
+  }
+  .age {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:470px;
+      height:80px;
+      clear:both;
+      left:-144px;
+      padding-top:20px;
+  }
+  .lossDamageWaiver {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:470px;
+      height:150px;
+      left:-144px;
+      clear:both;
+      padding-top:12px;
+      top:40px;
+  }
+  .airportPickup{
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:470px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      left:-144px;
+      top:30px;
+  }
+  .deliveryToHome{
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:470px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      top:70px;
+      left:-144px;
+  }
+  .gps {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:470px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      top:110px;
+      left:-144px;
+  }
+  .babyseat {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:470px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      top:140px;
+      left:-144px;
+  }
+  .bookingDetails{
+      display:none;
+      position:relative;
+      margin:auto;
+      width:100%;
+      clear:both;
+  }
+  .coverInput{
+      position:relative;
+      margin:auto;
+      width:380px;
+      clear:both;
+  }
+  .alignPaymentDetails{
+      position:relative;margin:auto;width:180px;top:7px;
+  }
+  .widthClass {
+        width: 300px;
+        clear:both;
+        position:relative;
+        left:10px;
+  }
+  .selectIcon {
+        position: absolute;
+        top: 15px;
+        left: 260px;
+        z-index: 10;
+  }
+  .dateTimeMargin 
+    {
+        position:relative;
+        margin:4px;
+        width:142px;
+    } 
+  .paymentBreakdown{
+     position:relative;
+     margin:auto;
+     top:30px;
+     width:340px;
+     clear:both;
+  }
+  .paymentheader {
+      position:relative;margin:auto;width:280px;font-size:20px;clear:both;background:#F2132A;color:#fff;font-family:Impact;border-radius:5px;height:45px;bottom:30px;left:8px;
+  }
+  .dailyPrice {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .vacationDays {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .extraDays{
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .totalPrice {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .under25 {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .airportlabel{
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .lostDamageWaiver {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .deliverytovilla {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .gpslabel {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .babyseatlabel{
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    clear:both;
+    width:220px;
+  }
+  .vat{
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    clear:both;
+    width:220px;
+  }
+  .grandtotal {
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    top:20px;
+    clear:both;
+    width:220px;
+  }
+  .alignPayNow{
+      position:relative;margin:auto;width:90px;top:10px;
+  }
+  .payNow {
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    height:50px;
+    background:#5C84AB;
+    color:#fff;
+    cursor:pointer;
+    border-radius:5px;
+    font-family:verdana;
+    font-size:20px;
+    top:70px;
+    clear:both;
+    width:190px;
+  }
+  .alignRecalc{
+      position:relative;margin:auto;width:130px;top:10px;
+  }
+  .recalc {
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    height:50px;
+    background:#5C84AB;
+    color:#fff;
+    cursor:pointer;
+    border-radius:5px;
+    font-family:Verdana;
+    font-size:20px;
+    top:40px;
+    clear:both;
+    width:190px;
+  }
+  .vehTitleText 
+  {
+      font-size:25px;
+      width:220px;
+  }
+  .vehTitle 
+  {
+      position:relative;
+      margin:auto;
+      color:#000;
+      width:220px;
+      margin:auto;
+  }   
+  .vehImage 
+  {
+      overflow:hidden;
+      position:relative;
+      top:50px;
+      left:10px;
+      color:#fff;
+      margin:auto;
+      width:450px;
+      height:450px;
+      /*box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);*/
+  }
+  .priceBox{
+      position:relative;
+      top:10px;
+      left:10px;
+      color:#fff;
+      margin:auto;
+      width:150px;
+      clear:both;
+      background:#3B3434;
+      border-radius:5px;
+  }
+  .menu_desktop_device a {
+      color: #fff;
+      padding: 12px 16px;
+      background: url(../images/color.png) repeat;
+      text-decoration: none;
+      width:100%;
+      display: block;
+  }
+  .menu_desktop_device a:hover 
+  {
+      color:#fff;
+      background: #386592;
+     
+  }
+  .menu_desktop_device 
+  {
+      display:none;
+      overflow: hidden;
+      position:absolute;
+      top:34px;
+      left:0px;
+      color:#fff;
+      width:35%;
+      z-index: 20;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .dropDown {
+      position: relative;
+      height:100px;
+      top:45px;
+      width:100%;
+  }
+  .dropDown:hover .menu_desktop_device 
+  {
+      display: block;
+      z-index:10;
+      
+  }
+   .buttonBg 
+  {
+      background: url(../images/color.png) repeat;
+      position: relative;
+      top:-60px;
+      height:100px;
+      width:100%;
+  }
+  .mnu_button {
+      overflow: hidden;
+      color:#fff;
+      height:60px;
+      width:100%;
+      position:relative;
+      top:20px;
+      background-repeat:no-repeat;
+      width:60px;
+      height:60px;
+      float:left;
+      left:10px;
+      display:block;
+      cursor:pointer;
+      background-image: url(../images/small/menu_icon.png);
+ }
+ .srh a 
+    {
+        text-decoration:none;
+        color:#000;
+       
+    }
+    /* unvisited link */
+    .srh a:link {
+     color: #000;
+     font-weight:normal;
+   }
+    .srh a:hover 
+    {
+        color:#F60100;
+    }
+    /* visited link */
+    .srh a:visited {
+     color: #F60100;
+    }
+    .bottom 
+    {
+        display:none;
+    }
+    .headerbottom
+     {
+         position:relative;
+         bottom:0px !important;
+         clear:both;
+         background:#AD3434;
+         top:-19px;
+         height:90px;
+     }
+    .searchResultHeaderVehicles
+    {
+        position:relative;
+        width:100%;
+        height:150px;
+        background:#EBE8E8;
+        top:0px;
+    }
+    
+    .centreDisplay 
+    {
+        position:relative;
+        margin:auto;
+        width:450px;
+        left:0px;
+    }
+    .buttonStyleResults 
+    {
+        position:relative;
+        top:70px;
+        width:180px;
+        height:55px;
+        cursor:pointer;
+        float:left;
+        left:160px;
+        background:#B82A2F;
+        border-radius:10px;
+    }
+    
+    .searchResultTextHeaderVehicles 
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:230px;
+        font-size:27px;
+        top:33px;
+        left:0px;
+    }
+    
+    .searchResultTextSubHeaderVehicles 
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:138px;
+        font-size:15px;
+        top:40px;
+    }
+    .vehicles
+    {
+        position:relative;
+        width:350px;
+        margin:auto;
+        top:10px;
+        clear:both;
+    }
+    .floatVehicle 
+    {
+        position:relative;
+        float:left;
+        margin:10px;
+        top:10px;
+    }
+    .floatVehiclePropeties 
+    {
+        position:relative;
+        float:left;
+        margin:10px;
+        top:10px;
+    }
+    .displayVehicle 
+    {
+        width:250px;
+        height:183px;
+    }
+    .searchResults 
+    {
+        position:relative;
+        width:410px;
+        height:550px;
+        margin:auto;
+        top:20px;
+        border:2px solid #E3DEDE;
+        border-radius:10px;
+        box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    }
+      
+    .selectIconResult 
+    {
+        position:absolute;
+        top:11px;
+        left:300px;
+        z-index:10;
+        font-size:15px;
+    }
+    .searchTextResults
+    {
+        position:relative;
+        margin:auto;
+        width:60px;
+        color:#fff;
+        top:18px;
+        left:48px;
+    }
+    .rateTextHeader 
+    {
+        position:relative;
+        margin:auto;
+        top:70px;
+        width:80px;
+    }
+    .rates 
+    {
+        position:relative;
+        margin:auto;
+        top:70px;
+        width:600px;
+    }
+    .rateAlign 
+    {
+        position:relative;
+        width:100px;
+        float:left;
+        margin:10px;
+        
+    }
+    .mobileBottom
+     {
+        width:100%;
+        height:350px;
+        text-align:center;
+        left:0px;
+        bottom:0px;
+        color:#fff;
+        padding-top:15px;
+        padding-bottom:5px;
+        background:#fff;
+        position:absolute;
+    
+     }
+     
+    .selected
+    {
+                background: #D42828;
+                color: #fff;
+                font-size: 20px;
+    }
+    .unselected
+    {
+                background: #ABA9A9;
+                color: #fff;
+                font-size: 20px;
+    }
+
+     .booking_step_menu
+     {
+            
+                    height: 75px;
+                    width:100% !important;
+                    font-weight: normal;
+                    position:relative;
+                    float:left;
+                    clear:both;
+                
+     }
+     
+     .textAboutUs 
+     {
+         font-size:13px;
+         width:300px;
+     }
+     .booking_step_container 
+    {
+        height:250px;
+        width:99.4% !important;
+        font-weight: normal;
+        position:relative;
+        margin:auto;
+        clear:both;
+        top:3px;
+        left:2px;
+        background:#ABA9A9;   
+    }
+    .desktopMenuContainer
+    {
+      display :none;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 1023px) 
+{
+  .bodyHeight
+  {
+      height:2100px!important;
+  }
+  .bookNow{
+
+      position:relative;margin:auto;width:90px;top:15px;
+
+  }
+  .contactHeader{
+      display:none;
+  }
+   .stepCount {
+    height: 75px;
+    width:600px !important;
+    font-weight: normal;
+    position:relative;
+    margin:auto;
+    clear:both;
+    top:40px;
+  }
+  .steps {
+      position:relative;
+      float:left;
+      border-radius:50%;
+      width:40px;
+      height:40px;
+      border:2px solid #386592;
+      margin:13%;
+      background:#fff;
+      color:#000;
+  }
+  .stepSolid {
+      position:relative;
+      float:left;
+      border-radius:50%;
+      width:40px;
+      height:40px;
+      background:#454444;
+      border:2px solid #386592;
+      margin:13%;
+      color:#fff;
+  }
+  .search_step_menu
+  {  
+    height: 75px;
+    width:  600px !important;
+    font-weight: normal;
+    position:relative;
+    margin:auto;
+    clear:both;
+    top:0px;
+              
+  }
+  .tabtext{
+      top:10px;
+  }
+  .tabSelect {
+    position:relative;
+    float:left;
+    margin:1px;
+    width:195px;
+    height:70px;
+    background:#386592;
+    border:2px solid #386592;
+    color:#fff;
+    font-size:25px;
+    font-family:Impact;
+    top:20px;
+    cursor:pointer;
+    border-radius:5px;
+  }
+   .rentalLabel{
+      position:relative;margin:auto;width:85px;
+  }
+  .conditionLabel{
+      position:relative;margin:auto;width:73px;
+  }
+  .bookingLabel {
+      position:relative;margin:auto;width:95px;
+  }
+  .tabUnSelect {
+    position:relative;
+    float:left;
+    margin:1px;
+    background:#fff;
+    width:195px;
+    height:70px;
+    border:2px solid #386592;
+    font-size:25px;
+    top:20px;
+    cursor:pointer;
+    font-family:Impact;
+    border-radius:5px;
+  }
+  .rentalDetails{
+      display:none;
+      position:relative;
+      margin:auto;
+      width:100%;
+      height:600px;
+      clear:both;
+      top:30px;
+      left:0px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      
+  }
+  .divCarLabel{
+     position:relative;
+     float:left;
+     height:0px;
+     margin:40px;
+     clear:both;
+     width:182px;
+     left:78px;
+     
+  }
+  .groupInfo {
+      position:relative;
+      margin:auto;
+      width:580px;
+      clear:both;
+      left:0px;
+      top:0px;
+      background:#454444;
+      height:150px;
+      border-bottom-left-radius:0px;
+      border-top-left-radius:0px;
+  }
+  
+  .searchVehicle
+  {
+      position:relative;
+      float:left;
+      left:0px;
+      margin:0px;
+      height:149.5px;
+      background-image: url('../images/background.png');
+      background-repeat:no-repeat;
+      width:35%;
+      background-size:cover;
+  }
+  .aboutVehicle{
+      position:relative;
+      float:left;
+      margin:2px;
+  }
+  .aboutPrice{
+      position:relative;
+      float:left;
+      margin:0px;
+      left:100px;
+      width:168px;
+      height:149.5px;
+      background: url(../images/flag.png) no-repeat;
+      background-size:cover;
+  }
+  .showVehicle{
+      width:179px;
+      height:108px;
+      position:relative;
+      top:70px;
+      
+  }
+  .clsPassenger{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .clsDoor{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .clsTransmission{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .clsGasType{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .bookItNow {
+     position:absolute;
+     float:left;
+     background:#F70707;
+     width:70px;
+     height:25px;
+     top:81px;
+     border-radius:2px;
+     cursor:pointer;
+     left:70px;
+ }
+  .conditionDetails{
+      display:none;
+      position:relative;
+      margin:auto;
+      width:768px;
+      clear:both;
+  }
+  .age {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:500px;
+      height:80px;
+      clear:both;
+      left:-80px;
+      padding-top:20px;
+  }
+  .lossDamageWaiver {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:500px;
+      height:120px;
+      left:-80px;
+      clear:both;
+      padding-top:12px;
+      top:40px;
+  }
+  .airportPickup{
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:500px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      left:-80px;
+      top:45px;
+  }
+  .deliveryToHome{
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:500px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      top:35px;
+      left:-80px;
+  }
+  .gps {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:500px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      top:70px;
+      left:-80px;
+  }
+  .babyseat {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:500px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      top:105px;
+      left:-80px;
+  }
+  .bookingDetails{
+      display:none;
+      position:relative;
+      margin:auto;
+      width:100%;
+      clear:both;
+  }
+  .coverInput{
+      position:relative;
+      margin:auto;
+      width:300px;
+      top:40px;
+      clear:both;
+  }
+  .alignPaymentDetails{
+      position:relative;margin:auto;width:140px;top:7px;
+  }
+  .widthClass {
+        width: 300px;
+        clear:both;
+        position:relative;
+        left:10px;
+  }
+  .selectIcon {
+        position: absolute;
+        top: 15px;
+        left: 260px;
+        z-index: 10;
+  }
+  .dateTimeMargin 
+    {
+        position:relative;
+        margin:4px;
+        width:142px;
+    } 
+  .paymentBreakdown{
+     position:relative;
+     margin:auto;
+     top:70px;
+     width:340px;
+     clear:both;
+  }
+  .paymentheader {
+      position:relative;margin:auto;width:280px;font-size:20px;clear:both;background:#F2132A;color:#fff;font-family:Impact;border-radius:5px;height:45px;bottom:30px;
+  }
+  .dailyPrice {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .vacationDays {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .extraDays{
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .totalPrice {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .under25 {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .airportlabel{
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .lostDamageWaiver {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .deliverytovilla {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .gpslabel {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .babyseatlabel{
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    clear:both;
+    width:220px;
+  }
+  .vat{
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    clear:both;
+    width:220px;
+  }
+  .grandtotal {
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    top:20px;
+    clear:both;
+    width:220px;
+  }
+  .alignPayNow{
+      position:relative;margin:auto;width:90px;top:10px;
+  }
+  .payNow {
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    height:50px;
+    background:#5C84AB;
+    color:#fff;
+    cursor:pointer;
+    border-radius:5px;
+    font-family:verdana;
+    font-size:20px;
+    top:90px;
+    clear:both;
+    width:190px;
+  }
+  .alignRecalc{
+      position:relative;margin:auto;width:130px;top:10px;
+  }
+  .recalc {
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    height:50px;
+    background:#5C84AB;
+    color:#fff;
+    cursor:pointer;
+    border-radius:5px;
+    font-family:verdana;
+    font-size:20px;
+    top:90px;
+    clear:both;
+    width:190px;
+  }
+  .vehTitleText 
+  {
+      font-size:25px;
+      width:220px;
+  }
+  .vehTitle 
+  {
+      position:relative;
+      margin:auto;
+      color:#000;
+      width:220px;
+      margin:auto;
+  }   
+  .vehImage 
+  {
+      overflow:hidden;
+      position:relative;
+      top:50px;
+      left:10px;
+      color:#fff;
+      margin:auto;
+      width:450px;
+      height:450px;
+      clear:both;
+      /*box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);*/
+  }
+  .priceBox{
+      position:relative;
+      top:10px;
+      left:10px;
+      color:#fff;
+      margin:auto;
+      width:150px;
+      clear:both;
+      background:#3B3434;
+      border-radius:5px;
+  }
+  .menu_desktop_device a {
+      color: #fff;
+      padding: 12px 16px;
+      background: url(../images/color.png) repeat;
+      text-decoration: none;
+      width:100%;
+      display: block;
+  }
+  .menu_desktop_device a:hover 
+  {
+      color:#fff;
+      background: #386592;
+     
+  }
+  .menu_desktop_device 
+  {
+      display:none;
+      overflow: hidden;
+      position:absolute;
+      top:34px;
+      left:0px;
+      color:#fff;
+      width:35%;
+      z-index: 20;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .dropDown {
+      position: relative;
+      height:100px;
+      top:45px;
+      width:100%;
+  }
+  .dropDown:hover .menu_desktop_device 
+  {
+      display: block;
+      z-index:10;
+      
+  }
+   .buttonBg 
+  {
+      background: url(../images/color.png) repeat;
+      position: relative;
+      top:-60px;
+      height:100px;
+      width:100%;
+  }
+  .mnu_button {
+      overflow: hidden;
+      color:#fff;
+      height:60px;
+      width:100%;
+      position:relative;
+      top:20px;
+      background-repeat:no-repeat;
+      width:60px;
+      height:60px;
+      float:left;
+      left:10px;
+      display:block;
+      cursor:pointer;
+      background-image: url(../images/small/menu_icon.png);
+ }
+ .srh a 
+    {
+        text-decoration:none;
+        color:#000;
+       
+    }
+    /* unvisited link */
+    .srh a:link {
+     color: #000;
+     font-weight:normal;
+   }
+    .srh a:hover 
+    {
+        color:#F60100;
+    }
+    /* visited link */
+    .srh a:visited {
+     color: #F60100;
+    }
+    .bottom 
+    {
+        display:none;
+    }
+    .headerbottom
+     {
+         position:relative;
+         bottom:0px !important;
+         clear:both;
+         background:#AD3434;
+         top:-19px;
+         height:90px;
+     }
+    .searchResultHeaderVehicles
+    {
+        position:relative;
+        width:100%;
+        height:150px;
+        background:#EBE8E8;
+        top:90px;
+    }
+    
+    .centreDisplay 
+    {
+        position:relative;
+        margin:auto;
+        width:450px;
+        left:0px;
+    }
+    .buttonStyleResults 
+    {
+        position:relative;
+        top:50px;
+        width:180px;
+        height:55px;
+        float:left;
+        left:210px;
+        cursor:pointer;
+        background:#B82A2F;
+        border-radius:10px;
+    }
+    
+    .searchResultTextHeaderVehicles 
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:230px;
+        font-size:27px;
+        top:33px;
+        left:0px;
+    }
+    
+    .searchResultTextSubHeaderVehicles 
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:138px;
+        font-size:15px;
+        top:40px;
+    }
+    .vehicles
+    {
+        position:relative;
+        width:350px;
+        margin:auto;
+        top:10px;
+        clear:both;
+    }
+    .floatVehicle 
+    {
+        position:relative;
+        float:left;
+        margin:10px;
+        top:10px;
+    }
+    .floatVehiclePropeties 
+    {
+        position:relative;
+        float:left;
+        margin:10px;
+        top:10px;
+    }
+    .displayVehicle 
+    {
+        width:250px;
+        height:183px;
+    }
+    .searchResults 
+    {
+        position:relative;
+        width:410px;
+        height:550px;
+        margin:auto;
+        top:20px;
+        border:2px solid #E3DEDE;
+        border-radius:10px;
+        box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    }
+      
+    .selectIconResult 
+    {
+        position:absolute;
+        top:11px;
+        left:300px;
+        z-index:10;
+        font-size:15px;
+    }
+    .searchTextResults
+    {
+        position:relative;
+        margin:auto;
+        width:60px;
+        color:#fff;
+        top:18px;
+        left:48px;
+    }
+    .rateTextHeader 
+    {
+        position:relative;
+        margin:auto;
+        top:70px;
+        width:80px;
+    }
+    .rates 
+    {
+        position:relative;
+        margin:auto;
+        top:70px;
+        width:600px;
+    }
+    .rateAlign 
+    {
+        position:relative;
+        width:100px;
+        float:left;
+        margin:10px;
+        
+    }
+    .mobileBottom
+     {
+        width:100%;
+        height:350px;
+        text-align:center;
+        left:0px;
+        bottom:0px;
+        color:#fff;
+        padding-top:15px;
+        padding-bottom:5px;
+        background:#fff;
+        position:absolute;
+    
+     }
+    
+    .selected
+    {
+                background: #D42828;
+                color: #fff;
+                font-size: 20px;
+    }
+    .unselected
+    {
+                background: #ABA9A9;
+                color: #fff;
+                font-size: 20px;
+    }
+
+     .booking_step_menu
+     {
+            
+                    height: 75px;
+                    width:100% !important;
+                    font-weight: normal;
+                    position:relative;
+                    float:left;
+                    clear:both;
+                
+     }
+     
+     .textAboutUs 
+     {
+         font-size:13px;
+         width:300px;
+     }
+     .booking_step_container 
+    {
+        height:250px;
+        width:99.4% !important;
+        font-weight: normal;
+        position:relative;
+        margin:auto;
+        clear:both;
+        top:3px;
+        left:2px;
+        background:#ABA9A9;   
+    }
+    .desktopMenuContainer
+    {
+      display :none;
+    }
+    .logo 
+  {
+      position:relative;
+      margin:auto;
+      width:350px;
+      height:123px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+    .bodyHeight
+  {
+      height:2100px!important;
+  }
+  .bookNow{
+
+      position:relative;margin:auto;width:90px;top:15px;
+
+  }
+  .contactHeader{
+      display:none;
+  }
+   .stepCount {
+    height: 75px;
+    width:600px !important;
+    font-weight: normal;
+    position:relative;
+    margin:auto;
+    clear:both;
+    top:40px;
+  }
+  .steps {
+      position:relative;
+      float:left;
+      border-radius:50%;
+      width:40px;
+      height:40px;
+      border:2px solid #386592;
+      margin:13%;
+      background:#fff;
+      color:#000;
+  }
+  .stepSolid {
+      position:relative;
+      float:left;
+      border-radius:50%;
+      width:40px;
+      height:40px;
+      background:#454444;
+      border:2px solid #386592;
+      margin:13%;
+      color:#fff;
+  }
+  .search_step_menu
+  {  
+    height: 75px;
+    width:  600px !important;
+    font-weight: normal;
+    position:relative;
+    margin:auto;
+    clear:both;
+    top:0px;
+              
+  }
+  .tabtext{
+      top:10px;
+  }
+  .tabSelect {
+    position:relative;
+    float:left;
+    margin:1px;
+    width:195px;
+    height:70px;
+    background:#386592;
+    border:2px solid #386592;
+    color:#fff;
+    font-size:25px;
+    font-family:Impact;
+    top:20px;
+    cursor:pointer;
+    border-radius:5px;
+  }
+   .rentalLabel{
+      position:relative;margin:auto;width:85px;
+  }
+  .conditionLabel{
+      position:relative;margin:auto;width:73px;
+  }
+  .bookingLabel {
+      position:relative;margin:auto;width:95px;
+  }
+  .tabUnSelect {
+    position:relative;
+    float:left;
+    margin:1px;
+    background:#fff;
+    width:195px;
+    height:70px;
+    border:2px solid #386592;
+    font-size:25px;
+    top:20px;
+    cursor:pointer;
+    font-family:Impact;
+    border-radius:5px;
+  }
+  .rentalDetails{
+      display:none;
+      position:relative;
+      margin:auto;
+      width:100%;
+      height:600px;
+      clear:both;
+      top:30px;
+      left:0px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      
+  }
+  .divCarLabel{
+     position:relative;
+     float:left;
+     margin:50px;
+     clear:both;
+     width:182px;
+     left:78px;
+     
+  }
+  .groupInfo {
+      position:relative;
+      margin:auto;
+      width:580px;
+      clear:both;
+      left:0px;
+      top:0px;
+      background:#454444;
+      height:150px;
+      border-bottom-left-radius:0px;
+      border-top-left-radius:0px;
+  }
+   .searchVehicle
+  {
+      position:relative;
+      float:left;
+      left:0px;
+      margin:0px;
+      height:150px;
+      background-image: url('../images/background.png');
+      background-repeat:no-repeat;
+      width:35%;
+      background-size:cover;
+  }
+  .aboutVehicle{
+      position:relative;
+      float:left;
+      margin:2px;
+  }
+  .aboutPrice{
+      position:relative;
+      float:left;
+      margin:0px;
+      left:100px;
+      width:168px;
+      height:150px;
+      background: url(../images/flag.png) no-repeat;
+      background-size:cover;
+  }
+  .showVehicle{
+      width:179px;
+      height:108px;
+      
+  }
+  .clsPassenger{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .clsDoor{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .clsTransmission{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .clsGasType{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .bookItNow {
+     position:absolute;
+     float:left;
+     background:#F70707;
+     width:70px;
+     height:25px;
+     top:81px;
+     border-radius:2px;
+     cursor:pointer;
+     left:70px;
+ }
+  .conditionDetails{
+      display:none;
+      position:relative;
+      margin:auto;
+      width:768px;
+      clear:both;
+  }
+  .age {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:500px;
+      height:80px;
+      clear:both;
+      left:-80px;
+      padding-top:20px;
+  }
+  .lossDamageWaiver {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:500px;
+      height:120px;
+      left:-80px;
+      clear:both;
+      padding-top:12px;
+      top:40px;
+  }
+  .airportPickup{
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:500px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      left:-80px;
+      top:45px;
+  }
+  .deliveryToHome{
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:500px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      top:35px;
+      left:-80px;
+  }
+  .gps {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:500px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      top:70px;
+      left:-80px;
+  }
+  .babyseat {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:500px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      top:105px;
+      left:-80px;
+  }
+  .bookingDetails{
+      display:none;
+      position:relative;
+      margin:auto;
+      width:100%;
+      clear:both;
+  }
+  .coverInput{
+      position:relative;
+      margin:auto;
+      width:300px;
+      top:40px;
+      clear:both;
+  }
+  .alignPaymentDetails{
+      position:relative;margin:auto;width:140px;top:7px;
+  }
+  .widthClass {
+        width: 300px;
+        clear:both;
+  }
+  .selectIcon {
+        position: absolute;
+        top: 15px;
+        left: 260px;
+        z-index: 10;
+  }
+  .dateTimeMargin 
+    {
+        position:relative;
+        margin:4px;
+        width:142px;
+    } 
+  .paymentBreakdown{
+     position:relative;
+     margin:auto;
+     top:80px;
+     width:340px;
+     clear:both;
+  }
+  .paymentheader {
+      position:relative;margin:auto;width:280px;font-size:20px;clear:both;background:#F2132A;color:#fff;font-family:Impact;border-radius:5px;height:45px;bottom:30px;
+  }
+  .dailyPrice {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .vacationDays {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .extraDays{
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .totalPrice {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .under25 {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .airportlabel{
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .lostDamageWaiver {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .deliverytovilla {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .gpslabel {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .babyseatlabel{
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    clear:both;
+    width:220px;
+  }
+  .vat{
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    clear:both;
+    width:220px;
+  }
+  .grandtotal {
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    top:20px;
+    clear:both;
+    width:220px;
+  }
+  .alignPayNow{
+      position:relative;margin:auto;width:90px;top:10px;
+  }
+  .payNow {
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    height:50px;
+    background:#5C84AB;
+    color:#fff;
+    cursor:pointer;
+    border-radius:5px;
+    font-family:verdana;
+    font-size:20px;
+    top:90px;
+    clear:both;
+    width:190px;
+  }
+  .alignRecalc{
+      position:relative;margin:auto;width:130px;top:10px;
+  }
+  .recalc {
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    height:50px;
+    background:#5C84AB;
+    color:#fff;
+    cursor:pointer;
+    border-radius:5px;
+    font-family:verdana;
+    font-size:20px;
+    top:90px;
+    clear:both;
+    width:190px;
+  }
+  .vehTitleText 
+  {
+      font-size:25px;
+      width:220px;
+  }
+  .vehTitle 
+  {
+      position:relative;
+      margin:auto;
+      color:#000;
+      width:220px;
+      margin:auto;
+  }   
+  .vehImage 
+  {
+      overflow:hidden;
+      position:relative;
+      top:50px;
+      left:10px;
+      color:#fff;
+      margin:auto;
+      width:450px;
+      height:450px;
+      clear:both;
+      /*box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);*/
+  }
+  .priceBox{
+      position:relative;
+      top:10px;
+      left:10px;
+      color:#fff;
+      margin:auto;
+      width:150px;
+      clear:both;
+      background:#3B3434;
+      border-radius:5px;
+  }
+  .menu_desktop_device a {
+      color: #fff;
+      padding: 12px 16px;
+      background: url(../images/color.png) repeat;
+      text-decoration: none;
+      width:100%;
+      display: block;
+  }
+  .menu_desktop_device a:hover 
+  {
+      color:#fff;
+      background: #386592;
+     
+  }
+  .menu_desktop_device 
+  {
+      display:none;
+      overflow: hidden;
+      position:absolute;
+      top:34px;
+      left:0px;
+      color:#fff;
+      width:35%;
+      z-index: 20;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .dropDown {
+      position: relative;
+      height:100px;
+      top:45px;
+      width:100%;
+  }
+  .dropDown:hover .menu_desktop_device 
+  {
+      display: block;
+      z-index:10;
+      
+  }
+   .buttonBg 
+  {
+      background: url(../images/color.png) repeat;
+      position: relative;
+      top:-60px;
+      height:100px;
+      width:100%;
+  }
+  .mnu_button {
+      overflow: hidden;
+      color:#fff;
+      height:60px;
+      width:100%;
+      position:relative;
+      top:20px;
+      background-repeat:no-repeat;
+      width:60px;
+      height:60px;
+      float:left;
+      left:10px;
+      display:block;
+      cursor:pointer;
+      background-image: url(../images/small/menu_icon.png);
+ }
+ .srh a 
+    {
+        text-decoration:none;
+        color:#000;
+       
+    }
+    /* unvisited link */
+    .srh a:link {
+     color: #000;
+     font-weight:normal;
+   }
+    .srh a:hover 
+    {
+        color:#F60100;
+    }
+    /* visited link */
+    .srh a:visited {
+     color: #F60100;
+    }
+    .bottom 
+    {
+        display:none;
+    }
+    .headerbottom
+     {
+         position:relative;
+         bottom:0px !important;
+         clear:both;
+         background:#AD3434;
+         top:-19px;
+         height:90px;
+     }
+    .searchResultHeaderVehicles
+    {
+        position:relative;
+        width:100%;
+        height:150px;
+        background:#EBE8E8;
+        top:90px;
+    }
+    
+    .centreDisplay 
+    {
+        position:relative;
+        margin:auto;
+        width:450px;
+        left:0px;
+    }
+    .buttonStyleResults 
+    {
+        position:relative;
+        top:50px;
+        width:180px;
+        height:55px;
+        float:left;
+        left:210px;
+        cursor:pointer;
+        background:#B82A2F;
+        border-radius:10px;
+    }
+    
+    .searchResultTextHeaderVehicles 
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:230px;
+        font-size:27px;
+        top:33px;
+        left:0px;
+    }
+    
+    .searchResultTextSubHeaderVehicles 
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:138px;
+        font-size:15px;
+        top:40px;
+    }
+    .vehicles
+    {
+        position:relative;
+        width:350px;
+        margin:auto;
+        top:10px;
+        clear:both;
+    }
+    .floatVehicle 
+    {
+        position:relative;
+        float:left;
+        margin:10px;
+        top:10px;
+    }
+    .floatVehiclePropeties 
+    {
+        position:relative;
+        float:left;
+        margin:10px;
+        top:10px;
+    }
+    .displayVehicle 
+    {
+        width:250px;
+        height:183px;
+    }
+    .searchResults 
+    {
+        position:relative;
+        width:410px;
+        height:550px;
+        margin:auto;
+        top:20px;
+        border:2px solid #E3DEDE;
+        border-radius:10px;
+        box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    }
+      
+    .selectIconResult 
+    {
+        position:absolute;
+        top:11px;
+        left:300px;
+        z-index:10;
+        font-size:15px;
+    }
+    .searchTextResults
+    {
+        position:relative;
+        margin:auto;
+        width:60px;
+        color:#fff;
+        top:18px;
+        left:48px;
+    }
+    .rateTextHeader 
+    {
+        position:relative;
+        margin:auto;
+        top:70px;
+        width:80px;
+    }
+    .rates 
+    {
+        position:relative;
+        margin:auto;
+        top:70px;
+        width:600px;
+    }
+    .rateAlign 
+    {
+        position:relative;
+        width:100px;
+        float:left;
+        margin:10px;
+        
+    }
+    .mobileBottom
+     {
+        width:100%;
+        height:350px;
+        text-align:center;
+        left:0px;
+        bottom:0px;
+        color:#fff;
+        padding-top:15px;
+        padding-bottom:5px;
+        background:#fff;
+        position:absolute;
+    
+     }
+    
+    .selected
+    {
+                background: #D42828;
+                color: #fff;
+                font-size: 20px;
+    }
+    .unselected
+    {
+                background: #ABA9A9;
+                color: #fff;
+                font-size: 20px;
+    }
+
+     .booking_step_menu
+     {
+            
+                    height: 75px;
+                    width:100% !important;
+                    font-weight: normal;
+                    position:relative;
+                    float:left;
+                    clear:both;
+                
+     }
+     
+     .textAboutUs 
+     {
+         font-size:13px;
+         width:300px;
+     }
+     .booking_step_container 
+    {
+        height:250px;
+        width:99.4% !important;
+        font-weight: normal;
+        position:relative;
+        margin:auto;
+        clear:both;
+        top:3px;
+        left:2px;
+        background:#ABA9A9;   
+    }
+    .desktopMenuContainer
+    {
+      display :none;
+    }
+    .logo 
+  {
+      position:relative;
+      margin:auto;
+      width:350px;
+      height:123px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) 
+{
+  .bodyHeight
+  {
+      height:2200px!important;
+  }
+  .age {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:800px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+  }
+  .lossDamageWaiver {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:800px;
+      height:120px;
+      clear:both;
+      padding-top:12px;
+      top:40px;
+  }
+  .airportPickup{
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:800px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      top:45px;
+  }
+  .deliveryToHome {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:800px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      top:33px;
+  }
+  .gps {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:800px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      top:70px;
+  }
+  .babyseat {
+      position:relative;
+      margin:auto;
+      border:2px solid #5A94C7;
+      border-radius:5px;
+      width:800px;
+      height:80px;
+      clear:both;
+      padding-top:20px;
+      top:107px;
+  }
+  .widthClass {
+        width: 400px;
+        clear:both;
+  }
+  .pushRight
+  {
+      position:relative;
+      float:left;
+      clear:both;
+      left:45px;
+  }
+.dateTimeMargin 
+{
+    position:relative;
+    margin:4px;
+    width:192px;
+} 
+  .selectIcon {
+        position: absolute;
+        top: 15px;
+        left: 310px;
+        z-index: 10;
+  }
+  .coverInput{
+      position:relative;
+      float:left;
+      margin:3px;
+      width:580px;
+  }
+  .alignPaymentDetails{
+      position:relative;margin:auto;width:137px;top:7px;
+  }
+  .paymentBreakdown{
+     position:relative;
+     float:left;
+     margin:3px;
+     width:400px;
+  }
+  .airportlabel{
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .deliverytovilla {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .dailyPrice {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+    .totalPrice {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .vacationDays {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .extraDays{
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .under25 {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .lostDamageWaiver {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+
+  }
+  .gpslabel {
+     position:relative;
+     float:left;
+     margin:3px;
+     left:70px;
+     clear:both;
+     width:220px;
+  }
+  .babyseatlabel{
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    clear:both;
+    width:220px;
+  }
+   .vat{
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    clear:both;
+    width:220px;
+  }
+  .grandtotal {
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    top:20px;
+    clear:both;
+    width:220px;
+  }
+  .alignPayNow{
+      position:relative;margin:auto;width:68px;top:10px;
+  }
+  .payNow {
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    height:50px;
+    background:#5C84AB;
+    color:#fff;
+    cursor:pointer;
+    border-radius:5px;
+    font-family:Impact;
+    font-size:20px;
+    top:90px;
+    clear:both;
+    width:220px;
+  }
+  .alignRecalc{
+      position:relative;margin:auto;width:110px;top:10px;
+  }
+  .recalc {
+    position:relative;
+    float:left;
+    margin:3px;
+    left:70px;
+    height:50px;
+    background:#5C84AB;
+    color:#fff;
+    cursor:pointer;
+    border-radius:5px;
+    font-family:Impact;
+    font-size:20px;
+    top:90px;
+    clear:both;
+    width:220px;
+  }
+  .paymentheader {
+      position:relative;margin:auto;width:300px;font-size:20px;clear:both;background:#F2132A;color:#fff;font-family:Impact;border-radius:5px;height:45px;bottom:30px;
+  }
+  .bookItNow {
+     position:absolute;
+     float:left;
+     background:#F70707;
+     width:70px;
+     height:25px;
+     top:81px;
+     border-radius:2px;
+     cursor:pointer;
+     left:70px;
+ }
+  .stepCount {
+    height: 75px;
+    width:800px !important;
+    font-weight: normal;
+    position:relative;
+    margin:auto;
+    clear:both;
+    top:-40px;
+  }
+  .steps {
+      position:relative;
+      float:left;
+      border-radius:50%;
+      width:40px;
+      height:40px;
+      border:2px solid #386592;
+      margin:13%;
+      background:#fff;
+      color:#000;
+  }
+  .stepSolid {
+      position:relative;
+      float:left;
+      border-radius:50%;
+      width:40px;
+      height:40px;
+      background:#454444;
+      border:2px solid #386592;
+      margin:13%;
+      color:#fff;
+  }
+  .line{
+    width: 0%;
+    height: 47px;
+    border-bottom: 2px solid black;
+    position: relative;
+    float:left;
+    top:230px;
+  }
+  .rentalDetails{
+      position:relative;
+      margin:auto;
+      width:900px;
+      clear:both;
+      height:600px;
+      top:0px;
+      left:0px;
+      overflow-y: scroll;
+      overflow-x:hidden;
+  }
+  .groupInfo {
+      position:relative;
+      margin:auto;
+      width:750px;
+      clear:both;
+      left:-100px;
+      top:0px;
+      background:#454444;
+      height:150px;
+      border-bottom-left-radius:0px;
+      border-top-left-radius:0px;
+  }
+  .wrapVehicle{
+      background:#0060D3;
+      width:450px;
+      height:200px;
+      position:relative;
+      margin:auto;
+  }
+  .conditionDetails{
+      display:none;
+      position:relative;
+      margin:auto;
+      width:1024px;
+      clear:both;
+  }
+  .bookingDetails{
+      display:none;
+      position:relative;
+      margin:auto;
+      width:1024px;
+      clear:both;
+  }
+  .divCarLabel{
+     position:relative;
+     float:left;
+     height:20px;
+     margin:20px;
+     clear:both;
+     left:0px;
+     width:182px;
+     left:78px;
+     /*
+     color:#fff;
+     border-top-left-radius:5px;
+     border-top-right-radius:5px;
+     background:#000;*/
+  }
+  .searchVehicle
+  {
+      position:relative;
+      float:left;
+      left:0px;
+      margin:0px;
+      height:147px;
+      background-image: url('../images/background.png');
+      background-repeat:no-repeat;
+      width:24%;
+      background-size:cover;
+  }
+  .aboutVehicle{
+      position:relative;
+      float:left;
+      margin:2px;
+      left:20px;
+  }
+  .aboutPrice{
+      position:relative;
+      float:left;
+      margin:0px;
+      left:300px;
+      width:179px;
+      height:150px;
+      top:0px;
+      background: url(../images/flag.png) no-repeat;
+      background-size:cover;
+  }
+  .showVehicle{
+      width:179px;
+      height:100px;
+      position:relative;
+      float:left;
+      left:30px;
+      top:75px;
+  }
+  .clsPassenger{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .clsDoor{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .clsTransmission{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .clsGasType{
+      position:relative;
+      float:left;
+      clear:both;
+      margin:0px;
+  }
+  .search_step_menu
+  {  
+    height: 75px;
+    width:  1024px !important;
+    font-weight: normal;
+    position:relative;
+    margin:auto;
+    clear:both;
+    top:-70px;
+              
+  }
+  .tabSelect {
+    position:relative;
+    float:left;
+    margin:1px;
+    width:330px;
+    height:70px;
+    background:#386592;
+    border:2px solid #386592;
+    color:#fff;
+    font-size:25px;
+    font-family:Impact;
+    top:20px;
+    cursor:pointer;
+    border-radius:5px;
+  }
+  .rentalLabel{
+      position:relative;margin:auto;width:100px;
+  }
+  .conditionLabel{
+      position:relative;margin:auto;width:70px;
+  }
+  .bookingLabel {
+      position:relative;margin:auto;width:100px;
+  }
+  .tabUnSelect {
+    position:relative;
+    float:left;
+    margin:1px;
+    background:#fff;
+    width:330px;
+    height:70px;
+    border:2px solid #386592;
+    font-size:25px;
+    top:20px;
+    cursor:pointer;
+    font-family:Impact;
+    border-radius:5px;
+  }
+  .tabtext{
+      top:10px;
+  }
+  .bookNow{
+
+      position:relative;margin:auto;width:90px;top:15px;
+
+  }
+  .desktopMenuContainer
+  {
+     background: url(../images/color.png) repeat;
+     position:relative;
+     clear:both;
+     height:100px;
+     width:100%;
+  }
+  .vehTitleText 
+  {
+      font-size:25px;
+      width:220px;
+  }
+  .mobilemenu 
+  {
+      display:none;
+  }
+  .menuContainer 
+  {
+      position:relative;
+      margin:auto;
+      left:50px;
+      width:420px;
+      
+  }
+  .menuContainer a 
+  {
+      display: block;
+      color: #fff;
+      float:left;
+      text-align: center;
+      padding: 37px 16px;
+      text-decoration: none;
+  }
+  .menuContainer a:hover {
+      background-color: #6794C2;
+      color: #fff;
+      height:100px;
+      display: block;
+      color: #000;
+      text-align: center;
+      padding: 37px 16px;
+      text-decoration: none;
+  }
+ .buttonBg 
+  {
+      display:none;
+  }
+  .dropDown 
+  {
+     z-index:10;
+     background-image: url(../images/color.png) repeat;
+     position:relative;
+     clear:both;
+     height:100px;
+     width:100%;
+ }
+ .mnu_button {
+      overflow: hidden;
+      background-color: #386592;
+      color:#fff;
+      height:60px;
+      position:relative;
+      top:20px;
+      background-repeat:no-repeat;
+      width:60px;
+      height:60px;
+      width:100%;
+      display:none;
+      background-image: url(../images/small/menu_icon.png);
+  }
+     /* Style the top navigation bar */
+.menu_desktop_device {
+  overflow: hidden;
+  background: url(../images/color.png) repeat;
+  color:#fff;
+  height:100px;
+  width:100%;
+}
+
+/* Style the topnav links */
+.menu_desktop_device a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 37px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.menu_desktop_device a:hover {
+  background-color: #6794C2;
+  color: #fff;
+  height:100px;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 37px 16px;
+  text-decoration: none;
+ }
+ .searchResultHeaderVehicles
+ {
+        position:relative;
+        width:100%;
+        height:150px;
+        background:#EBE8E8;
+        top:30px;
+        clear:both;
+        margin:auto;
+ }
+ .searchResultTextHeaderVehicles 
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:230px;
+        font-size:27px;
+        top:33px;
+        left:0px;
+    }
+    
+    .searchResultTextSubHeaderVehicles 
+    {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:138px;
+        font-size:15px;
+        top:40px;
+    }
+ .srh a 
+    {
+        text-decoration:none;
+        color:#000;
+       
+    }
+    /* unvisited link */
+    .srh a:link {
+     color: #000;
+     font-weight:normal;
+   }
+    .srh a:hover 
+    {
+        color:#F60100;
+    }
+    /* visited link */
+    .srh a:visited {
+     color: #F60100;
+    }
+  .vehTitle 
+  {
+      position:relative;
+      margin:auto;
+      color:#000;
+      width:270px;
+      margin:auto;
+  }   
+  .vehImage 
+    {
+      overflow:hidden;
+      position:relative;
+      top:50px;
+      left:0px;
+      color:#fff;
+      margin:auto;
+      width:570px;
+      height:450px;
+      clear:both;
+      /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    }
+  .priceBox{
+      position:relative;
+      top:10px;
+      color:#fff;
+      margin:auto;
+      width:200px;
+      clear:both;
+      background:#3B3434;
+      border-radius:5px;
+  }
+    .selectors 
+    {
+        position:relative;
+        top:10px;
+        left:10px;
+        float:left;
+    }
+    .downArrow 
+    {
+        cursor:pointer;
+        position:relative;
+        float:left;
+        clear:both;
+        margin:10px;
+    }
+    .upArrow 
+    {
+        cursor:pointer;
+        position:relative;
+        float:left;
+        clear:both;
+        margin:10px;
+    }
+  .numOfVehicles 
+  {
+        position:relative;
+        float:left;
+        clear:both;
+        margin:10px;
+    }
+    .floatVehicle 
+    {
+        position:relative;
+        float:left;
+        margin:10px;
+        top:10px;
+    }
+    .floatVehiclePropeties 
+    {
+        position:relative;
+        float:left;
+        margin:10px;
+        top:10px;
+    }
+    .displayVehicle 
+  {
+        width:250px;
+        height:188px;
+  }
+  .passengers
+    {
+        position:relative;
+        float:left;
+        margin:10px;
+        clear:both;
+        width:100px;
+    }
+    .doors 
+    {
+        position:relative;
+        float:left;
+        margin:10px;
+        clear:both;
+        width:100px;
+    }
+    .gasOrDiesel 
+    {
+        position:relative;
+        float:left;
+        margin:10px;
+        clear:both;
+        width:100px;
+    }
+    .transmission 
+    {
+        position:relative;
+        float:left;
+        margin:10px;
+        clear:both;
+        width:100px;
+        left:0px;
+    }
+    .buttonStyleResults 
+    {
+        position:relative;
+        margin:auto;
+        top:80px;
+        width:180px;
+        height:45px;
+        left:35px;
+        cursor:pointer;
+        background:#B82A2F;
+        border-radius:10px;
+    }
+    .searchTextResults
+    {
+        position:relative;
+        margin:auto;
+        width:60px;
+        color:#fff;
+        top:11px;
+        left:46px
+    }
+    .bottom
+     {
+    width:100%;
+    height:450px;
+    text-align:center;
+    left:0px;
+    color:#fff;
+    padding-top:15px;
+    padding-bottom:5px;
+    background:#2A2B2D;
+    position:absolute;
+    bottom:0px;
+ }
+ /*   .bottom {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        position: fixed;
+        bottom: 0px;
+    }*/
+ .headerbottom
+ {
+     position:relative;
+     bottom:0px !important;
+     clear:both;
+     background:#AD3434;
+     top:-19px;
+     height:90px;
+ }
+    .searchResults 
+    {
+        position:relative;
+        width:70%;
+        height:600px;
+        margin:auto;
+        top:50px;
+        border:2px solid #E3DEDE;
+        border-radius:10px;
+        box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    }
+    .centreDisplay 
+    {
+        position:relative;
+        margin:auto;
+        width:550px;
+        left:43px;
+    }
+    .mobileBottom
+     {
+        display:none;
+    
+     }
+     .logo 
+      {
+          position:relative;
+          margin:auto;
+          width:350px;
+          height:123px;
+      }
+     
+}

@@ -1,0 +1,2972 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ftc:FATCA_OECD version="2.0" xmlns:ftc="urn:oecd:ties:fatca:v2" xmlns:sfa="urn:oecd:ties:stffatcatypes:v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oecd:ties:fatca:v2 FatcaXML_v2.0.xsd">
+  <ftc:MessageSpec>
+    <sfa:SendingCompanyIN>LFDG90.00000.LE.052</sfa:SendingCompanyIN>
+    <sfa:TransmittingCountry>BB</sfa:TransmittingCountry>
+    <sfa:ReceivingCountry>US</sfa:ReceivingCountry>
+    <sfa:MessageType>FATCA</sfa:MessageType>
+    <sfa:Warning />
+    <sfa:MessageRefId>LFDG90.00000.LE.052_0227_BPW</sfa:MessageRefId>
+    <sfa:ReportingPeriod>2019-12-31</sfa:ReportingPeriod>
+    <sfa:Timestamp>2019-12-31T15:36:00</sfa:Timestamp>
+  </ftc:MessageSpec>
+  <ftc:FATCA>
+    <ftc:ReportingFI>
+      <sfa:ResCountryCode>BB</sfa:ResCountryCode>
+      <sfa:TIN issuedBy="US">LFDG90.00000.LE.052</sfa:TIN>
+      <sfa:Name>BPWCCU</sfa:Name>
+      <sfa:Address>
+        <sfa:CountryCode>BB</sfa:CountryCode>
+        <sfa:AddressFix>
+          <sfa:Street>Keith Bourne Complex Belmont Road</sfa:Street>
+          <sfa:BuildingIdentifier />
+          <sfa:SuiteIdentifier />
+          <sfa:FloorIdentifier />
+          <sfa:DistrictName />
+          <sfa:POB />
+          <sfa:PostCode />
+          <sfa:City>Bridgetown</sfa:City>
+          <sfa:CountrySubentity />
+        </sfa:AddressFix>
+      </sfa:Address>
+      <ftc:FilerCategory>FATCA603</ftc:FilerCategory>
+      <ftc:DocSpec>
+        <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+        <ftc:DocRefId>LFDG90.00000.LE.052-dec609e2-cf88-43fa-ab90-16fb248fad4e-bpw-2020</ftc:DocRefId>
+        <ftc:CorrMessageRefId />
+        <ftc:CorrDocRefId />
+      </ftc:DocSpec>
+    </ftc:ReportingFI>
+    <ftc:ReportingGroup>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000002</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000038237</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>WALROND</sfa:FirstName>
+              <sfa:LastName>ANDERSON</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>#40 SINCLAIR ROAD, BROCKTON</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>2302</sfa:PostCode>
+                <sfa:City>MASS.</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1956-02-03</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">111790.42</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">458.32</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000003</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000128236</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>MCDONALD</sfa:FirstName>
+              <sfa:LastName>AUDREY</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>EAST ORANGE NJ</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>07017-4637</sfa:PostCode>
+                <sfa:City>NJ</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1935-11-15</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">441126.52</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">10899.59</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000004</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000110700</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>GASKIN</sfa:FirstName>
+              <sfa:LastName>BASIL</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>1017 219th street Queens Village</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11429</sfa:PostCode>
+                <sfa:City>NEW YORK</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1946-06-13</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">104571.01</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">4063.14</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000005</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000070551</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>TAITT</sfa:FirstName>
+              <sfa:LastName>BETTY</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>MOUNT VERNON NEW YORK</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>10552</sfa:PostCode>
+                <sfa:City>NEW YORK</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1950-03-04</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">113603.39</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">1896.71</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000006</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000134129</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>DEVONISH LEWIS</sfa:FirstName>
+              <sfa:LastName>BETTY</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>MASSACHUSETTS</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>02301 1194</sfa:PostCode>
+                <sfa:City>
+                </sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1957-11-19</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">154347.51</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">2612.64</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000007</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000033175</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>BROWNE</sfa:FirstName>
+              <sfa:LastName>BEVERLEY</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>#552 BRISTOL STREET</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>-</sfa:PostCode>
+                <sfa:City>BROOKLYN NY</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1956-05-23</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">323115.66</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">5057.9</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000008</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000038375</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>WARD</sfa:FirstName>
+              <sfa:LastName>DAWN</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>NEW ROCHELLE NEW YORK</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>10801</sfa:PostCode>
+                <sfa:City>NEW YORK</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1973-03-16</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">102772.42</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">957.75</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000009</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000037726</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">584-88-4739</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>BURGESS</sfa:FirstName>
+              <sfa:LastName>DENNIS</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN NEW YORK</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11218</sfa:PostCode>
+                <sfa:City>NEW YORK</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1949-09-30</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">325141.18</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">5970.78</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000010</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000042878</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>BYNOE</sfa:FirstName>
+              <sfa:LastName>DERICK</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN NY</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11236</sfa:PostCode>
+                <sfa:City>NY</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1954-09-12</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">137657.01</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">1343.08</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000011</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000137491</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>FRANKLIN</sfa:FirstName>
+              <sfa:LastName>DONA</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>FAIRBURN GA</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>30213</sfa:PostCode>
+                <sfa:City>
+                </sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1959-11-13</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">180732.57</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">2426.7</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000012</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000113021</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>PHILLIPS</sfa:FirstName>
+              <sfa:LastName>EARL</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN NY</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11203-4515</sfa:PostCode>
+                <sfa:City>NY</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1962-06-07</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">278522.97</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">3700.99</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000013</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000057731</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>BIRKETT</sfa:FirstName>
+              <sfa:LastName>EDWIN</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>9-1 BOSTON</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>2118</sfa:PostCode>
+                <sfa:City>MASS</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1953-08-19</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">286159.95</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">5309.82</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000014</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000075662</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>KING</sfa:FirstName>
+              <sfa:LastName>EILEEN</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>CONNECTICUT</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>6615</sfa:PostCode>
+                <sfa:City>CT</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1958-04-04</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">105883.87</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">727.18</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000015</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000046723</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>HAYNES</sfa:FirstName>
+              <sfa:LastName>ESTEREEN</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN NEW YORK</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11236</sfa:PostCode>
+                <sfa:City>NEW YORK</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1946-07-25</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">115807.91</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">886.58</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000016</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000126489</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>SEALY</sfa:FirstName>
+              <sfa:LastName>FREDERICK</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>LAURELTON NY</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11413</sfa:PostCode>
+                <sfa:City>NY</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1950-06-26</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">294991.04</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">4548.59</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000017</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000062730</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>DRAYTON</sfa:FirstName>
+              <sfa:LastName>GAIL</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>MA</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>02476-4235</sfa:PostCode>
+                <sfa:City>
+                </sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1971-10-17</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">101025.77</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">13.55</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000018</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000073511</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>KING</sfa:FirstName>
+              <sfa:LastName>GLEN</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>HEMPSTEAD NEW YORK</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11550</sfa:PostCode>
+                <sfa:City>NEW YORK</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1959-02-27</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">161760.83</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">14.52</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000019</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000089436</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>COOKS</sfa:FirstName>
+              <sfa:LastName>ISIDORA</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>JERSEY CITY NJ</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>703067011</sfa:PostCode>
+                <sfa:City>NJ</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1960-03-05</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">100781.35</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">6.43</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000020</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000132163</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>LEACOCK</sfa:FirstName>
+              <sfa:LastName>JACQUELINE</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>KUNKLETOWN</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>PA 18058</sfa:PostCode>
+                <sfa:City>
+                </sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1970-05-22</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">686771.58</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">10247.01</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000021</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000134749</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>VAUGHAN-GEORGE</sfa:FirstName>
+              <sfa:LastName>JACQUELINE</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>NEW YORK</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11553</sfa:PostCode>
+                <sfa:City>
+                </sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1962-06-16</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">179615.12</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">1866.22</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000022</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000027663</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>PAYNE</sfa:FirstName>
+              <sfa:LastName>JAMES</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>MIRAMAR  FL 33029 FLORIDA</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>-</sfa:PostCode>
+                <sfa:City>FLORIDA</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1951-12-22</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">131980.01</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">261.19</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000023</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000013829</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">052-86-2631</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>HOYTE</sfa:FirstName>
+              <sfa:LastName>JANICE</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>MOUNT VERNON</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>10552</sfa:PostCode>
+                <sfa:City>NEW YORK</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1955-08-03</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">242460.25</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">2356</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000024</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000007066</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>HAREWOOD</sfa:FirstName>
+              <sfa:LastName>JENNIFER</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN NEW YORK</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11233</sfa:PostCode>
+                <sfa:City>NEW YORK</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1958-03-05</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">100162.25</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">1498.19</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000025</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000094503</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>SPRINGER</sfa:FirstName>
+              <sfa:LastName>JENNIFER</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>MARYLAND</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>20774</sfa:PostCode>
+                <sfa:City>
+                </sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1961-03-27</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">184080.57</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">54.25</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000026</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000031282</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>CLARKE</sfa:FirstName>
+              <sfa:LastName>JOEL</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>NEW YORK</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>10027</sfa:PostCode>
+                <sfa:City>
+                </sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1962-12-12</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">306275.62</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">2588.19</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000027</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000129387</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>HURST</sfa:FirstName>
+              <sfa:LastName>JOYCE</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>NORTH CAROLINA</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>NC 28075</sfa:PostCode>
+                <sfa:City>
+                </sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1950-02-11</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">252733.41</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">5599.36</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000028</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000108017</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>SOBERS</sfa:FirstName>
+              <sfa:LastName>JOYCELYN</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN NY</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11216-3354</sfa:PostCode>
+                <sfa:City>NY</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1960-04-30</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">160845.49</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">1250.47</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000029</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000004029</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>HAREWOOD</sfa:FirstName>
+              <sfa:LastName>JUDITH</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>NEW OXFORD PA</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>17350</sfa:PostCode>
+                <sfa:City>PA</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1953-11-02</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">105830.55</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">606.86</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000030</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000121513</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>OXLEY LOWE</sfa:FirstName>
+              <sfa:LastName>JULIETTE</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN NY</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11208</sfa:PostCode>
+                <sfa:City>NY</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1959-05-15</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">116148.58</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">583.44</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000031</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000126794</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>SKEETE</sfa:FirstName>
+              <sfa:LastName>JULIUS</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BLOOMFIELD CT</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>06002-3337</sfa:PostCode>
+                <sfa:City>CT</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1951-12-10</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">117983.25</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">788.51</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000032</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000069298</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>CARR</sfa:FirstName>
+              <sfa:LastName>KELVIN</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN NEW YORK</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11234</sfa:PostCode>
+                <sfa:City>NEW YORK</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1946-06-11</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">105148.24</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">2381.13</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000033</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000038162</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>BOYCE</sfa:FirstName>
+              <sfa:LastName>KIMBERLEY</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>DORCHESTER</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>2121</sfa:PostCode>
+                <sfa:City>MASS</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1981-01-19</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">123394.48</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">1217.52</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000034</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000136717</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>BASCOMBE</sfa:FirstName>
+              <sfa:LastName>LINDA</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>NEW YORK</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11203</sfa:PostCode>
+                <sfa:City>
+                </sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1956-01-12</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">149170.08</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">1497.99</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000035</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000072046</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>SEVERIN</sfa:FirstName>
+              <sfa:LastName>LUCILLE</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN NEW YORK</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11208</sfa:PostCode>
+                <sfa:City>NEW YORK</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1948-02-07</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">105402.4</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">803.55</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000036</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000083584</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>HARVEY</sfa:FirstName>
+              <sfa:LastName>MARIA</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>ROSLINDALE</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>2131</sfa:PostCode>
+                <sfa:City>MA</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1949-09-18</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">159694.02</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">616.78</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000037</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000086413</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>CALLENDER</sfa:FirstName>
+              <sfa:LastName>MARIA</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BEAVERDAM WI 53916</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>53916</sfa:PostCode>
+                <sfa:City>WISCOUSIN</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1961-11-14</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">154476.93</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">1421.56</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000038</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000021471</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>NURSE</sfa:FirstName>
+              <sfa:LastName>MERLENE</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>OAKLEY</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>94561</sfa:PostCode>
+                <sfa:City>CALIFORNIA</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1962-09-24</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">205642.53</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">950.95</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000039</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000009511</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>FORDE</sfa:FirstName>
+              <sfa:LastName>MONICA</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>NEW YORK</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11226</sfa:PostCode>
+                <sfa:City>
+                </sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1950-03-30</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">121022.27</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">977.83</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000040</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000058861</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>HARRIS</sfa:FirstName>
+              <sfa:LastName>MONICA</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN NEW YORK</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11212</sfa:PostCode>
+                <sfa:City>NEW YORK</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1939-04-06</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">134029.57</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">1134.53</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000041</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000080926</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>PARRIS</sfa:FirstName>
+              <sfa:LastName>NIGEL</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>LAWRENCE VILLE GA</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>30043</sfa:PostCode>
+                <sfa:City>GA</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1960-07-13</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">118336.07</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">4344.34</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000042</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000038998</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>THORNE</sfa:FirstName>
+              <sfa:LastName>OLSON</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN NY</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11216-3414</sfa:PostCode>
+                <sfa:City>
+                </sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1941-10-31</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">161516.43</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">2929.17</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000043</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000127554</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>FORDE</sfa:FirstName>
+              <sfa:LastName>OLWIN</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN NY</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11203-2808</sfa:PostCode>
+                <sfa:City>NY</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1960-11-24</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">104649.83</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">2372.6</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000044</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000100015</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>ESTWICK</sfa:FirstName>
+              <sfa:LastName>ORVILLE</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROCKTON USA</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>02301-6529</sfa:PostCode>
+                <sfa:City>USA</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1938-07-29</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">116743.9</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">654.23</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000045</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000089638</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>WELCH</sfa:FirstName>
+              <sfa:LastName>REGINALD</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>CINCINATTI OH</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>45240</sfa:PostCode>
+                <sfa:City>OH</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1950-03-16</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">158631.57</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">6378.63</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000046</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000098026</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>KING</sfa:FirstName>
+              <sfa:LastName>RONALD</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>WEST ORANGE NJ</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>07052-1823</sfa:PostCode>
+                <sfa:City>NJ</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1975-06-02</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">104866.06</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">94.54</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000047</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000032498</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>GITTENS SEALE</sfa:FirstName>
+              <sfa:LastName>RUTH</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>NY</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11413 3106</sfa:PostCode>
+                <sfa:City>
+                </sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1950-01-13</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">107689.78</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">629.3</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000048</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000065569</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>GRANT</sfa:FirstName>
+              <sfa:LastName>SHAKIRA</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>WA</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>98053-5862</sfa:PostCode>
+                <sfa:City>
+                </sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1983-08-28</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">138231.35</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">4351.86</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000049</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000009435</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">131-86-4617</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>ANDERSON</sfa:FirstName>
+              <sfa:LastName>SONJA</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11207</sfa:PostCode>
+                <sfa:City>NEW YORK</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1953-05-02</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">201729.46</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">4635.44</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000050</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000096066</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>GROSVENOR</sfa:FirstName>
+              <sfa:LastName>STACY</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN NY</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11212-3351</sfa:PostCode>
+                <sfa:City>NY</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1976-06-14</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">147358.93</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">3876.87</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000051</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000033099</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>BEST</sfa:FirstName>
+              <sfa:LastName>STEPHEN</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>MONROE TOWNSHIP NJ</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>8831</sfa:PostCode>
+                <sfa:City>NJ</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1965-01-31</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">102529.1</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">2688.87</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000052</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000124449</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>KING</sfa:FirstName>
+              <sfa:LastName>SUE-ANN</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN NY</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11238</sfa:PostCode>
+                <sfa:City>NY</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1973-04-04</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">171329.36</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">3174.08</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000053</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000073683</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>BRYAN</sfa:FirstName>
+              <sfa:LastName>SUZETTE</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN NEW YORK</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11236</sfa:PostCode>
+                <sfa:City>NEW YORK</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1966-04-15</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">103576.11</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">3373.36</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000054</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000035606</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>SEALY</sfa:FirstName>
+              <sfa:LastName>SYLVIA</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN NEW YORK</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11233</sfa:PostCode>
+                <sfa:City>NEW YORK</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1951-06-18</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">130471.78</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">2189.27</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000055</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000021739</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>LUCAS</sfa:FirstName>
+              <sfa:LastName>VALDENE</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11236</sfa:PostCode>
+                <sfa:City>NEW YORK</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1950-05-23</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">107372.68</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">3399.64</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000056</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000025379</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>HARRIS-ALLEYNE</sfa:FirstName>
+              <sfa:LastName>VALENCE</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>MA 02139 MA</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>2139</sfa:PostCode>
+                <sfa:City>MA</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1962-01-04</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">447899.46</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">15431.86</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000057</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000066252</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>STANLEY</sfa:FirstName>
+              <sfa:LastName>VICTORIA</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>NEW JERSEY</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>7111</sfa:PostCode>
+                <sfa:City>
+                </sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1950-10-29</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">122318.31</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">297.15</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000058</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000053959</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>BARROW</sfa:FirstName>
+              <sfa:LastName>VINCENT</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN NEW YORK</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11221</sfa:PostCode>
+                <sfa:City>NEW YORK</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1950-01-12</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">114257.13</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">919.48</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000059</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000144394</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>LEWIS</sfa:FirstName>
+              <sfa:LastName>VINCENT</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>NEW YORK</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11001-3549</sfa:PostCode>
+                <sfa:City>
+                </sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1957-12-03</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">129508.98</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">0</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000060</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000037158</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>EDWARDS</sfa:FirstName>
+              <sfa:LastName>WAYNE</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>BROOKLYN NEW YORK</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>11226</sfa:PostCode>
+                <sfa:City>NEW YORK</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1966-10-21</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">130063.8</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">2795.72</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000061</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000049479</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>CUMBERBATCH</sfa:FirstName>
+              <sfa:LastName>WAYNE</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>ENGLEWOOD NEW JERSEY</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>7631</sfa:PostCode>
+                <sfa:City>NEW JERSEY</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1956-06-15</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">220397.53</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">2173.3</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000062</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000017434</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>BECKLES</sfa:FirstName>
+              <sfa:LastName>WILLIAM</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>MT. VERNON</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>10553</sfa:PostCode>
+                <sfa:City>NY</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1942-01-05</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">348468.36</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">9169.28</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+      <ftc:AccountReport>
+        <ftc:DocSpec>
+          <ftc:DocTypeIndic>FATCA1</ftc:DocTypeIndic>
+          <ftc:DocRefId>LFDG90.00000.LE.052.201900010000000063</ftc:DocRefId>
+          <ftc:CorrMessageRefId />
+          <ftc:CorrDocRefId />
+        </ftc:DocSpec>
+        <ftc:AccountNumber>0000005832</ftc:AccountNumber>
+        <ftc:AccountHolder>
+          <ftc:Individual>
+            <sfa:ResCountryCode>US</sfa:ResCountryCode>
+            <sfa:TIN issuedBy="US">AAAAAAAAA</sfa:TIN>
+            <sfa:Name>
+              <sfa:FirstName>STEWART</sfa:FirstName>
+              <sfa:LastName>YVETTE</sfa:LastName>
+              <sfa:GenerationIdentifier />
+              <sfa:Suffix />
+              <sfa:GeneralSuffix />
+            </sfa:Name>
+            <sfa:Address>
+              <sfa:CountryCode>US</sfa:CountryCode>
+              <sfa:AddressFix>
+                <sfa:Street>RED OAK TEXAS</sfa:Street>
+                <sfa:BuildingIdentifier />
+                <sfa:SuiteIdentifier />
+                <sfa:FloorIdentifier />
+                <sfa:DistrictName />
+                <sfa:POB />
+                <sfa:PostCode>75154</sfa:PostCode>
+                <sfa:City>TEXAS</sfa:City>
+                <sfa:CountrySubentity />
+              </sfa:AddressFix>
+            </sfa:Address>
+            <sfa:BirthInfo>
+              <sfa:BirthDate>1955-09-08</sfa:BirthDate>
+              <sfa:City />
+              <sfa:CitySubentity />
+            </sfa:BirthInfo>
+          </ftc:Individual>
+        </ftc:AccountHolder>
+        <ftc:AccountBalance currCode="BBD">104660.44</ftc:AccountBalance>
+        <ftc:Payment>
+          <ftc:Type>FATCA502</ftc:Type>
+          <ftc:PaymentTypeDesc />
+          <ftc:PaymentAmnt currCode="BBD">2572.49</ftc:PaymentAmnt>
+        </ftc:Payment>
+      </ftc:AccountReport>
+    </ftc:ReportingGroup>
+  </ftc:FATCA>
+</ftc:FATCA_OECD>

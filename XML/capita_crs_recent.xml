@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<crs:CRS_OECD version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfc="urn:oecd:ties:commontypesfatcacrs:v1" xmlns:crs="urn:oecd:ties:crs:v1" xmlns:ftc="urn:oecd:ties:fatca:v1" xmlns:stf="urn:oecd:ties:stf:v4" xsi:schemaLocation="urn:oecd:ties:crs:v1 CrsXML_v1.0.xsd">
+  <crs:MessageSpec>
+    <crs:SendingCompanyIN>LFDG90.00001.052</crs:SendingCompanyIN>
+    <crs:TransmittingCountry>BB</crs:TransmittingCountry>
+    <crs:ReceivingCountry>US</crs:ReceivingCountry>
+    <crs:MessageType>CRS</crs:MessageType>
+    <crs:Warning />
+    <crs:MessageRefId>CRS90.00001.052.2020_0007</crs:MessageRefId>
+    <crs:MessageTypeIndic>CRS701</crs:MessageTypeIndic>
+    <crs:ReportingPeriod>2019-12-31</crs:ReportingPeriod>
+    <crs:Timestamp>2020-08-17T15:36:00</crs:Timestamp>
+  </crs:MessageSpec>
+  <crs:CrsBody>
+    <crs:ReportingFI>
+      <crs:ResCountryCode>BB</crs:ResCountryCode>
+      <crs:IN issuedBy="BB" INType="TIN">LFDG90.00001.052</crs:IN>
+      <crs:Name>CAPITA</crs:Name>
+      <crs:Address>
+        <cfc:CountryCode>BB</cfc:CountryCode>
+        <cfc:AddressFree>Keith Bourne Complex Belmont Road</cfc:AddressFree>
+      </crs:Address>
+      <crs:DocSpec>
+        <stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+        <stf:DocRefId>BB90.00001.052.CAPITA</stf:DocRefId>
+      </crs:DocSpec>
+    </crs:ReportingFI>
+    <crs:ReportingGroup>
+      <crs:AccountReport>
+        <crs:DocSpec>
+          <stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+          <stf:DocRefId>CA90.00000.ME.052.2019_0001_0000000002</stf:DocRefId>
+        </crs:DocSpec>
+        <crs:AccountNumber AcctNumberType="OECD601">0004035788</crs:AccountNumber>
+        <crs:AccountHolder>
+          <crs:Individual>
+            <crs:ResCountryCode>CA</crs:ResCountryCode>
+            <crs:TIN issuedBy="CA">AAAAAAAAA</crs:TIN>
+            <crs:Name>
+              <crs:FirstName>ESMERALDA &amp; ETWIN</crs:FirstName>
+              <crs:LastName>DOUGLAS</crs:LastName>
+            </crs:Name>
+            <crs:Address>
+              <cfc:CountryCode>CA</cfc:CountryCode>
+              <cfc:AddressFix>
+                <cfc:Street>49 BRAESIDE SQUARE, UNIONVILLE</cfc:Street>
+                <cfc:PostCode>L3R0A4</cfc:PostCode>
+                <cfc:City>ONTARIO</cfc:City>
+              </cfc:AddressFix>
+            </crs:Address>
+            <crs:BirthInfo>
+              <crs:BirthDate>1928-11-26</crs:BirthDate>
+              <crs:City>ONTARIO</crs:City>
+            </crs:BirthInfo>
+          </crs:Individual>
+        </crs:AccountHolder>
+        <crs:AccountBalance currCode="BBD">96702.46</crs:AccountBalance>
+        <crs:Payment>
+          <crs:Type>CRS502</crs:Type>
+          <crs:PaymentAmnt currCode="BBD">18151.58</crs:PaymentAmnt>
+        </crs:Payment>
+      </crs:AccountReport>
+      <crs:AccountReport>
+        <crs:DocSpec>
+          <stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+          <stf:DocRefId>GB90.00000.ME.052.2019_0001_0000000003</stf:DocRefId>
+        </crs:DocSpec>
+        <crs:AccountNumber AcctNumberType="OECD601">0004035671</crs:AccountNumber>
+        <crs:AccountHolder>
+          <crs:Individual>
+            <crs:ResCountryCode>GB</crs:ResCountryCode>
+            <crs:TIN issuedBy="GB">AAAAAAAAA</crs:TIN>
+            <crs:Name>
+              <crs:FirstName>ANNETTE</crs:FirstName>
+              <crs:LastName>NICHOLLS</crs:LastName>
+            </crs:Name>
+            <crs:Address>
+              <cfc:CountryCode>GB</cfc:CountryCode>
+              <cfc:AddressFix>
+                <cfc:Street>#90 ANSEL ROAD, TOOTING</cfc:Street>
+                <cfc:PostCode>SW 17</cfc:PostCode>
+                <cfc:City>LONDON</cfc:City>
+              </cfc:AddressFix>
+            </crs:Address>
+            <crs:BirthInfo>
+              <crs:BirthDate>1900-12-31</crs:BirthDate>
+              <crs:City>LONDON</crs:City>
+            </crs:BirthInfo>
+          </crs:Individual>
+        </crs:AccountHolder>
+        <crs:AccountBalance currCode="BBD">16976.37</crs:AccountBalance>
+        <crs:Payment>
+          <crs:Type>CRS502</crs:Type>
+          <crs:PaymentAmnt currCode="BBD">426.73</crs:PaymentAmnt>
+        </crs:Payment>
+      </crs:AccountReport>
+      <crs:AccountReport>
+        <crs:DocSpec>
+          <stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+          <stf:DocRefId>BB90.00000.ME.052.2019_0001_0000000004</stf:DocRefId>
+        </crs:DocSpec>
+        <crs:AccountNumber AcctNumberType="OECD601">0004087508</crs:AccountNumber>
+        <crs:AccountHolder>
+          <crs:Individual>
+            <crs:ResCountryCode>BB</crs:ResCountryCode>
+            <crs:TIN issuedBy="BB">AAAAAAAAA</crs:TIN>
+            <crs:Name>
+              <crs:FirstName>DAVE</crs:FirstName>
+              <crs:LastName>BLACKMAN</crs:LastName>
+            </crs:Name>
+            <crs:Address>
+              <cfc:CountryCode>BB</cfc:CountryCode>
+              <cfc:AddressFix>
+                <cfc:Street>#37 DURANTS, CHRIST CHURCH</cfc:Street>
+                <cfc:PostCode>-</cfc:PostCode>
+                <cfc:City>BARBADOS</cfc:City>
+              </cfc:AddressFix>
+            </crs:Address>
+            <crs:BirthInfo>
+              <crs:BirthDate>1948-12-28</crs:BirthDate>
+              <crs:City>BARBADOS</crs:City>
+            </crs:BirthInfo>
+          </crs:Individual>
+        </crs:AccountHolder>
+        <crs:AccountBalance currCode="BBD">100000</crs:AccountBalance>
+        <crs:Payment>
+          <crs:Type>CRS502</crs:Type>
+          <crs:PaymentAmnt currCode="BBD">6500</crs:PaymentAmnt>
+        </crs:Payment>
+      </crs:AccountReport>
+      <crs:AccountReport>
+        <crs:DocSpec>
+          <stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+          <stf:DocRefId>BB90.00000.ME.052.2019_0001_0000000005</stf:DocRefId>
+        </crs:DocSpec>
+        <crs:AccountNumber AcctNumberType="OECD601">0004084232</crs:AccountNumber>
+        <crs:AccountHolder>
+          <crs:Individual>
+            <crs:ResCountryCode>BB</crs:ResCountryCode>
+            <crs:TIN issuedBy="BB">AAAAAAAAA</crs:TIN>
+            <crs:Name>
+              <crs:FirstName>CURLON DONALD</crs:FirstName>
+              <crs:LastName>SAM</crs:LastName>
+            </crs:Name>
+            <crs:Address>
+              <cfc:CountryCode>BB</cfc:CountryCode>
+              <cfc:AddressFix>
+                <cfc:Street>#1 HILTON ROAD, MAXWELL</cfc:Street>
+                <cfc:PostCode>-</cfc:PostCode>
+                <cfc:City>BARBADOS</cfc:City>
+              </cfc:AddressFix>
+            </crs:Address>
+            <crs:BirthInfo>
+              <crs:BirthDate>1967-12-02</crs:BirthDate>
+              <crs:City>BARBADOS</crs:City>
+            </crs:BirthInfo>
+          </crs:Individual>
+        </crs:AccountHolder>
+        <crs:AccountBalance currCode="BBD">22233.29</crs:AccountBalance>
+        <crs:Payment>
+          <crs:Type>CRS502</crs:Type>
+          <crs:PaymentAmnt currCode="BBD">1702.53</crs:PaymentAmnt>
+        </crs:Payment>
+      </crs:AccountReport>
+      <crs:AccountReport>
+        <crs:DocSpec>
+          <stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+          <stf:DocRefId>BB90.00000.ME.052.2019_0001_0000000006</stf:DocRefId>
+        </crs:DocSpec>
+        <crs:AccountNumber AcctNumberType="OECD601">0004092862</crs:AccountNumber>
+        <crs:AccountHolder>
+          <crs:Individual>
+            <crs:ResCountryCode>BB</crs:ResCountryCode>
+            <crs:TIN issuedBy="BB">AAAAAAAAA</crs:TIN>
+            <crs:Name>
+              <crs:FirstName>ZORINA</crs:FirstName>
+              <crs:LastName>KHAN</crs:LastName>
+            </crs:Name>
+            <crs:Address>
+              <cfc:CountryCode>BB</cfc:CountryCode>
+              <cfc:AddressFix>
+                <cfc:Street>19 LOCUST HALL TERRACE, ST. GEORGE</cfc:Street>
+                <cfc:PostCode>-</cfc:PostCode>
+                <cfc:City>BARBADOS</cfc:City>
+              </cfc:AddressFix>
+            </crs:Address>
+            <crs:BirthInfo>
+              <crs:BirthDate>1966-05-06</crs:BirthDate>
+              <crs:City>BARBADOS</crs:City>
+            </crs:BirthInfo>
+          </crs:Individual>
+        </crs:AccountHolder>
+        <crs:AccountBalance currCode="BBD">10000</crs:AccountBalance>
+        <crs:Payment>
+          <crs:Type>CRS502</crs:Type>
+          <crs:PaymentAmnt currCode="BBD">1750.96</crs:PaymentAmnt>
+        </crs:Payment>
+      </crs:AccountReport>
+      <crs:AccountReport>
+        <crs:DocSpec>
+          <stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+          <stf:DocRefId>BB90.00000.ME.052.2019_0001_0000000007</stf:DocRefId>
+        </crs:DocSpec>
+        <crs:AccountNumber AcctNumberType="OECD601">0004099180</crs:AccountNumber>
+        <crs:AccountHolder>
+          <crs:Individual>
+            <crs:ResCountryCode>BB</crs:ResCountryCode>
+            <crs:TIN issuedBy="BB">AAAAAAAAA</crs:TIN>
+            <crs:Name>
+              <crs:FirstName>HAMANT</crs:FirstName>
+              <crs:LastName>KISSOON</crs:LastName>
+            </crs:Name>
+            <crs:Address>
+              <cfc:CountryCode>BB</cfc:CountryCode>
+              <cfc:AddressFix>
+                <cfc:Street>LOT 14 SUNSET RIDGE, SUNBURY</cfc:Street>
+                <cfc:PostCode>-</cfc:PostCode>
+                <cfc:City>BARBADOS</cfc:City>
+              </cfc:AddressFix>
+            </crs:Address>
+            <crs:BirthInfo>
+              <crs:BirthDate>1972-10-20</crs:BirthDate>
+              <crs:City>BARBADOS</crs:City>
+            </crs:BirthInfo>
+          </crs:Individual>
+        </crs:AccountHolder>
+        <crs:AccountBalance currCode="BBD">2400</crs:AccountBalance>
+        <crs:Payment>
+          <crs:Type>CRS502</crs:Type>
+          <crs:PaymentAmnt currCode="BBD">219.95</crs:PaymentAmnt>
+        </crs:Payment>
+      </crs:AccountReport>
+      <crs:AccountReport>
+        <crs:DocSpec>
+          <stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+          <stf:DocRefId>BB90.00000.ME.052.2019_0001_0000000008</stf:DocRefId>
+        </crs:DocSpec>
+        <crs:AccountNumber AcctNumberType="OECD601">0004098448</crs:AccountNumber>
+        <crs:AccountHolder>
+          <crs:Individual>
+            <crs:ResCountryCode>BB</crs:ResCountryCode>
+            <crs:TIN issuedBy="BB">AAAAAAAAA</crs:TIN>
+            <crs:Name>
+              <crs:FirstName>SHEMLYN AMARLYS</crs:FirstName>
+              <crs:LastName>GIBSON</crs:LastName>
+            </crs:Name>
+            <crs:Address>
+              <cfc:CountryCode>BB</cfc:CountryCode>
+              <cfc:AddressFix>
+                <cfc:Street>255 MOUNT BREVITOR, ST.PETER</cfc:Street>
+                <cfc:PostCode>-</cfc:PostCode>
+                <cfc:City>BARBADOS</cfc:City>
+              </cfc:AddressFix>
+            </crs:Address>
+            <crs:BirthInfo>
+              <crs:BirthDate>1987-08-27</crs:BirthDate>
+              <crs:City>BARBADOS</crs:City>
+            </crs:BirthInfo>
+          </crs:Individual>
+        </crs:AccountHolder>
+        <crs:AccountBalance currCode="BBD">1400</crs:AccountBalance>
+        <crs:Payment>
+          <crs:Type>CRS502</crs:Type>
+          <crs:PaymentAmnt currCode="BBD">343.54</crs:PaymentAmnt>
+        </crs:Payment>
+      </crs:AccountReport>
+      <crs:AccountReport>
+        <crs:DocSpec>
+          <stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+          <stf:DocRefId>BB90.00000.ME.052.2019_0001_0000000009</stf:DocRefId>
+        </crs:DocSpec>
+        <crs:AccountNumber AcctNumberType="OECD601">0004200139</crs:AccountNumber>
+        <crs:AccountHolder>
+          <crs:Individual>
+            <crs:ResCountryCode>BB</crs:ResCountryCode>
+            <crs:TIN issuedBy="BB">AAAAAAAAA</crs:TIN>
+            <crs:Name>
+              <crs:FirstName>MELVIN</crs:FirstName>
+              <crs:LastName>ALICK</crs:LastName>
+            </crs:Name>
+            <crs:Address>
+              <cfc:CountryCode>BB</cfc:CountryCode>
+              <cfc:AddressFix>
+                <cfc:Street>#31 CALLENDERS  CHRIST CHURCH</cfc:Street>
+                <cfc:PostCode>-</cfc:PostCode>
+                <cfc:City>BARBADOS</cfc:City>
+              </cfc:AddressFix>
+            </crs:Address>
+            <crs:BirthInfo>
+              <crs:BirthDate>1980-08-11</crs:BirthDate>
+              <crs:City>BARBADOS</crs:City>
+            </crs:BirthInfo>
+          </crs:Individual>
+        </crs:AccountHolder>
+        <crs:AccountBalance currCode="BBD">4000</crs:AccountBalance>
+        <crs:Payment>
+          <crs:Type>CRS502</crs:Type>
+          <crs:PaymentAmnt currCode="BBD">156.72</crs:PaymentAmnt>
+        </crs:Payment>
+      </crs:AccountReport>
+      <crs:AccountReport>
+        <crs:DocSpec>
+          <stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+          <stf:DocRefId>BB90.00000.ME.052.2019_0001_0000000010</stf:DocRefId>
+        </crs:DocSpec>
+        <crs:AccountNumber AcctNumberType="OECD601">0004200818</crs:AccountNumber>
+        <crs:AccountHolder>
+          <crs:Individual>
+            <crs:ResCountryCode>BB</crs:ResCountryCode>
+            <crs:TIN issuedBy="BB">AAAAAAAAA</crs:TIN>
+            <crs:Name>
+              <crs:FirstName>LEWIS-WILLIAMS</crs:FirstName>
+              <crs:LastName>LOWENO</crs:LastName>
+            </crs:Name>
+            <crs:Address>
+              <cfc:CountryCode>BB</cfc:CountryCode>
+              <cfc:AddressFix>
+                <cfc:Street>57 SANDY HILL EAST  ST. PHILIP</cfc:Street>
+                <cfc:PostCode>-</cfc:PostCode>
+                <cfc:City>BARBADOS</cfc:City>
+              </cfc:AddressFix>
+            </crs:Address>
+            <crs:BirthInfo>
+              <crs:BirthDate>1978-09-11</crs:BirthDate>
+              <crs:City>BARBADOS</crs:City>
+            </crs:BirthInfo>
+          </crs:Individual>
+        </crs:AccountHolder>
+        <crs:AccountBalance currCode="BBD">7000</crs:AccountBalance>
+        <crs:Payment>
+          <crs:Type>CRS502</crs:Type>
+          <crs:PaymentAmnt currCode="BBD">251.91</crs:PaymentAmnt>
+        </crs:Payment>
+      </crs:AccountReport>
+      <crs:AccountReport>
+        <crs:DocSpec>
+          <stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+          <stf:DocRefId>BB90.00000.ME.052.2019_0001_0000000011</stf:DocRefId>
+        </crs:DocSpec>
+        <crs:AccountNumber AcctNumberType="OECD601">0004200738</crs:AccountNumber>
+        <crs:AccountHolder>
+          <crs:Individual>
+            <crs:ResCountryCode>BB</crs:ResCountryCode>
+            <crs:TIN issuedBy="BB">AAAAAAAAA</crs:TIN>
+            <crs:Name>
+              <crs:FirstName>SIMPSON</crs:FirstName>
+              <crs:LastName>NERINA</crs:LastName>
+            </crs:Name>
+            <crs:Address>
+              <cfc:CountryCode>BB</cfc:CountryCode>
+              <cfc:AddressFix>
+                <cfc:Street>#56 BAYVIEW ST. MICHAEL</cfc:Street>
+                <cfc:PostCode>-</cfc:PostCode>
+                <cfc:City>BARBADOS</cfc:City>
+              </cfc:AddressFix>
+            </crs:Address>
+            <crs:BirthInfo>
+              <crs:BirthDate>1978-04-16</crs:BirthDate>
+              <crs:City>BARBADOS</crs:City>
+            </crs:BirthInfo>
+          </crs:Individual>
+        </crs:AccountHolder>
+        <crs:AccountBalance currCode="BBD">3000</crs:AccountBalance>
+        <crs:Payment>
+          <crs:Type>CRS502</crs:Type>
+          <crs:PaymentAmnt currCode="BBD">101.1</crs:PaymentAmnt>
+        </crs:Payment>
+      </crs:AccountReport>
+      <crs:AccountReport>
+        <crs:DocSpec>
+          <stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+          <stf:DocRefId>BB90.00000.ME.052.2019_0001_0000000012</stf:DocRefId>
+        </crs:DocSpec>
+        <crs:AccountNumber AcctNumberType="OECD601">0004200802</crs:AccountNumber>
+        <crs:AccountHolder>
+          <crs:Individual>
+            <crs:ResCountryCode>BB</crs:ResCountryCode>
+            <crs:TIN issuedBy="BB">AAAAAAAAA</crs:TIN>
+            <crs:Name>
+              <crs:FirstName>LAVIA</crs:FirstName>
+              <crs:LastName>RONDIE</crs:LastName>
+            </crs:Name>
+            <crs:Address>
+              <cfc:CountryCode>BB</cfc:CountryCode>
+              <cfc:AddressFix>
+                <cfc:Street>LOT 12 LEMGREEN DEVELOPMENT LEMON ARBOR ST. JOHN</cfc:Street>
+                <cfc:PostCode>-</cfc:PostCode>
+                <cfc:City>BARBADOS</cfc:City>
+              </cfc:AddressFix>
+            </crs:Address>
+            <crs:BirthInfo>
+              <crs:BirthDate>1975-05-14</crs:BirthDate>
+              <crs:City>BARBADOS</crs:City>
+            </crs:BirthInfo>
+          </crs:Individual>
+        </crs:AccountHolder>
+        <crs:AccountBalance currCode="BBD">2823</crs:AccountBalance>
+        <crs:Payment>
+          <crs:Type>CRS502</crs:Type>
+          <crs:PaymentAmnt currCode="BBD">100.62</crs:PaymentAmnt>
+        </crs:Payment>
+      </crs:AccountReport>
+      <crs:AccountReport>
+        <crs:DocSpec>
+          <stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+          <stf:DocRefId>BB90.00000.ME.052.2019_0001_0000000013</stf:DocRefId>
+        </crs:DocSpec>
+        <crs:AccountNumber AcctNumberType="OECD601">0004200958</crs:AccountNumber>
+        <crs:AccountHolder>
+          <crs:Individual>
+            <crs:ResCountryCode>BB</crs:ResCountryCode>
+            <crs:TIN issuedBy="BB">AAAAAAAAA</crs:TIN>
+            <crs:Name>
+              <crs:FirstName>DOUGLAS</crs:FirstName>
+              <crs:LastName>KENSTON</crs:LastName>
+            </crs:Name>
+            <crs:Address>
+              <cfc:CountryCode>BB</cfc:CountryCode>
+              <cfc:AddressFix>
+                <cfc:Street>SILVER HILL LANDING SCHEME  CHRIST CHURCH</cfc:Street>
+                <cfc:PostCode>-</cfc:PostCode>
+                <cfc:City>BARBADOS</cfc:City>
+              </cfc:AddressFix>
+            </crs:Address>
+            <crs:BirthInfo>
+              <crs:BirthDate>1983-04-07</crs:BirthDate>
+              <crs:City>BARBADOS</crs:City>
+            </crs:BirthInfo>
+          </crs:Individual>
+        </crs:AccountHolder>
+        <crs:AccountBalance currCode="BBD">5000</crs:AccountBalance>
+        <crs:Payment>
+          <crs:Type>CRS502</crs:Type>
+          <crs:PaymentAmnt currCode="BBD">160.09</crs:PaymentAmnt>
+        </crs:Payment>
+      </crs:AccountReport>
+      <crs:AccountReport>
+        <crs:DocSpec>
+          <stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+          <stf:DocRefId>BB90.00000.ME.052.2019_0001_0000000014</stf:DocRefId>
+        </crs:DocSpec>
+        <crs:AccountNumber AcctNumberType="OECD601">0004201005</crs:AccountNumber>
+        <crs:AccountHolder>
+          <crs:Individual>
+            <crs:ResCountryCode>BB</crs:ResCountryCode>
+            <crs:TIN issuedBy="BB">AAAAAAAAA</crs:TIN>
+            <crs:Name>
+              <crs:FirstName>KAZMI</crs:FirstName>
+              <crs:LastName>SYED</crs:LastName>
+            </crs:Name>
+            <crs:Address>
+              <cfc:CountryCode>BB</cfc:CountryCode>
+              <cfc:AddressFix>
+                <cfc:Street>LOT 15 MEADOWVALE HEIGHTS ST, JAMES</cfc:Street>
+                <cfc:PostCode>-</cfc:PostCode>
+                <cfc:City>BARBADOS</cfc:City>
+              </cfc:AddressFix>
+            </crs:Address>
+            <crs:BirthInfo>
+              <crs:BirthDate>1965-02-27</crs:BirthDate>
+              <crs:City>BARBADOS</crs:City>
+            </crs:BirthInfo>
+          </crs:Individual>
+        </crs:AccountHolder>
+        <crs:AccountBalance currCode="BBD">10000</crs:AccountBalance>
+        <crs:Payment>
+          <crs:Type>CRS502</crs:Type>
+          <crs:PaymentAmnt currCode="BBD">296.01</crs:PaymentAmnt>
+        </crs:Payment>
+      </crs:AccountReport>
+      <crs:AccountReport>
+        <crs:DocSpec>
+          <stf:DocTypeIndic>OECD1</stf:DocTypeIndic>
+          <stf:DocRefId>BB90.00000.ME.052.2019_0001_0000000015</stf:DocRefId>
+        </crs:DocSpec>
+        <crs:AccountNumber AcctNumberType="OECD601">0004200472</crs:AccountNumber>
+        <crs:AccountHolder>
+          <crs:Individual>
+            <crs:ResCountryCode>BB</crs:ResCountryCode>
+            <crs:TIN issuedBy="BB">AAAAAAAAA</crs:TIN>
+            <crs:Name>
+              <crs:FirstName>OLLIVIERRE</crs:FirstName>
+              <crs:LastName>TERRANCE</crs:LastName>
+            </crs:Name>
+            <crs:Address>
+              <cfc:CountryCode>BB</cfc:CountryCode>
+              <cfc:AddressFix>
+                <cfc:Street>HARLINGTON  ST. PHILIP</cfc:Street>
+                <cfc:PostCode>-</cfc:PostCode>
+                <cfc:City>BARBADOS</cfc:City>
+              </cfc:AddressFix>
+            </crs:Address>
+            <crs:BirthInfo>
+              <crs:BirthDate>1973-08-10</crs:BirthDate>
+              <crs:City>BARBADOS</crs:City>
+            </crs:BirthInfo>
+          </crs:Individual>
+        </crs:AccountHolder>
+        <crs:AccountBalance currCode="BBD">1793.75</crs:AccountBalance>
+        <crs:Payment>
+          <crs:Type>CRS502</crs:Type>
+          <crs:PaymentAmnt currCode="BBD">26.98</crs:PaymentAmnt>
+        </crs:Payment>
+      </crs:AccountReport>
+    </crs:ReportingGroup>
+  </crs:CrsBody>
+</crs:CRS_OECD>

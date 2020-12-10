@@ -1,0 +1,1233 @@
+﻿* {
+  box-sizing: border-box;
+}
+@media screen and (max-width: 480px) 
+{
+    .landingPage{
+       display:none;
+    }
+    .landingMobilePage{
+        height:800px;
+       width:100%;
+    }
+    .topHeader{
+      position:relative;
+      margin:auto;
+      clear:both;
+      width:100%;
+      background:#192032;
+      height:154px;
+      transform:scale(1);
+      box-shadow: 0px 0px 8px 2px #000000;
+  }
+  .menu{
+      position:relative;
+      margin:auto;
+      color:#fff;
+      z-index:20;  
+      width:300px;
+      top:-40px;
+  }
+  .logo{
+      position:relative;
+      float:left;
+      margin:10px;
+      top:40px;
+      left:-50px;
+  }
+  .logoSize{
+      width:250px;
+      height:67px;
+  }
+  .items {
+      position:relative;
+      float:left;
+      margin:10px;
+      font-size:25px;
+      font-weight:normal;
+      color:#fff;
+      cursor:pointer;
+      top:60px;
+  }
+  .dimmeditems {
+      position:relative;
+      float:left;
+      margin:10px;
+      font-size:25px;
+      font-weight:normal;
+      color: rgba(252,252,252,0.3);
+      top:60px;
+  }
+  .textMobileFont {
+        font-weight: normal;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+        text-rendering: optimizeLegibility !important;
+        -webkit-font-smoothing: antialiased !important;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:12px;
+        color:#fff;
+       }
+  .desktop{
+      display:none;
+  }
+   .loginlabel {
+     position:relative;
+     margin:auto;
+     width:220px;
+     height:40px;
+     background:#B03030;
+     top:70px;
+     padding-top:5px;
+     border-radius:5px;
+ }
+ .signin {
+     position:relative;
+     margin:auto;
+     width:220px;
+     clear:both;
+     top:70px;
+ }
+ .fields{
+      position:relative;
+      margin:auto;
+      clear:both;
+      width:220px;
+      height:35px;
+      margin:15px;
+      left:-15px;
+  }
+  .signup {
+     position:relative;
+     margin:auto;
+     width:220px;
+     border-radius:10px;
+     height:40px;
+     top:20px;
+     padding-top:5px;
+     background:#0094ff;
+     cursor:pointer;
+ }
+  .footerHeaderMobile{
+      position:relative;
+      /*bottom:0px !important;*/
+      clear:both;
+      /*background:#AB1D24;*/
+      width:370px!important;
+      height:110px;
+      margin:auto;
+      top:30px;
+    }
+     .bottomMobile{
+       position:relative;
+       width:100%;
+       bottom:0px !important;
+       height:100px!important;
+       margin:auto;
+       background:#000;
+    }
+    .btnFooter{
+     position:relative;
+     float:left;
+     height:50px;
+     width:110px;
+     margin:15px;
+     cursor:pointer;
+     background:#B03030;
+     border-radius:7px;
+     padding-top:16px;
+   }
+    .cover{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color:#000;
+        background: rgba(0,0,0,0.6);
+        z-index: 5;
+        width: 100% !important;
+        height: 100% !important;
+        display:none;
+    }
+    .popup {
+         display:none;
+         position:absolute;
+         left: 0;
+         right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:10;
+         top:150px;
+         width:60%!important;
+         height:40px;
+         background: #fff;
+         border-radius:5px;
+         z-index:20;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 599px) 
+{
+    .landingPage{
+       display:none;
+    }
+    .landingMobilePage{
+        height:800px;
+       width:100%;
+    }
+    .topHeader{
+      position:relative;
+      margin:auto;
+      clear:both;
+      width:100%;
+      background:#192032;
+      height:154px;
+      transform:scale(1);
+      box-shadow: 0px 0px 8px 2px #000000;
+  }
+  .menu{
+      position:relative;
+      margin:auto;
+      color:#fff;
+      z-index:20;  
+      width:300px;
+      top:-40px;
+  }
+  .logo{
+      position:relative;
+      float:left;
+      margin:10px;
+      top:40px;
+      left:-50px;
+  }
+  .logoSize{
+      width:250px;
+      height:67px;
+  }
+  .items {
+      position:relative;
+      float:left;
+      margin:10px;
+      font-size:25px;
+      font-weight:normal;
+      color:#fff;
+      cursor:pointer;
+      top:60px;
+  }
+  .dimmeditems {
+      position:relative;
+      float:left;
+      margin:10px;
+      font-size:25px;
+      font-weight:normal;
+      color: rgba(252,252,252,0.3);
+      top:60px;
+  }
+  .textMobileFont {
+        font-weight: normal;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+        text-rendering: optimizeLegibility !important;
+        -webkit-font-smoothing: antialiased !important;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:12px;
+        color:#fff;
+       }
+  .desktop{
+      display:none;
+  }
+   .loginlabel {
+     position:relative;
+     margin:auto;
+     width:220px;
+     height:40px;
+     background:#B03030;
+     top:70px;
+     padding-top:5px;
+     border-radius:5px;
+ }
+ .signin {
+     position:relative;
+     margin:auto;
+     width:220px;
+     clear:both;
+     top:70px;
+ }
+ .fields{
+      position:relative;
+      margin:auto;
+      clear:both;
+      width:220px;
+      height:35px;
+      margin:15px;
+      left:-15px;
+  }
+  .signup {
+     position:relative;
+     margin:auto;
+     width:220px;
+     border-radius:10px;
+     height:40px;
+     top:20px;
+     padding-top:5px;
+     background:#0094ff;
+     cursor:pointer;
+ }
+  .footerHeaderMobile{
+      position:relative;
+      /*bottom:0px !important;*/
+      clear:both;
+      /*background:#AB1D24;*/
+      width:370px!important;
+      height:110px;
+      margin:auto;
+      top:30px;
+    }
+     .bottomMobile{
+       position:relative;
+       width:100%;
+       bottom:0px !important;
+       height:100px!important;
+       margin:auto;
+       background:#000;
+    }
+    .btnFooter{
+     position:relative;
+     float:left;
+     height:50px;
+     width:110px;
+     margin:15px;
+     cursor:pointer;
+     background:#B03030;
+     border-radius:7px;
+     padding-top:16px;
+   }
+    .cover{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color:#000;
+        background: rgba(0,0,0,0.6);
+        z-index: 5;
+        width: 100% !important;
+        height: 100% !important;
+        display:none;
+    }
+    .popup {
+         display:none;
+         position:absolute;
+         left: 0;
+         right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:10;
+         top:150px;
+         width:60%!important;
+         height:40px;
+         background: #fff;
+         border-radius:5px;
+         z-index:20;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 767px) 
+{
+  .landingPage{
+       display:none;
+    }
+    .landingMobilePage{
+        height:800px;
+       width:100%;
+    }
+    .topHeader{
+      position:relative;
+      margin:auto;
+      clear:both;
+      width:100%;
+      background:#192032;
+      height:154px;
+      transform:scale(1);
+      box-shadow: 0px 0px 8px 2px #000000;
+  }
+  .menu{
+      position:relative;
+      margin:auto;
+      color:#fff;
+      z-index:20;  
+      width:300px;
+      top:-40px;
+  }
+  .logo{
+      position:relative;
+      float:left;
+      margin:10px;
+      top:40px;
+      left:-50px;
+  }
+  .logoSize{
+      width:250px;
+      height:67px;
+  }
+  .items {
+      position:relative;
+      float:left;
+      margin:10px;
+      font-size:25px;
+      font-weight:normal;
+      color:#fff;
+      cursor:pointer;
+      top:60px;
+  }
+  .dimmeditems {
+      position:relative;
+      float:left;
+      margin:10px;
+      font-size:25px;
+      font-weight:normal;
+      color: rgba(252,252,252,0.3);
+      top:60px;
+  }
+  .textMobileFont {
+        font-weight: normal;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+        text-rendering: optimizeLegibility !important;
+        -webkit-font-smoothing: antialiased !important;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:12px;
+        color:#fff;
+       }
+  .desktop{
+      display:none;
+  }
+   .loginlabel {
+     position:relative;
+     margin:auto;
+     width:220px;
+     height:40px;
+     background:#B03030;
+     top:70px;
+     padding-top:5px;
+     border-radius:5px;
+ }
+ .signin {
+     position:relative;
+     margin:auto;
+     width:220px;
+     clear:both;
+     top:70px;
+ }
+ .fields{
+      position:relative;
+      margin:auto;
+      clear:both;
+      width:220px;
+      height:35px;
+      margin:15px;
+      left:-15px;
+  }
+  .signup {
+     position:relative;
+     margin:auto;
+     width:220px;
+     border-radius:10px;
+     height:40px;
+     top:20px;
+     padding-top:5px;
+     background:#0094ff;
+     cursor:pointer;
+ }
+  .footerHeaderMobile{
+      position:relative;
+      /*bottom:0px !important;*/
+      clear:both;
+      /*background:#AB1D24;*/
+      width:370px!important;
+      height:110px;
+      margin:auto;
+      top:30px;
+    }
+     .bottomMobile{
+       position:relative;
+       width:100%;
+       bottom:0px !important;
+       height:100px!important;
+       margin:auto;
+       background:#000;
+    }
+    .btnFooter{
+     position:relative;
+     float:left;
+     height:50px;
+     width:110px;
+     margin:15px;
+     cursor:pointer;
+     background:#B03030;
+     border-radius:7px;
+     padding-top:16px;
+   }
+    .cover{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color:#000;
+        background: rgba(0,0,0,0.6);
+        z-index: 5;
+        width: 100% !important;
+        height: 100% !important;
+        display:none;
+    }
+    .popup {
+         display:none;
+         position:absolute;
+         left: 0;
+         right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:10;
+         top:150px;
+         width:60%!important;
+         height:40px;
+         background: #fff;
+         border-radius:5px;
+         z-index:20;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) 
+{
+   .landingPage{
+       display:none;
+    }
+    .landingMobilePage{
+        height:800px;
+       width:100%;
+    }
+    .topHeader{
+      position:relative;
+      margin:auto;
+      clear:both;
+      width:100%;
+      background:#192032;
+      height:154px;
+      transform:scale(1);
+      box-shadow: 0px 0px 8px 2px #000000;
+  }
+  .menu{
+      position:relative;
+      margin:auto;
+      color:#fff;
+      z-index:20;  
+      width:300px;
+      top:-40px;
+  }
+  .logo{
+      position:relative;
+      float:left;
+      margin:10px;
+      top:40px;
+      left:-50px;
+  }
+  .logoSize{
+      width:250px;
+      height:67px;
+  }
+  .items {
+      position:relative;
+      float:left;
+      margin:10px;
+      font-size:25px;
+      font-weight:normal;
+      color:#fff;
+      cursor:pointer;
+      top:60px;
+  }
+  .dimmeditems {
+      position:relative;
+      float:left;
+      margin:10px;
+      font-size:25px;
+      font-weight:normal;
+      color: rgba(252,252,252,0.3);
+      top:60px;
+  }
+  .textMobileFont {
+        font-weight: normal;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+        text-rendering: optimizeLegibility !important;
+        -webkit-font-smoothing: antialiased !important;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:12px;
+        color:#fff;
+       }
+  .desktop{
+      display:none;
+  }
+   .loginlabel {
+     position:relative;
+     margin:auto;
+     width:220px;
+     height:40px;
+     background:#B03030;
+     top:70px;
+     padding-top:5px;
+     border-radius:5px;
+ }
+ .signin {
+     position:relative;
+     margin:auto;
+     width:220px;
+     clear:both;
+     top:70px;
+ }
+ .fields{
+      position:relative;
+      margin:auto;
+      clear:both;
+      width:220px;
+      height:35px;
+      margin:15px;
+      left:-15px;
+  }
+  .signup {
+     position:relative;
+     margin:auto;
+     width:220px;
+     border-radius:10px;
+     height:40px;
+     top:20px;
+     padding-top:5px;
+     background:#0094ff;
+     cursor:pointer;
+ }
+  .footerHeaderMobile{
+      position:relative;
+      /*bottom:0px !important;*/
+      clear:both;
+      /*background:#AB1D24;*/
+      width:370px!important;
+      height:110px;
+      margin:auto;
+      top:30px;
+    }
+     .bottomMobile{
+       position:relative;
+       width:100%;
+       bottom:0px !important;
+       height:100px!important;
+       margin:auto;
+       background:#000;
+    }
+    .btnFooter{
+     position:relative;
+     float:left;
+     height:50px;
+     width:110px;
+     margin:15px;
+     cursor:pointer;
+     background:#B03030;
+     border-radius:7px;
+     padding-top:16px;
+   }
+    .cover{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color:#000;
+        background: rgba(0,0,0,0.6);
+        z-index: 5;
+        width: 100% !important;
+        height: 100% !important;
+        display:none;
+    }
+    .popup {
+         display:none;
+         position:absolute;
+         left: 0;
+         right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:10;
+         top:150px;
+         width:60%!important;
+         height:40px;
+         background: #fff;
+         border-radius:5px;
+         z-index:20;
+    }
+}
+@media screen and (min-width: 1024px) 
+{
+   .landingPage{
+       height:1100px;
+       width:100%;
+  }
+  .footerHeaderMobile{
+      display:none;
+  }
+  .landingMobilePage{
+       display:none;
+    }
+   .bottomMobile{
+       display:none;
+    }
+    .btnFooter{
+     display:none;
+   }
+  .fields{
+      position:relative;
+      margin:10px;
+      float:left;
+      clear:both;
+      width:300px;
+      height:35px;
+  }
+  .headerSize {
+      width:383px;
+      height:121px;
+  }
+  .topHeader{
+      position:relative;
+      margin:auto;
+      clear:both;
+      width:100%;
+      background:#192032;
+      height:154px;
+      transform:scale(1);
+      box-shadow: 0px 0px 8px 2px #000000;
+  }
+  .logo{
+      position:relative;
+      float:left;
+      margin:10px;
+      top:-33px;
+  }
+  .logoSize{
+      width:400px;
+      height:107px;
+  }
+  .menu{
+      position:relative;
+      float:left;
+      margin:10px;
+      color:#fff;
+      z-index:20;
+     
+  }
+  .fieldproperty{
+      font-size:14px;
+  }
+    .textFont {
+        font-weight: normal;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+        text-rendering: optimizeLegibility !important;
+        -webkit-font-smoothing: antialiased !important;
+        font-family:   'Agency FB';
+       
+    }
+  .items {
+      position:relative;
+      float:left;
+      margin:10px;
+      font-size:25px;
+      font-weight:normal;
+      color:#fff;
+      cursor:pointer;
+      top:60px;
+  }
+  .dimmeditems {
+      position:relative;
+      float:left;
+      margin:10px;
+      font-size:25px;
+      font-weight:normal;
+      color: rgba(252,252,252,0.3);
+      top:60px;
+  }
+  .signtext {
+      position:relative;
+      float:left;
+      margin:10px;
+      font-size:20px;
+      font-weight:normal;
+      color:#fff;
+      cursor:pointer;
+      top:30px;
+  }
+  .order{
+      position:relative;
+      margin:auto;
+      width:1024px;
+      clear:both;
+      z-index:20;
+  }
+  .popupOrder{
+      position:relative;
+      margin:auto;
+      width:800px;
+      clear:both;
+      z-index:20;
+      top:-50px;
+  }
+  .catClass{
+
+      position:relative;
+      top:60px;
+      
+  }
+    .orderHere {
+      position:relative;
+      float:left;
+      margin:10px;
+      width:450px;
+      left:35px;
+      font-size:30px;
+      color:#477847;
+      top:50px;
+     
+    }
+    .condition {
+      position:relative;
+      float:left;
+      margin:10px;
+      width:77px;
+      font-size:30px;
+      color:#477847;
+      top:50px;
+    }
+    .downloadApp{
+       position:relative;
+        float:left;
+        width:90px;
+        height:90px;
+        background:#192032;
+        color:#fff;
+        top:35px;
+        padding-top:33px;
+        font-size:15px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+
+    .delivery{
+        position:relative;
+        float:left;
+        width:90px;
+        height:90px;
+        background:#192032;
+        color:#fff;
+        top:35px;
+        padding-top:33px;
+        font-size:20px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    .adrDelivery{
+        position:relative;
+        float:left;
+        width:90px;
+        height:90px;
+        background:#192032;
+        color:#fff;
+        top:35px;
+        padding-top:33px;
+        font-size:15px;
+        border-radius:50%;
+    }
+    .deliveryClick{
+        position:relative;
+        float:left;
+        width:90px;
+        height:90px;
+        background:#192032;
+        color:#fff;
+        top:35px;
+        padding-top:28px;
+        font-size:20px;
+        border-radius:50%;
+        border:5px solid #428A42;
+        cursor:pointer;
+    }
+    .close{
+        position:absolute;
+        float:right;
+        width:8px;
+        height:8px;
+        top:7px;
+        color:#000;
+        font-weight:bold;
+        font-size:20px;
+        right:18px;
+        cursor:pointer;
+    }
+    .adrDeliveryClick{
+        position:relative;
+        float:left;
+        width:90px;
+        height:90px;
+        background:#192032;
+        color:#fff;
+        top:35px;
+        padding-top:33px;
+        font-size:20px;
+        border-radius:50%;
+        border:5px solid #428A42;
+    }
+    .carryOut{
+         position:relative;
+        float:left;
+        width:90px;
+        height:90px;
+        background:#192032;
+        color:#fff;
+        top:35px;
+        padding-top:33px;
+        font-size:20px;
+        border-radius:50%;
+        cursor:pointer;
+    }
+    .adrCarryOut{
+        position:relative;
+        float:left;
+        width:90px;
+        height:90px;
+        background:#192032;
+        color:#fff;
+        top:35px;
+        padding-top:33px;
+        font-size:20px;
+        border-radius:50%;
+    }
+    .carryOutClick{
+         position:relative;
+        float:left;
+        width:90px;
+        height:90px;
+        background:#192032;
+        color:#fff;
+        top:35px;
+        padding-top:27px;
+        font-size:20px;
+        border-radius:50%;
+        border:5px solid #428A42;
+        cursor:pointer;
+    }
+    .adrCarryOutClick{
+         position:relative;
+        float:left;
+        width:90px;
+        height:90px;
+        background:#192032;
+        color:#fff;
+        top:35px;
+        padding-top:33px;
+        font-size:20px;
+        border-radius:50%;
+        border:5px solid #428A42;
+        cursor:pointer;
+    }
+    
+    .signinLogo{
+        position:relative;
+        float:left;
+        margin:10px;
+        top:30px;
+    }
+    .popup {
+         display:none;
+         position:absolute;
+         left: 0;
+         right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:10;
+         top:150px;
+         width:60%!important;
+         height:40px;
+         background: #fff;
+         border-radius:5px;
+         z-index:20;
+    }
+    
+    .menupopup {
+        display:none;
+         position:absolute;
+         left: 0;
+         right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:10;
+         top:200px;
+         width:1000px;
+         height:650px;
+         background: #fff;
+         border-radius:5px;
+         z-index:20;
+    }
+    .cover{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color:#000;
+        background: rgba(0,0,0,0.6);
+        z-index: 5;
+        width: 100% !important;
+        height: 100% !important;
+        display:none;
+    }
+    .signinText{
+        position:relative;
+        float:left;
+        margin:10px;
+        top:20px;
+    }
+  .background 
+ {
+     background-image: url('../images/paradise/blurbg.png');
+     position:relative;
+     margin:auto;
+     clear:both;
+     top:120px;
+     border-radius:15px;
+     background-repeat:no-repeat;
+     width:1024px;
+     height:600px;
+     background-size:cover; 
+ }
+ 
+ 
+ .outerWidth{
+     width:1100px!important;
+ }
+ .lunch {
+     position:relative;
+     float:right;
+     margin:0px;
+     margin:10px;
+     clear:both;
+ }
+ .pizza {
+     position:relative;
+     float:right;
+     margin:10px;
+     clear:both;
+ }
+ .drinks {
+     position:relative;
+     float:right;
+     margin:0px;
+     margin:10px;
+     clear:both;
+ }
+ .foodType{
+     width:350px;
+     height:142px;
+ }
+ .downloadTop{
+     position:absolute;
+     float:right;
+     margin:10px;
+     right:40px;
+     top:0px;
+ }
+ .videoHolder{
+     position:relative;
+     width:1024px!important;
+     clear:both;
+    
+ }
+ .vclass{
+     position:relative;
+     float:left;
+     left:0px;
+     top:10px;
+     width:485px;
+     height:300px; 
+     border-radius:10px;
+     border:5px solid #000;
+     margin:20px;
+ }
+ .video{
+     position:relative;
+     float:left;
+     
+     height:320px;
+     width:300px!important;
+     margin:5%;
+     top:20px;
+     left:0px;
+     
+     border-radius:10px;
+ }
+ .spacesize {
+     width:150px;
+     height:150px;
+ }
+ .space{
+     position:relative;
+     float:left;
+     width:33%!important;
+     margin:5%;
+    left:50px!important;
+     top:40px;
+ }
+ .playstore{
+      position:relative;
+     float:left;
+     width:33%!important;
+     margin:0px;
+    left:27%!important;
+     top:120px;
+ }
+ .direction{
+     position:relative;
+     float:left;
+     left:13%;
+     top:180px;
+     width:50px;
+     height:50px;
+     margin:5%; 
+   
+ }
+ .playstoredimen{
+     position:relative;
+     float:left;
+     left:0px;
+     top:0px;
+     width:485px;
+     height:300px; 
+     border-radius:10px;
+     border:5px solid #000;
+     margin:10px;
+ }
+ .download {
+     position:relative;
+     float:left;
+     width:15%!important;
+     margin:5%;
+     top:120px;
+     
+ }
+ .addtocart{
+     position:relative;
+     float:right;
+     width:250px;
+     right:35px;
+     top:120px;
+ }
+ .startShopping{
+
+     position:relative;
+     float:left;
+     margin:10px;
+     background:#E00707;
+     border-radius:15px;
+     width:200px;
+     height:60px;
+     top:40px;
+     left:90px;
+     cursor:pointer;
+ }
+ .listCategories{
+     position:relative;
+     width:800px;
+     margin:auto;
+ }
+ .btn{
+     position:relative;
+     margin:auto;
+     height:40px;
+     width:120px;
+     top:109px;
+     cursor:pointer;
+     background:#F0051C;
+     border-radius:7px;
+     padding-top:5px;
+     clear:both;
+ }
+ .signin {
+     position:relative;
+     margin:auto;
+     width:300px;
+     clear:both;
+     top:70px;
+ }
+ .user{
+     position:relative;
+     margin:auto;
+     width:250px;
+     clear:both;
+     
+ }
+ .pass {
+        position: relative;
+        margin: auto;
+        width: 250px;
+        clear: both;
+ }
+ .signup {
+     position:relative;
+     margin:auto;
+     width:300px;
+     border-radius:10px;
+     height:40px;
+     top:20px;
+     padding-top:5px;
+     background:#0094ff;
+     cursor:pointer;
+ }
+ .loginlabel {
+     position:relative;
+     margin:auto;
+     width:300px;
+     height:40px;
+     background:#B03030;
+     top:70px;
+     left:10px;
+     padding-left:20px;
+     padding-top:5px;
+     border-radius:5px;
+ }
+ 
+ .forgot{
+     position:relative;
+     margin:10px;
+     float:right;
+     right:-77px;
+     width:250px;
+     border-radius:10px;
+     color:#000;
+     cursor:pointer;
+ }
+ .errorcover{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color:#000;
+        background: rgba(0,0,0,0.6);
+        z-index: 5;
+        width: 100% !important;
+        height: 100% !important;
+        display:none;
+        z-index:30;
+ }
+  .errorclose{
+        position:relative;
+        float:right;
+        width:8px;
+        top:3px;
+        color:#000;
+        font-weight:bold;
+        font-size:20px;
+        right:18px;
+    }
+   .errorpopup{
+         display:none;
+         position:absolute;
+         left: 0;
+         right: 0;
+         margin-left: auto;
+         margin-right: auto;
+         z-index:10;
+         top:300px;
+         width:20%!important;
+         height:40px;
+         background: #ccc;
+         border:2px solid #192032;
+         border-radius:5px;
+         z-index:30;
+ }
+}

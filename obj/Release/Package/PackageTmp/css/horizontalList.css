@@ -1,0 +1,77 @@
+﻿body {
+	font-family: "Calibri", "Arial", "sans-serif";
+	font-size: 90%;
+}
+
+.hsarea {
+	display: inline-block;
+	padding: 5px;
+	border: 1px solid black;
+	overflow: hidden;
+	margin: 5px;
+	width: 1100px;
+}
+
+.hsframe {
+  width: 100%;
+  height: 100%;
+	display: inline-block;
+	overflow: hidden;
+}
+.hsframe ul {
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.hsframe ul li {
+	float: left;
+	width: 300px; 
+	height: 100%;
+	margin: 0 5px 0 0;
+	padding: 0;
+	cursor: pointer;
+	/*border: 1px solid green;*/
+	text-align: center;
+}
+
+/* Scrollbar */
+
+.hsscrollbar .hshandle .hsmousearea {
+	position: absolute;
+	top: -9px;
+	left: 0;
+	width: 100%;
+	height: 20px;
+}
+
+.hsscrollbar .hshandle {
+	width: 100% !important;
+	height: 100%;
+	background: #292a33;
+	cursor: pointer;
+}
+
+.hsscrollbar {
+	margin: 0 0 1em 0;
+	height: 2px;
+	background: #ccc;
+	line-height: 0;
+}
+
+/*-- content style --*/
+.srch-photo {
+	height: 194px;
+}
+
+.srch-text {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 2px;
+	text-align: center;
+}
+.list.ui-block-a, .list.ui-block-b  
+{
+    margin-top: 15px !important 
+}

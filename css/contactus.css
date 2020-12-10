@@ -1,0 +1,1597 @@
+﻿* {
+  box-sizing: border-box;
+}
+@media screen and (max-width: 480px) 
+{
+        .desktop
+        {
+            display:none;
+        }
+        .contactHeader{
+          display:none;
+        }
+        .contactusPage
+        {
+            height:1600px;
+        }
+       .contactHeaderLabel 
+        {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:150px;
+        z-index:10;
+        top:27px;
+        }
+        .bottom
+        {
+            display:none;
+        }
+       .contactHeaderSubLabel
+       {
+                position  :relative;
+                clear:both;
+                margin:auto;
+                color:#000;
+                width:155px;
+                font-size:15px;
+                top:35px;
+        }
+      .searchResultHeaderContact 
+      {
+        position:relative;
+        width:100%;
+        height:100px;
+        background:#EBE8E8;
+        top:15px;
+      }
+       .srh a 
+        {
+            text-decoration:none;
+            color:#000;
+       
+        }
+        /* unvisited link */
+        .srh a:link {
+         color: #000;
+         font-weight:normal;
+       }
+        .srh a:hover 
+        {
+            color:#F60100;
+        }
+        /* visited link */
+        .srh a:visited {
+         color: #F60100;
+        }
+        .buttonBg 
+      {
+          background: url(../images/color.png) repeat;
+          position: relative;
+          top:-60px;
+          height:100px;
+          width:100%;
+      }
+      .dropDown {
+          position: relative;
+          height:100px;
+          top:45px;
+          width:100%;
+      }
+  
+  
+      .menu_desktop_device a {
+          color: #fff;
+          padding: 12px 16px;
+          background: url(../images/color.png) repeat;
+          text-decoration: none;
+          width:100%;
+          display: block;
+      }
+      .menu_desktop_device a:hover 
+      {
+          color:#fff;
+          background: #386592;
+     
+      }
+      .menu_desktop_device 
+      {
+          display:none;
+          overflow: hidden;
+          position:absolute;
+          top:34px;
+          left:0px;
+          color:#fff;
+          width:35%;
+          z-index: 20;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      }
+      .dropDown:hover .menu_desktop_device 
+      {
+          display: block;
+          z-index:10;
+      
+      }
+  
+      .mnu_button {
+          overflow: hidden;
+          color:#fff;
+          height:60px;
+          width:100%;
+          position:relative;
+          top:20px;
+          background-repeat:no-repeat;
+          width:60px;
+          height:60px;
+          float:left;
+          left:10px;
+          display:block;
+          cursor:pointer;
+          background-image: url(../images/small/menu_icon.png);
+     }
+    
+    .messageName 
+    {
+            width:270px;
+            margin:10px;
+            font-size:15px;
+            float:left;
+            left:10px;
+            clear:both;
+            position:relative;    
+    }
+    .messageEmail 
+    {
+            width:270px;
+            margin:10px;
+            font-size:15px;
+            float:left;
+            clear:both;
+            left:10px;
+            position:relative;    
+    }
+    .bottomBlock 
+    {
+            width:220px;
+            margin:auto;
+            font-size:25px;
+            position:relative;
+            top:50px;
+            left:20px;
+            float:left;
+          
+    }
+    .leaveMessage 
+    {
+            width:160px;
+            margin:auto;
+            
+            top:50px;
+            font-size:25px;
+            position:relative;
+    }
+    .email 
+    {
+            width:250px;
+            margin:auto;
+            top:50px;
+            font-size:18px;
+            left:10px;
+            position:relative;
+    }
+    
+    .srh a 
+    {
+        text-decoration:none;
+        color:#000;
+       
+    }
+    .messageForm 
+    {
+            width:400px;
+            margin:auto;
+            top:60px;
+            font-size:25px;
+            position:relative;
+    }
+    .txtarea
+    {
+            height: 320px;
+            position:relative;
+            min-width:270px;
+            min-height:250px;
+    }
+    .searchTextContact
+    {
+            position:relative;
+            margin:auto;
+            width:60px;
+            color:#fff;
+            top:15px;
+        }
+        .buttonStyleContact 
+        {
+            position:relative;
+            clear:both;
+            top:70px;
+            float:left;
+            left:55px;
+            width:180px;
+            height:55px;
+            cursor:pointer;
+            background:#B82A2F;
+            border-radius:10px;
+        }
+        .buttonBg 
+  {
+      background: url(../images/color.png) repeat;
+      position: relative;
+      top:-60px;
+      height:100px;
+      width:100%;
+  }
+  .dropDown {
+      position: relative;
+      height:100px;
+      top:45px;
+      width:100%;
+  }
+  
+  
+  .menu_desktop_device a {
+      color: #fff;
+      padding: 12px 16px;
+      background: url(../images/color.png) repeat;
+      text-decoration: none;
+      width:100%;
+      display: block;
+  }
+  .menu_desktop_device a:hover 
+  {
+      color:#fff;
+      background: #386592;
+     
+  }
+  .menu_desktop_device 
+  {
+      display:none;
+      overflow: hidden;
+      position:absolute;
+      top:34px;
+      left:0px;
+      color:#fff;
+      width:35%;
+      z-index: 20;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .dropDown:hover .menu_desktop_device 
+  {
+      display: block;
+      z-index:10;
+      
+  }
+  
+  .mnu_button {
+      overflow: hidden;
+      color:#fff;
+      height:60px;
+      width:100%;
+      position:relative;
+      top:20px;
+      background-repeat:no-repeat;
+      width:60px;
+      height:60px;
+      float:left;
+      left:10px;
+      display:block;
+      cursor:pointer;
+      background-image: url(../images/small/menu_icon.png);
+ }
+ .mobileBottom
+     {
+        width:100%;
+        height:350px;
+        text-align:center;
+        left:0px;
+        bottom:0px;
+        color:#fff;
+        padding-top:15px;
+        padding-bottom:5px;
+        background:#fff;
+        position:absolute;
+    
+     }
+    
+    .selected
+    {
+                background: #D42828;
+                color: #fff;
+                font-size: 20px;
+    }
+    .unselected
+    {
+                background: #ABA9A9;
+                color: #fff;
+                font-size: 20px;
+    }
+
+     .booking_step_menu
+     {
+            
+                    height: 75px;
+                    width:100% !important;
+                    font-weight: normal;
+                    position:relative;
+                    float:left;
+                    clear:both;
+                
+     }
+     
+     .textAboutUs 
+     {
+         font-size:13px;
+         width:300px;
+     }
+     .textAboutUs 
+     {
+         font-size:13px;
+         width:300px;
+     }
+     .booking_step_container 
+    {
+        height:250px;
+        width:99.4% !important;
+        font-weight: normal;
+        position:relative;
+        margin:auto;
+        clear:both;
+        top:3px;
+        left:2px;
+        background:#ABA9A9;   
+    }
+    .desktopMenuContainer
+      {
+          display :none;
+      }
+}
+@media screen and (min-width: 481px) and (max-width: 599px) 
+{
+        .bottom
+        {
+            display:none;
+        }
+        .contactHeader{
+          display:none;
+        }
+        .contactusPage
+    {
+        height:1600px;
+    }
+        .logo 
+      {
+          position:relative;
+          margin:auto;
+          width:350px;
+          height:123px;
+      }
+        .desktop
+        {
+            display:none;
+        }
+       .contactHeaderLabel 
+        {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:150px;
+        z-index:10;
+        left:1px;
+        top:27px;
+        }
+       .contactHeaderSubLabel
+       {
+                position  :relative;
+                clear:both;
+                margin:auto;
+                color:#000;
+                width:150px;
+                font-size:15px;
+                top:35px;
+        }
+      .searchResultHeaderContact 
+      {
+        position:relative;
+        width:100%;
+        height:100px;
+        background:#EBE8E8;
+        top:15px;
+      }
+       .srh a 
+        {
+            text-decoration:none;
+            color:#000;
+       
+        }
+        /* unvisited link */
+        .srh a:link {
+         color: #000;
+         font-weight:normal;
+       }
+        .srh a:hover 
+        {
+            color:#F60100;
+        }
+        /* visited link */
+        .srh a:visited {
+         color: #F60100;
+        }
+        .buttonBg 
+      {
+          background: url(../images/color.png) repeat;
+          position: relative;
+          top:-60px;
+          height:100px;
+          width:100%;
+      }
+      .dropDown {
+          position: relative;
+          height:100px;
+          top:45px;
+          width:100%;
+      }
+  
+  
+      .menu_desktop_device a {
+          color: #fff;
+          padding: 12px 16px;
+          background: url(../images/color.png) repeat;
+          text-decoration: none;
+          width:100%;
+          display: block;
+      }
+      .menu_desktop_device a:hover 
+      {
+          color:#fff;
+          background: #386592;
+     
+      }
+      .menu_desktop_device 
+      {
+          display:none;
+          overflow: hidden;
+          position:absolute;
+          top:34px;
+          left:0px;
+          color:#fff;
+          width:35%;
+          z-index: 20;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      }
+      .dropDown:hover .menu_desktop_device 
+      {
+          display: block;
+          z-index:10;
+      
+      }
+  
+      .mnu_button {
+          overflow: hidden;
+          color:#fff;
+          height:60px;
+          width:100%;
+          position:relative;
+          top:20px;
+          background-repeat:no-repeat;
+          width:60px;
+          height:60px;
+          float:left;
+          left:10px;
+          display:block;
+          cursor:pointer;
+          background-image: url(../images/small/menu_icon.png);
+     }
+    
+    .messageName 
+    {
+            width:330px;
+            margin:10px;
+            font-size:15px;
+            float:left;
+            left:10px;
+            clear:both;
+            position:relative;    
+    }
+    .messageEmail 
+    {
+            width:330px;
+            margin:10px;
+            font-size:15px;
+            float:left;
+            clear:both;
+            left:10px;
+            position:relative;    
+    }
+    .bottomBlock 
+    {
+            width:330px;
+            margin:auto;
+            font-size:25px;
+            position:relative;
+            top:50px;
+            left:20px;
+            float:left;
+          
+    }
+    .leaveMessage 
+    {
+            width:175px;
+            margin:auto;
+            top:50px;
+            font-size:25px;
+            position:relative;
+    }
+    .email 
+    {
+            width:270px;
+            margin:auto;
+            top:50px;
+            font-size:18px;
+            left:10px;
+            position:relative;
+    }
+    
+    .srh a 
+    {
+        text-decoration:none;
+        color:#000;
+       
+    }
+    .messageForm 
+    {
+            width:350px;
+            margin:auto;
+            top:50px;
+            font-size:25px;
+            position:relative;
+    }
+    .txtarea
+    {
+            height: 320px;
+            position:relative;
+            min-width:295px;
+            min-height:250px;
+    }
+    .searchTextContact
+    {
+            position:relative;
+            margin:auto;
+            width:60px;
+            color:#fff;
+            top:15px;
+        }
+        .buttonStyleContact 
+        {
+            position:relative;
+            clear:both;
+            top:70px;
+            width:180px;
+            height:55px;
+            float:left;
+            left:85px;
+            cursor:pointer;
+            background:#B82A2F;
+            border-radius:10px;
+        }
+        .buttonBg 
+  {
+      background: url(../images/color.png) repeat;
+      position: relative;
+      top:-60px;
+      height:100px;
+      width:100%;
+  }
+  .dropDown {
+      position: relative;
+      height:100px;
+      top:45px;
+      width:100%;
+  }
+  
+  
+  .menu_desktop_device a {
+      color: #fff;
+      padding: 12px 16px;
+      background: url(../images/color.png) repeat;
+      text-decoration: none;
+      width:100%;
+      display: block;
+  }
+  .menu_desktop_device a:hover 
+  {
+      color:#fff;
+      background: #386592;
+     
+  }
+  .menu_desktop_device 
+  {
+      display:none;
+      overflow: hidden;
+      position:absolute;
+      top:34px;
+      left:0px;
+      color:#fff;
+      width:35%;
+      z-index: 20;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .dropDown:hover .menu_desktop_device 
+  {
+      display: block;
+      z-index:10;
+      
+  }
+  
+  .mnu_button {
+      overflow: hidden;
+      color:#fff;
+      height:60px;
+      width:100%;
+      position:relative;
+      top:20px;
+      background-repeat:no-repeat;
+      width:60px;
+      height:60px;
+      float:left;
+      left:10px;
+      display:block;
+      cursor:pointer;
+      background-image: url(../images/small/menu_icon.png);
+ }
+ .mobileBottom
+     {
+        width:100%;
+        height:350px;
+        text-align:center;
+        left:0px;
+        bottom:0px;
+        color:#fff;
+        padding-top:15px;
+        padding-bottom:5px;
+        background:#fff;
+        position:absolute;
+    
+     }
+  
+    .selected
+    {
+                background: #D42828;
+                color: #fff;
+                font-size: 20px;
+    }
+    .unselected
+    {
+                background: #ABA9A9;
+                color: #fff;
+                font-size: 20px;
+    }
+
+     .booking_step_menu
+     {
+            
+                    height: 75px;
+                    width:100% !important;
+                    font-weight: normal;
+                    position:relative;
+                    float:left;
+                    clear:both;
+                
+     }
+   
+     .textAboutUs 
+     {
+         font-size:13px;
+         width:300px;
+     }
+     .textAboutUs 
+     {
+         font-size:13px;
+         width:300px;
+     }
+     .booking_step_container 
+    {
+        height:250px;
+        width:99.4% !important;
+        font-weight: normal;
+        position:relative;
+        margin:auto;
+        clear:both;
+        top:3px;
+        left:2px;
+        background:#ABA9A9;   
+    }
+    .desktopMenuContainer
+  {
+      display :none;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) 
+{
+    .contactusPage
+        {
+            height:1600px;
+        }
+        .logo 
+  {
+      position:relative;
+      margin:auto;
+      width:350px;
+      height:123px;
+  }
+        .bottom
+        {
+            display:none;
+        }
+        .desktop
+        {
+            display:none;
+        }
+        .srh a 
+        {
+            text-decoration:none;
+            color:#000;
+       
+        }
+        /* unvisited link */
+        .srh a:link {
+         color: #000;
+         font-weight:normal;
+       }
+        .srh a:hover 
+        {
+            color:#F60100;
+        }
+        /* visited link */
+        .srh a:visited {
+         color: #F60100;
+        }
+        .buttonBg 
+      {
+          background: url(../images/color.png) repeat;
+          position: relative;
+          top:-60px;
+          height:100px;
+          width:100%;
+      }
+      .dropDown {
+          position: relative;
+          float:left;
+          clear:both;
+          height:100px;
+          top:45px;
+          width:100%;
+      }
+  
+  
+      .menu_desktop_device a {
+          color: #fff;
+          padding: 12px 16px;
+          background: url(../images/color.png) repeat;
+          text-decoration: none;
+          width:100%;
+          display: block;
+      }
+      .menu_desktop_device a:hover 
+      {
+          color:#fff;
+          background: #386592;
+     
+      }
+      .menu_desktop_device 
+      {
+          display:none;
+          overflow: hidden;
+          position:absolute;
+          top:34px;
+          left:0px;
+          color:#fff;
+          width:35%;
+          z-index: 20;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      }
+      .dropDown:hover .menu_desktop_device 
+      {
+          display: block;
+          z-index:10;
+      
+      }
+  
+      .mnu_button {
+          overflow: hidden;
+          color:#fff;
+          height:60px;
+          width:100%;
+          position:relative;
+          top:20px;
+          background-repeat:no-repeat;
+          width:60px;
+          height:60px;
+          float:left;
+          left:10px;
+          display:block;
+          cursor:pointer;
+          background-image: url(../images/small/menu_icon.png);
+     }
+    
+    .messageName 
+    {
+            width:330px;
+            margin:10px;
+            font-size:15px;
+            float:left;
+            left:10px;
+            clear:both;
+            position:relative;    
+    }
+    .messageEmail 
+    {
+            width:330px;
+            margin:10px;
+            font-size:15px;
+            float:left;
+            clear:both;
+            left:10px;
+            position:relative;    
+    }
+    .bottomBlock 
+    {
+            width:330px;
+            margin:auto;
+            font-size:25px;
+            position:relative;
+            top:50px;
+            left:20px;
+            float:left;
+          
+    }
+    .leaveMessage 
+    {
+            width:150px;
+            margin:auto;
+            
+            top:180px;
+            font-size:25px;
+            position:relative;
+    }
+    .email 
+    {
+            width:250px;
+            margin:auto;
+            top:50px;
+            font-size:18px;
+            left:10px;
+            position:relative;
+    }
+        
+    .messageForm 
+    {
+            width:400px;
+            margin:auto;
+            top:200px;
+            font-size:25px;
+            position:relative;
+    }
+    .txtarea
+    {
+            height: 320px;
+            position:relative;
+            min-width:295px;
+            min-height:250px;
+    }     
+        .searchTextContact
+        {
+            position:relative;
+            margin:auto;
+            width:60px;
+            color:#fff;
+            top:15px;
+        }
+        .buttonStyleContact 
+        {
+            position:relative;
+            clear:both;
+            top:70px;
+            float:left;
+            left:85px;
+            width:180px;
+            height:55px;
+            cursor:pointer;
+            background:#B82A2F;
+            border-radius:10px;
+        }
+       
+        .contactHeaderLabel 
+        {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:180px;
+        z-index:10;
+        top:-20px;
+        left:12px;
+        }
+       .contactHeaderSubLabel
+       {
+                position  :relative;
+                clear:both;
+                margin:auto;
+                color:#000;
+                width:155px;
+                font-size:15px;
+                top:0px;
+        }
+      .searchResultHeaderContact 
+      {
+        position:relative;
+        width:100%;
+        height:100px;
+        background:#EBE8E8;
+        top:160px;
+      }
+      .bottom 
+     {
+         display:none;
+     }
+     .mobileBottom
+     {
+        width:100%;
+        height:350px;
+        text-align:center;
+        left:0px;
+        bottom:0px;
+        color:#fff;
+        padding-top:15px;
+        padding-bottom:5px;
+        background:#fff;
+        position:absolute;
+    
+     }
+   
+    .selected
+    {
+                background: #D42828;
+                color: #fff;
+                font-size: 20px;
+    }
+    .unselected
+    {
+                background: #ABA9A9;
+                color: #fff;
+                font-size: 20px;
+    }
+
+     .booking_step_menu
+     {
+            
+                    height: 75px;
+                    width:100% !important;
+                    font-weight: normal;
+                    position:relative;
+                    float:left;
+                    clear:both;
+                
+     }
+     
+     .textAboutUs 
+     {
+         font-size:13px;
+         width:300px;
+     }
+     .textAboutUs 
+     {
+         font-size:13px;
+         width:300px;
+     }
+     .booking_step_container 
+    {
+        height:250px;
+        width:99.4% !important;
+        font-weight: normal;
+        position:relative;
+        margin:auto;
+        clear:both;
+        top:3px;
+        left:2px;
+        background:#ABA9A9;   
+    }
+    .desktopMenuContainer
+  {
+      display :none;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px)
+{
+        .contactusPage
+        {
+            height:1600px;
+        }
+        .logo 
+          {
+              position:relative;
+              margin:auto;
+              width:350px;
+              height:123px;
+          }
+        .desktop
+        {
+            display:none;
+        }
+        .srh a 
+        {
+            text-decoration:none;
+            color:#000;
+       
+        }
+        .bottom
+        {
+            display:none;
+        }
+        /* unvisited link */
+        .srh a:link {
+         color: #000;
+         font-weight:normal;
+       }
+        .srh a:hover 
+        {
+            color:#F60100;
+        }
+        /* visited link */
+        .srh a:visited {
+         color: #F60100;
+        }
+        .buttonBg 
+      {
+          background: url(../images/color.png) repeat;
+          position: relative;
+          top:-60px;
+          height:100px;
+          width:100%;
+      }
+      .dropDown {
+          position: relative;
+          float:left;
+          clear:both;
+          height:100px;
+          top:55px;
+          width:100%;
+      }
+  
+  
+      .menu_desktop_device a {
+          color: #fff;
+          padding: 12px 16px;
+          background: url(../images/color.png) repeat;
+          text-decoration: none;
+          width:100%;
+          display: block;
+      }
+      .menu_desktop_device a:hover 
+      {
+          color:#fff;
+          background: #386592;
+     
+      }
+      .menu_desktop_device 
+      {
+          display:none;
+          overflow: hidden;
+          position:absolute;
+          top:34px;
+          left:0px;
+          color:#fff;
+          width:35%;
+          z-index: 20;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      }
+      .dropDown:hover .menu_desktop_device 
+      {
+          display: block;
+          z-index:10;
+      
+      }
+  
+      .mnu_button {
+          overflow: hidden;
+          color:#fff;
+          height:60px;
+          width:100%;
+          position:relative;
+          top:20px;
+          background-repeat:no-repeat;
+          width:60px;
+          height:60px;
+          float:left;
+          left:10px;
+          display:block;
+          cursor:pointer;
+          background-image: url(../images/small/menu_icon.png);
+     }
+    
+    .messageName 
+    {
+            width:330px;
+            margin:10px;
+            font-size:15px;
+            float:left;
+            left:10px;
+            clear:both;
+            position:relative;    
+    }
+    .messageEmail 
+    {
+            width:330px;
+            margin:10px;
+            font-size:15px;
+            float:left;
+            clear:both;
+            left:10px;
+            position:relative;    
+    }
+    .bottomBlock 
+    {
+            width:330px;
+            margin:auto;
+            font-size:25px;
+            position:relative;
+            top:50px;
+            left:20px;
+            float:left;
+          
+    }
+    .leaveMessage 
+    {
+            width:156px;
+            margin:auto;
+            top:180px;
+            font-size:25px;
+            position:relative;
+    }
+    .email 
+    {
+            width:250px;
+            margin:auto;
+            top:50px;
+            font-size:18px;
+            left:10px;
+            position:relative;
+    }
+        
+    .messageForm 
+    {
+            width:400px;
+            margin:auto;
+            top:200px;
+            font-size:25px;
+            position:relative;
+    }
+    .txtarea
+    {
+            height: 320px;
+            position:relative;
+            min-width:295px;
+            min-height:250px;
+    }     
+        .searchTextContact
+        {
+            position:relative;
+            margin:auto;
+            width:60px;
+            color:#fff;
+            top:15px;
+        }
+        .buttonStyleContact 
+        {
+            position:relative;
+            clear:both;
+            top:70px;
+            float:left;
+            left:85px;
+            width:180px;
+            height:55px;
+            cursor:pointer;
+            background:#B82A2F;
+            border-radius:10px;
+        }
+       
+        .contactHeaderLabel 
+        {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:180px;
+        z-index:10;
+        left:13px;
+        top:-20px;
+        }
+       .contactHeaderSubLabel
+       {
+                position  :relative;
+                clear:both;
+                margin:auto;
+                color:#000;
+                width:150px;
+                font-size:15px;
+                top:0px;
+        }
+      .searchResultHeaderContact 
+      {
+        position:relative;
+        width:100%;
+        height:100px;
+        background:#EBE8E8;
+        top:160px;
+      }
+      .bottom 
+     {
+         display:none;
+     }
+     .mobileBottom
+     {
+        width:100%;
+        height:350px;
+        text-align:center;
+        left:0px;
+        bottom:0px;
+        color:#fff;
+        padding-top:15px;
+        padding-bottom:5px;
+        background:#fff;
+        position:absolute;
+    
+     }
+    
+    .selected
+    {
+                background: #D42828;
+                color: #fff;
+                font-size: 20px;
+    }
+    .unselected
+    {
+                background: #ABA9A9;
+                color: #fff;
+                font-size: 20px;
+    }
+
+     .booking_step_menu
+     {
+            
+                    height: 75px;
+                    width:100% !important;
+                    font-weight: normal;
+                    position:relative;
+                    float:left;
+                    clear:both;
+                
+     }
+     
+     .textAboutUs 
+     {
+         font-size:13px;
+         width:300px;
+     }
+     .textAboutUs 
+     {
+         font-size:13px;
+         width:300px;
+     }
+     .booking_step_container 
+    {
+        height:250px;
+        width:99.4% !important;
+        font-weight: normal;
+        position:relative;
+        margin:auto;
+        clear:both;
+        top:3px;
+        left:2px;
+        background:#ABA9A9;   
+    }
+    .desktopMenuContainer
+      {
+          display :none;
+      }
+}        
+@media screen and (min-width: 1024px) 
+{
+          .contactusPage
+          {
+                height:1600px;
+          }
+          .desktopMenuContainer
+          {
+             background: url(../images/color.png) repeat;
+             position:relative;
+             clear:both;
+             height:100px;
+             width:100%;
+          }
+         .buttonBg 
+          {
+              display:none;
+          }
+          .dropDown 
+          {
+             z-index:10;
+             background-image: url(../images/color.png) repeat;
+             position:relative;
+             clear:both;
+             height:100px;
+             width:100%;
+         }
+          .booking_step_container 
+         {
+        height:300px;
+        width:99.4% !important;
+        font-weight: normal;
+        position:relative;
+        margin:auto;
+        clear:both;
+        top:3px;
+        left:2px;
+        background:#ABA9A9;   
+        }
+         .mnu_button {
+              overflow: hidden;
+              background-color: #386592;
+              color:#fff;
+              height:60px;
+              position:relative;
+              top:20px;
+              background-repeat:no-repeat;
+              width:60px;
+              height:60px;
+              width:100%;
+              display:none;
+              background-image: url(../images/small/menu_icon.png);
+          }
+             /* Style the top navigation bar */
+        .menu_desktop_device {
+          overflow: hidden;
+          background: url(../images/color.png) repeat;
+          color:#fff;
+          height:100px;
+          width:100%;
+        }
+
+        /* Style the topnav links */
+        .menu_desktop_device a {
+          float: left;
+          display: block;
+          color: #fff;
+          text-align: center;
+          padding: 37px 16px;
+          text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .menu_desktop_device a:hover {
+          background-color: #6794C2;
+          color: #fff;
+          height:100px;
+          display: block;
+          color: #000;
+          text-align: center;
+          padding: 37px 16px;
+          text-decoration: none;
+         }
+        .srh a 
+        {
+            text-decoration:none;
+            color:#000;
+       
+        }
+        /* unvisited link */
+        .srh a:link {
+         color: #000;
+         font-weight:normal;
+       }
+        .srh a:hover 
+        {
+            color:#F60100;
+        }
+        /* visited link */
+        .srh a:visited {
+         color: #F60100;
+        }
+        
+        .leaveMessage 
+        {
+            width:190px;
+            margin:auto;
+            top:30px;
+            font-size:25px;
+            position:relative;
+        }
+        
+        .messageForm 
+        {
+            width:1000px;
+            margin:auto;
+            top:70px;
+            font-size:25px;
+            position:relative;
+            z-index:10;
+        }
+        .messageName 
+        {
+            width:450px;
+            margin:10px;
+            font-size:15px;
+            float:left;
+            position:relative; 
+            height:60px;   
+        }
+        .messageEmail 
+        {
+            width:450px;
+            margin:10px;
+            font-size:15px;
+            float:left;
+            position:relative;    
+        }
+        .topBlock 
+        {
+            width:100%;
+            margin:auto;
+            font-size:25px;
+            position:relative;
+        } 
+        .bottomBlock 
+        {
+            width:920px;
+            margin:auto;
+            font-size:25px;
+            position:relative;
+            top:50px;
+            left:-30px;
+        }
+        .txtarea
+        {
+            height: 320px;
+            max-height: 320px;
+            position:relative;
+            margin:auto;
+            position:relative;
+            min-height:320px;
+            min-width:920px;
+        }
+        
+        
+        .searchTextContact
+        {
+            position:relative;
+            margin:auto;
+            width:60px;
+            color:#fff;
+            top:15px;
+        }
+        .buttonStyleContact 
+        {
+            position:relative;
+            margin:auto;
+            top:70px;
+            width:180px;
+            height:55px;
+            cursor:pointer;
+            background:#B82A2F;
+            border-radius:10px;
+        }
+        
+        .contactHeaderLabel 
+        {
+        position:relative;
+        clear:both;
+        margin:auto;
+        color:#000;
+        width:180px;
+        z-index:10;
+        top:20px;
+        }
+       .contactHeaderSubLabel
+       {
+                position  :relative;
+                clear:both;
+                margin:auto;
+                color:#000;
+                width:150px;
+                left:-14px;
+                font-size:15px;
+                top:35px;
+        }
+      .searchResultHeaderContact 
+      {
+        position:relative;
+        width:100%;
+        height:100px;
+        background:#EBE8E8;
+        top:12px;
+      }
+      .mobileBottom
+ {
+         display:none;
+ }
+ .mobilemenu 
+ {
+     display:none;
+ }
+ .menuContainer 
+  {
+      position:relative;
+      margin:auto;
+      width:520px;
+      
+  }
+  .logo 
+  {
+      position:relative;
+      margin:auto;
+      width:350px;
+      height:123px;
+  }
+  .menuContainer a 
+  {
+      display: block;
+      color: #fff;
+      float:left;
+      text-align: center;
+      padding: 37px 16px;
+      text-decoration: none;
+  }
+  .menuContainer a:hover {
+      background-color: #6794C2;
+      color: #fff;
+      height:100px;
+      display: block;
+      color: #000;
+      text-align: center;
+      padding: 37px 16px;
+      text-decoration: none;
+  }
+      .bottom
+     {
+        width:100%;
+        height:471px;
+        text-align:center;
+        left:0px;
+        color:#fff;
+        padding-top:15px;
+        padding-bottom:5px;
+        background:#2A2B2D;
+        position:absolute;
+        bottom:0px;
+     }
+     .headerbottom
+     {
+         position:relative;
+         bottom:0px !important;
+         clear:both;
+         background:#AD3434;
+         top:-19px;
+         height:90px;
+     }
+     .email 
+    {
+            width:290px;
+            margin:auto;
+            top:40px;
+            font-size:18px;
+            left:10px;
+            position:relative;
+    }
+     
+}
+    

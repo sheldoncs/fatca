@@ -1,0 +1,374 @@
+﻿
+#map_canvas_refresh {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                width:50%;
+                padding-right:1px;
+}
+.menu 
+{
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+     text-rendering: optimizeLegibility !important;
+     -webkit-font-smoothing: antialiased !important;
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+     font-size:13px;
+}
+.generalText 
+{
+    text-decoration: none;
+    font-size:12px;
+    font-weight:normal;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+     text-rendering: optimizeLegibility !important;
+     -webkit-font-smoothing: antialiased !important;
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.hdrText 
+{
+    text-decoration: none;
+    font-size:15px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.gm-style-mtc {
+  display: none;
+}
+#popupDriver
+ {
+            
+            top:20%;
+            position: relative;
+            z-index: 10;
+            display: none;
+            background-color:#ffffff;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            margin-left:auto !important;
+            margin-right:auto !important;
+ }
+ #browseData
+ {
+            
+            top:20%;
+            position: relative;
+            z-index: 10;
+            display: none;
+            background-color:#ffffff;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            margin-left:auto !important;
+            margin-right:auto !important;
+ }
+ .classUISelect
+ {
+     height:25px !important;
+     width:240px !important;
+     font-size:10px !important;
+     color:#fff;
+     font-weight:normal;
+ }
+ .catHeight 
+ {
+      width:150px !important;
+ }
+ .buttonDelete 
+ {
+     position:relative;
+     width:120px;
+     height:25px;
+     float:left;
+     background:#5CEB46;
+     color:#fff;
+     border-radius:5px;
+     cursor:pointer;
+     margin:10px;
+ }
+ .buttonSelect
+ {
+     position:relative;
+     width:70px;
+     height:25px;
+     float:left;
+     background:#5CEB46;
+     color:#fff;
+     border-radius:5px;
+     cursor:pointer;
+     margin:10px;
+ }
+ .dashboardSelect
+ {
+     position:relative;
+     width:80px;
+     height:35px;
+     float:left;
+     background:#66B041;
+     color:#fff;
+     border-radius:5px;
+     cursor:pointer;
+     margin:10px;
+ }
+ .mapSelect
+ {
+     position:relative;
+     width:130px;
+     height:35px;
+     float:left;
+     background:#66B041;
+     color:#fff;
+     border-radius:5px;
+     cursor:pointer;
+     margin:10px;
+ }
+ .stopDistress
+ {
+     position:relative;
+     width:170px;
+     height:40px;
+     float:left;
+     background:#191919;
+     color:#fff;
+     border-radius:5px;
+     cursor:pointer;
+     margin:10px;
+ }
+ .buttonAddrSelect{
+     position:relative;
+     width:70px;
+     height:25px;
+     float:left;
+     background:#5CEB46;
+     color:#fff;
+     border-radius:5px;
+     cursor:pointer;
+     margin:10px;
+ }
+ .buttonUSelect 
+ {
+     position:relative;
+     width:70px;
+     height:25px;
+     float:left;
+     background:#5CEB46;
+     color:#fff;
+     border-radius:5px;
+     cursor:pointer;
+     margin:10px;
+ }
+ .header
+ {
+     width:97%;
+     height:50px;
+     background:#666;
+     top:150px;
+     left:10px;
+     position:relative;
+ }
+ .headerPosn
+ {
+     position:relative;
+     top:-170px;
+     color:#fff;
+     margin:10px;
+     float:left;
+     z-index:10;
+ }
+ .dataPosn
+ {
+     position:relative;
+     color:#000;
+     margin:1px;
+     float:left;
+     z-index:10;
+ }
+ .dataDetails
+ {
+     position:relative;
+     float:left;
+     clear:both;
+     left:80px;
+     margin:3px;
+     left:10px;
+ }
+ .cover
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0,0,0,0.6);
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+    #toggle 
+    {
+        border-radius:15px;
+        width:70px;
+        height:35px;
+        background:#2ECC71;
+        cursor:pointer;
+    }
+    #toggleTracker 
+    {
+        border-radius:15px;
+        width:70px;
+        height:35px;
+        background:#E74C3C;
+        cursor:pointer;
+    }
+    .toggleTracker 
+    {
+        border-radius:15px;
+        width:70px;
+        height:35px;
+        background:#E74C3C;
+        cursor:pointer;
+    }
+    .myInput {
+    background-image: url('../images/icons/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 400px; /* Full-width */
+    height:30px;
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+    #resetTracker 
+    {
+        border-radius:15px;
+        width:70px;
+        height:35px;
+        background:#E74C3C;
+        cursor:pointer;
+    }
+    .showScroll {
+        width:200px;
+        height: 150px;
+        overflow:scroll;
+        background-color:gray;
+    }
+    .toggleItem
+    {
+        border-radius:15px;
+        width:70px;
+        height:35px;
+        background:#E74C3C;
+        cursor:pointer;
+    }
+    .toggleItemList
+    {
+        position:relative;
+        top:17px;
+        border-radius:15px;
+        width:70px;
+        height:35px;
+        background:#E74C3C;
+        cursor:pointer;
+    }
+    .driverOut
+    {
+       border-radius:50%;
+       height:30px;
+       width:30px;
+       background:#fff;
+       float:right; 
+       z-index:10; 
+       position:relative;
+       top:2px; 
+       right:3px;
+    }
+    .driverIn
+    {
+        border-radius:50%;
+       height:30px;
+       width:30px;
+       background:#fff;
+       float:left;
+       top:2px;
+       left:3px;
+       position:relative;  
+    }
+    .circleActive 
+    {
+       border-radius:50%;
+       height:30px;
+       width:30px;
+       background:#fff;
+       float:right; 
+       z-index:10; 
+       position:relative;
+       top:2px; 
+       right:3px;
+    }
+    .circleInActive 
+    {
+       border-radius:50%;
+       height:30px;
+       width:30px;
+       background:#fff;
+       float:left;
+       top:2px;
+       left:3px;
+       position:relative;   
+    }
+    #btnOnlineOrders
+    {
+        cursor:pointer;
+    }
+   .ui-datepicker-trigger  
+    {
+        position:relative;
+        top:-25px ;
+        left:250px ; 
+        height:30px;
+        width:30px;
+        cursor:pointer;
+    }
+    .center{
+        position: relative;
+        margin:auto;
+        width:600px;
+        display: inline-block;
+     }
+    #dvLocation .ui-input-text 
+    {
+        width:100% !important;
+    }
+    #textUser .ui-input-text 
+    {
+        border:0 solid #fff !important;
+    }
+    .driverList.ul-li 
+    {
+        height:10%;
+    }
+    .dteval .ui-input-text 
+    {
+        position:relative;
+        top:3px;
+        height:33px !important;
+        width:140px !important;
+    }
+    .ui-datepicker-prev span {
+        background-image: url(../images/small/lftarrow.png) !important;
+            background-position: 0px 0px !important;
+    }
+
+    .ui-datepicker-next span {
+        background-image: url(../images/small/rgtarrow.png) !important;
+            background-position: 0px 0px !important;
+    }
+    .ui-checkbox {
+     font-size :12px;
+     background:#171717;
+    }
+    .imgblur 
+    {
+        filter: blur(5px);
+    }
+    
